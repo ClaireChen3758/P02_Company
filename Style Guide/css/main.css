@@ -9,6 +9,7 @@ body {
   background-image: url("img/bg.png");
   background-color: white;
   
+  
 }
 
 section:not([id]) {
@@ -18,8 +19,8 @@ section:not([id]) {
 }
 
 section h2 {
-  margin-top: 2.1em;
-  margin-bottom: 0.5em;
+  margin-top: 2.1em 0 0.5em 0;
+  
 }
 
 section h3 {
