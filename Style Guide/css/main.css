@@ -17,6 +17,7 @@ section:not([id]) {
 }
 
 section h2 {
+  margin-top: 2.1em;
   margin-bottom: 0.5em;
 }
 
@@ -328,10 +329,6 @@ nav a:active, a:hover {
 	-webkit-transition: 0.4s;
 }
 
-a:active {
-    color: #fff;
-}
-
 section code {
     background-color: whitesmoke;
     padding: 0.5em 0.75em;
@@ -439,7 +436,7 @@ label {
 	text-align: center;
     color: white;
     width: 6rem;
-	height: 7.5rem;
+	height: 3rem;
 }
 
 .cBlack {
