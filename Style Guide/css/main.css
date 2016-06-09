@@ -6,7 +6,7 @@ body {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   padding: 2rem 2rem 2rem 2rem;
   color: black;
-  background-image: ("http://www.sfu.ca/~bkl6/IAT339/Style%20Guide/img/bg.png");  
+  background-image: url("http://www.sfu.ca/~bkl6/IAT339/Style%20Guide/img/bg.png");  
 }
 
 section:not([id]) {
@@ -155,6 +155,39 @@ label {
 /* 
   TEXT ELEMENTS -------------------
 */
+
+.blocks {
+    display: inline-block;
+    padding: 2.7rem 1rem 2rem 1rem;
+	text-align: center;
+    color: white;
+    width: 6rem;
+	height: 3rem;
+}
+
+.cBlack {
+    background: #000000;
+}
+
+.cWhite {
+    background: #FFFFFF;
+    color: black;
+}
+
+.cOrange {
+    background: #ED5C0C;
+
+}
+
+.cCreamsicle {
+    background: #E5CEB1;
+
+}
+
+.cGray {
+    background: #696969;
+
+}
 
 ul li {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
