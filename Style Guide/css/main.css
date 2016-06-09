@@ -17,7 +17,6 @@ section:not([id]) {
 }
 
 section h2 {
-  margin-top: 2.1em;
   margin-bottom: 0.5em;
 }
 
@@ -213,8 +212,7 @@ h5 {
 
 p {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-     font-size: 0.9rem;
-
+    font-size: 0.9rem;
 }
 
 h2.idTitle {
@@ -264,12 +262,13 @@ nav.menu {
 /*Gird system styling*/
 
 .grid_box{
-    background-color: #696969;
+    background-color: #333;
     padding:1em 0;
     text-align:center;
-    outline:0.5em solid #333;
+    outline:0.5em solid #696969;
     margin: 0.75em;
     width:100%;
+    color: white;
 }
 
 /*
@@ -290,7 +289,7 @@ section:not([id]) {
 }
 
 section h2 {
-  margin-top: 2.1em 0 0.5em 0;
+  margin-top: 0 0 0.5em 0;
   
 }
 
@@ -532,7 +531,7 @@ h5 {
 p {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: 0.9rem;
-    max-width: 40rem;
+    max-width: 80rem;
 }
 
 p.sampleParagraph {
