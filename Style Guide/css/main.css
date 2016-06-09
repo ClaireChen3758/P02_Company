@@ -213,8 +213,8 @@ h5 {
 
 p {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 0.9rem;
-    max-width: 40rem;
+     font-size: 0.9rem;
+
 }
 
 h2.idTitle {
@@ -257,6 +257,20 @@ nav.menu {
 }*/
 
 .chef-listing {
+    display: inline-block;
     margin: 0 15rem 0 15rem;
 }
+
+/*Gird system styling*/
+
+.grid_box{
+    background-color: #696969;
+    padding:1em 0;
+    text-align:center;
+    outline:0.5em solid #333;
+    margin: 0.75em;
+    width:100%;
+}
+
+
 
