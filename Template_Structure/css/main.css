@@ -29,7 +29,23 @@ ul{
     color: black;
 }
 
+.buy-border{
+    display:inline-block;
+    background-color: white;
+    text-align: left;
+    color: black;
+    padding:1em 5em;
+    border: 0.05em solid black;
+}
 
+.content-box{
+    display:inline-block;
+    border: 0.05em solid black;
+    color:black;
+    margin-left: 0em;
+    z-index: 1;
+
+}
 .chef-border, .footer-main{
     display:inline-block;
     background-color:#696969;
