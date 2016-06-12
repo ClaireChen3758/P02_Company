@@ -45,11 +45,19 @@
 	width:100%;
 }
 
+.gird-col-4of10{
+	width:100%;
+}
+
 .gird-col-10of10{
 	width:33.33%;
 }
 
 @media(min-width:47em){
+	.grid-col-4of10{
+		width:40%;
+	}
+
 	.grid-col-2of3{
     width: 83.33%;
 	}
