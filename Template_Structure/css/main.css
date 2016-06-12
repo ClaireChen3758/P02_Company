@@ -50,6 +50,14 @@ ul{
 
 }
 
+.footer-main{
+    display:block;
+    color: white;
+    background-color: black;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align:center;
+}
 
 .web-nav{
     display:inline-block;
