@@ -29,23 +29,40 @@ ul{
     color: black;
 }
 
-.buy-border{
+.purchase-item{
     display:inline-block;
     background-color: white;
     text-align: left;
     color: black;
-    padding:1em 5em;
     border: 0.05em solid black;
+
+  
 }
 
 .content-box{
     display:inline-block;
     border: 0.05em solid black;
-    color:black;
-    margin-left: 0em;
+    margin-left: 4em;
+    margin-top:0em;
     z-index: 1;
 
 }
+
+.fill-box{
+    display:inline-block;
+    border: 0.05em solid black;
+    margin-left:1em;
+
+}
+
+.cancel-item{
+     display:inline-block;
+    border: 0.05em solid black;
+    margin-left:8em;
+}
+
+
+
 .chef-border, .footer-main{
     display:inline-block;
     background-color:#696969;
@@ -74,6 +91,14 @@ ul{
     padding-bottom: 2em;
     text-align:center;
 }
+
+.image-box{
+    display:inline-block;
+    border: 0.05em solid black;
+    margin-left: 1em;
+    padding: 0em 1em 3em 1em;
+}
+
 
 .web-nav{
     display:inline-block;
