@@ -20,15 +20,47 @@ a:hover{
     -webkit-transition: 0.4s;
 }
 
-h2{
-    text-decoration: underline;
-}
-
 ul{
     list-style-type: none;
     color: black;
 }
 
+p, h2{
+    margin-left:1.2em;
+    text-align: left;
+}
+.purchase-item{
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-top: 2em;
+    padding-bottom:2em;
+    background-color: white;
+    text-align:left;
+    border: 0.05em solid black; 
+    width:100%;
+    color: black;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.image-box{
+    margin-top: 0.5em;
+    background-color: #696969;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    color: white;
+    border-left: 0.05em solid white; 
+    width:100%;
+}
+
+.check-box, .fill-area{
+    display:inline-block;
+    margin-top: 1em;
+    padding: 0em 1.5em ;
+    background-color: #696969;
+    border-left: 0.05em solid white; 
+    color: white;
+    width:100%;
+}
 
 .chef-border, .footer-main{
     display:inline-block;
@@ -50,6 +82,14 @@ ul{
 
 }
 
+.footer-main{
+    display:block;
+    color: white;
+    background-color: black;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align:center;
+}
 
 .web-nav{
     display:inline-block;
@@ -58,8 +98,52 @@ ul{
     margin: -2.5rem 0rem 0rem 3rem;
     text-align:center;
     text-decoration: none;
+    border-bottom: 0.2em solid black;
     width:100%;
 	float: left;
     display: block;
 }
 
+<<<<<<< HEAD
+=======
+.mobile-nav, .mobile-nav-dropdown{
+    display:block;
+    background-color:black;
+    padding:1em 0;
+    text-align:center;
+    text-decoration: none;
+    border-bottom: 0.2em solid black;
+    width:100%;
+ }
+
+.web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
+    border-bottom: 0.2em solid #ED5C0C;
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+
+.upcoming-list{
+    display:inline-block;
+    background-color: #696969;
+    padding:1em 0;
+    text-align:center;
+    color: white;
+    width:100%;
+}
+
+.detail-info{
+    display:block;
+    opacity:0;
+}
+
+.detail-info:hover{
+    opacity:1;
+     -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+>>>>>>> origin/P02_Week2
