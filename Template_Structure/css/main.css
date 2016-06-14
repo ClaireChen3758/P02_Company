@@ -1,8 +1,8 @@
 
 body {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    padding: 2rem;
     color: black;
+    margin:0;
     background-color: white;
 }
 
@@ -28,24 +28,38 @@ p, h2{
     margin-left:1.2em;
     text-align: left;
 }
-.purchase-item{
+
+.purchase-item, .purchase-item2{
     display: inline-block;
-    margin-top: 0.5em;
+    margin-top: 0em;
     padding-top: 2em;
-    padding-bottom:2em;
+    padding-bottom:4em;
     background-color: white;
     text-align:left;
-    border: 0.05em solid black; 
     width:100%;
     color: black;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+.purchase-item2{
+    background-color: #EBE2D2;
+}
+
 .image-box{
     margin-top: 0.5em;
     background-color: #696969;
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 0.5em 2em 0.5em 2em;
+    color: white;
+    border-left: 0.05em solid white; 
+    width:100%;
+}
+
+.event-box{
+    
+    margin-top: 0.3em;
+    background-color: #696969;
+    padding: 0.5em 3em 8em 3em;
     color: white;
     border-left: 0.05em solid white; 
     width:100%;
@@ -61,57 +75,67 @@ p, h2{
     width:100%;
 }
 
-.chef-border, .footer-main{
+.chef-border{
     display:inline-block;
     background-color:#696969;
-    padding:8em 1em 8em 1em;
+    padding:8em 2em 14em 2em;
     text-align:left;
     color: white;
     width:100%;
     margin-top: 0em;
-    margin-left: 0em;
+    margin-left:0em;
+    margin-bottom:0em;
     border-left: 0.05em solid white;
     transition: width 2s;
     -webkit-transition: width 2s; 
 }
 
 .chef-border:hover{
-  color: black;
-  width:53em;
+  float:left;
+  color:black;
+  width:400%;
+  z-index:20;
 
 }
 
 .footer-main{
     display:block;
     color: white;
+    margin-top: 0;
+    margin-bottom:0;
     background-color: black;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
     text-align:center;
 }
 
-.web-nav{
-    display:inline-block;
+.web-nav, .footer-wrap{
+    display:block;
     background-color:black;
     padding: 1em 0;
-    margin: -2.5rem 0rem 0rem 3rem;
+    margin-top:0em;
     text-align:center;
     text-decoration: none;
     border-bottom: 0.2em solid black;
     width:100%;
 	float: left;
-    display: block;
 }
 
-<<<<<<< HEAD
-=======
+.footer-wrap{
+    font-size:0.7em;
+}
+
+.footer-wrap:hover{
+     border-bottom: 0.2em solid #696969;
+}
+
 .mobile-nav, .mobile-nav-dropdown{
     display:block;
     background-color:black;
     padding:1em 0;
     text-align:center;
     text-decoration: none;
-    border-bottom: 0.2em solid black;
+    border-bottom: 0.02em solid black;
     width:100%;
  }
 
@@ -140,10 +164,12 @@ p, h2{
 
 .detail-info:hover{
     opacity:1;
-     -o-transition: 0.4s;
+    -o-transition: 0.4s;
     -ms-transition: 0.4s;
     -moz-transition: 0.4s;
     -webkit-transition: 0.4s;
+}
+
 <<<<<<< Updated upstream
 }
 >>>>>>> origin/P02_Week2

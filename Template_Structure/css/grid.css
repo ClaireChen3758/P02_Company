@@ -37,20 +37,24 @@
 	width:100%;
 }
 
-.gird-col-3of3{
+.grid-col-3of3{
 	width:100%;
 }
 
-.gird-col-1of4{
+.grid-col-1of4{
 	width:100%;
 }
 
-.gird-col-4of10{
+.grid-col-4of10{
 	width:100%;
 }
 
-.gird-col-10of10{
+.grid-col-10of10{
 	width:33.33%;
+}
+
+.grid-col-7of10{
+	width:100%;
 }
 
 @media(min-width:47em){
