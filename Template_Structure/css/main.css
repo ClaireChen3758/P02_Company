@@ -16,15 +16,20 @@ a:hover{
 }
 
 ul{
+    margin:0;
     list-style-type: none;
     color: black;
 }
 
-p, h2{
-    margin-left:1.2em;
+p, h2, h3{
     text-align: left;
+    width:100%;
 }
 
+footer{
+    font-size: 0.4em;
+    padding: 0.02em 0;
+}
 
 /*Home page styling*/
 
@@ -95,41 +100,88 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     display: inline-block;
     margin-top: 0;
     padding-top: 2em;
-    background-color: #EBE2D2;
+    background-color: white;
     text-align:left;
     width:100%;
     color: black;
     border-bottom: 0.05em solid grey; 
+    border-left: 0.05em solid grey; 
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.purchase-item3{
-    padding-bottom:15.68em;
-}
 
 .purchase-item1{
-    padding-bottom:28.5em;
+    padding-bottom:33.7em;
 }
 
+.purchase-item2{
+    padding-bottom:1.3em;
+}
+.purchase-item3{
+    padding-bottom:1em;
+}
 
-/*Styling image area: at homepage, previous and purchase webpage*/
+/*Styling image area, fill and buttom: purchase webpage*/
 
-.image-box, .check-box, .fill-area{
+.image-box{
     background-color: #696969;
     border-left: 0.05em solid white; 
     color: white;
+    margin-top: 0.5em;
+    padding: 0.5em 1.5em 4em 1em;
     width:100%;
 }
-.image-box{
-    margin-top: 0.5em;
-    padding: 0.5em 2em 0.5em 2em;
+
+.icon{
+    margin-left: 0.5em;
+    background-color: #696969;
+    width:20%;
+    height:4%;
 }
 
-/*Styling fill in area: mostly at purchase webpage, "check box for "1" (check mark area)*/
-.check-box, .fill-area{
+/*make column the same high*/
+.placeholder{
+    width:100%;
+    height:52.9%;
+}
+
+.placeholder2{
+    width:100%;
+    height: 72.5%;
+}
+
+/*Styling fill in area: mostly at purchase webpage*/
+
+.textfield{
     display:inline-block;
-    margin-top: 1em;
-    padding: 0em 1.5em ;
+    margin-top: 0.4em;
+    width:100%;
+    height:5%;
+}
+
+.fillarea{
+  border:0;
+  margin-top: 1em;
+  border-bottom: solid black; 
+  font-weight:300;
+  opacity:0.6;
+  width:80%;
+}
+
+.default-buttom, .submit-buttom{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color: black;
+    background: white;
+    width:100%;
+}
+
+.submit-buttom{
+    padding: 1em 6em;
+    font-weight: bold;
+}
+
+.default-buttom:hover, .submit-buttom:hover{
+    opacity:0.4;
 }
 
 /*Event page*/
