@@ -13,10 +13,6 @@ a, a:link{
 
 a:hover{
     color:#696969;
-    -o-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -webkit-transition: 0.4s;
 }
 
 ul{
@@ -29,112 +25,11 @@ p, h2{
     text-align: left;
 }
 
-.purchase-item3{
-    display: inline-block;
-    margin-top: 0em;
-    padding-top: 2em;
-    padding-bottom:14em;
-    background-color: #EBE2D2;
-    text-align:left;
-    width:100%;
-     border-bottom: 0.05em solid grey; 
-    color: black;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
-.purchase-item1{
-    display: inline-block;
-    margin-top: 0em;
-    padding-top: 2em;
-    padding-bottom:26.5em;
-    background-color: #EBE2D2;
-    border-bottom: 0.05em solid grey; 
-    text-align:left;
-    width:100%;
-    color: black;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+/*Home page styling*/
 
-
-.purchase-item2{
-    display: inline-block;
-    margin-top: 0em;
-    background-color: #EBE2D2;
-    text-align:left;
-    width:100%;
-    color: black;
-     border-bottom: 0.05em solid grey; 
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  
-}
-
-.image-box{
-    margin-top: 0.5em;
-    background-color: #696969;
-    padding: 0.5em 2em 0.5em 2em;
-    color: white;
-    border-left: 0.05em solid white; 
-    width:100%;
-}
-
-.event-box{
-    
-    margin-top: 0.3em;
-    background-color: #696969;
-    padding: 0.5em 3em 8em 3em;
-    color: white;
-    border-left: 0.05em solid white; 
-    width:100%;
-}
-
-.check-box, .fill-area{
-    display:inline-block;
-    margin-top: 1em;
-    padding: 0em 1.5em ;
-    background-color: #696969;
-    border-left: 0.05em solid white; 
-    color: white;
-    width:100%;
-}
-
-.chef-border{
-    display:inline-block;
-    background-color:#696969;
-    padding:8em 2em 14em 2em;
-    text-align:left;
-    color: white;
-    width:100%;
-    margin-top: 0em;
-    margin-left:0em;
-    margin-bottom:0em;
-    border-left: 0.05em solid white;
-    transition: width 2s;
-    -webkit-transition: width 2s; 
-}
-
-.chef-border:hover{
-  float:left;
-  color:black;
-  width:400%;
-  z-index:20;
-
-}
-
-.footer-main{
-    display:block;
-    color: white;
-    margin-top: 0;
-    margin-bottom:0;
-    background-color: black;
-    padding-top: 2em;
-    padding-bottom: 3em;
-    text-align:center;
-}
-
-.web-nav, .footer-wrap{
+/*Styling naviation bar and footer section*/
+.web-nav{
     display:block;
     background-color:black;
     padding: 1em 0;
@@ -146,14 +41,41 @@ p, h2{
 	float: left;
 }
 
-.footer-wrap{
-    font-size:0.7em;
+a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover{
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -webkit-transition: 0.4s;
 }
 
-.footer-wrap:hover{
-     border-bottom: 0.2em solid #696969;
+.web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
+    border-bottom: 0.2em solid #ED5C0C;
 }
 
+/*Styling for chef lists on homepage*/
+.chef-border{
+    display:inline-block;
+    background-color:#696969;
+    padding:8em 2em 14em 2em;
+    text-align:left;
+    color: white;
+    width:100%;
+    margin: 0em;
+    margin-bottom:0.5;
+    border-left: 0.05em solid white;
+    transition: width 2s;
+    -webkit-transition: width 2s; 
+}
+
+.chef-border:hover{
+    float:left;
+    color:black;
+    width:400%;
+    z-index:20;
+
+}
+
+/* mobile navigation for next week
 .mobile-nav, .mobile-nav-dropdown{
     display:block;
     background-color:black;
@@ -164,15 +86,55 @@ p, h2{
     width:100%;
  }
 
-.web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
-    border-bottom: 0.2em solid #ED5C0C;
-    -o-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -webkit-transition: 0.4s;
+ */
+
+/*purchase page styling*/
+
+/*Styling for columns: purchase webpage*/
+.purchase-item1, .purchase-item2, .purchase-item3{
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 2em;
+    background-color: #EBE2D2;
+    text-align:left;
+    width:100%;
+    color: black;
+    border-bottom: 0.05em solid grey; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.purchase-item3{
+    padding-bottom:15.68em;
+}
+
+.purchase-item1{
+    padding-bottom:28.5em;
 }
 
 
+/*Styling image area: at homepage, previous and purchase webpage*/
+
+.image-box, .check-box, .fill-area{
+    background-color: #696969;
+    border-left: 0.05em solid white; 
+    color: white;
+    width:100%;
+}
+.image-box{
+    margin-top: 0.5em;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+/*Styling fill in area: mostly at purchase webpage, "check box for "1" (check mark area)*/
+.check-box, .fill-area{
+    display:inline-block;
+    margin-top: 1em;
+    padding: 0em 1.5em ;
+}
+
+/*Event page*/
+
+/*Styling upcoming page header*/
 .upcoming-list{
     display:inline-block;
     background-color: #696969;
@@ -182,6 +144,7 @@ p, h2{
     width:100%;
 }
 
+/*upcoming page: detail information animation*/
 .detail-info{
     display:block;
     opacity:0;
@@ -189,11 +152,18 @@ p, h2{
 
 .detail-info:hover{
     opacity:1;
-    -o-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -webkit-transition: 0.4s;
 }
+
+/*image sectino*/
+.event-box{
+    margin-top: 0.3em;
+    background-color: #696969;
+    padding: 0.5em 3em 8em 3em;
+    color: white;
+    border-left: 0.05em solid white; 
+    width:100%;
+}
+
 
 <<<<<<< Updated upstream
 }
