@@ -43,7 +43,7 @@
 				       
 				            <div class = "grid-col-1of3">
 								<div class="web-nav">
-									<a href="Homepage.html">UPCOMING</a>	
+									<a href="event.html">UPCOMING</a>	
 				            	</div>
 				        	</div>
 
@@ -67,41 +67,7 @@
 			</div>
 		</div>
 
-		<nav>
-
-			<div class = "grid-row">
-
-				<div class = "grid-col-5of10">
-					<a class = "mobile-nav" href="Homepage.html">LOGO</a>
-				</div>
-
-
-				<div class = "grid-col-5of10">	
-					<a class = "mobile-nav" href="Homepage.html">NAVIGATION</a>
-				</div>	
-
-			</div>
-			
-			<div class = "grid-row">
-				<div class = "grid-col-10of10">
-					<a class = "mobile-nav-dropdown" href="Homepage.html">PREVIOUS</a>
-				</div>
-
-				<div class = "grid-col-10of10">
-					<a class = "mobile-nav-dropdown" href="Homepage.html">UPCOMING</a>
-				</div>
-
-				<div class = "grid-col-10of10">
-					<a class = "mobile-nav-dropdown" href="Homepage.html">ABOUT</a>
-				</div>
-
-				<div class = "grid-col-10of10">
-					<a class = "mobile-nav-dropdown" href="Homepage.html">CART</a>
-				</div>
-						
-			</div>
-        	
-		</nav>
+	
 
         <!--Chef image section-->
         <div class = "chef-list">
