@@ -234,8 +234,19 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 /*About page*/
 .about p{
-    max-width: 48%;
     line-height: 1.5em;
 	color: #999;
+    display:inline-block;
+    float: left;
 }
 
+.leftOf3 {
+    float: left;
+}
+
+.middleOf3 {
+    float: middle;
+}
+.leftOf3 {
+    float: right;
+}
