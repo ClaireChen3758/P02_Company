@@ -9,10 +9,14 @@ body {
 a, a:link{
     color:white;
     text-decoration: none;
+    /*font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;*/
 }
 
 a:hover{
     color:#696969;
+/*    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;*/
 }
 
 ul{
@@ -26,8 +30,20 @@ p, h2, h3{
     width:100%;
 }
 
+h1 {
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    font-size: 2.9rem;
+    margin: -0.5rem 0;
+}
+
+h5 {
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;
+    margin: -0.9rem 0;
+}
+
 footer{
-    font-size: 0.4em;
+    font-size: 0.5em;
     padding: 0.02em 0;
 }
 
