@@ -108,13 +108,13 @@
 ul.cheflist {
 	list-style: none;
 	font-size: 0px;
-	margin-left: -2.5%; /* should match li left margin */
-    margin-right: 2.5%; /* should match li left margin */
+	margin-left: 8.5%; /* should match li left margin */
+    margin-right: 1.5%; /* should match li left margin */
 }
 ul.cheflist li {
 	display: inline-block;
 	padding: 10px;
-	margin: 2.5% 0% 1% 2.5%;
+	margin: 2.5% 2% 1% 2.5%;
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
@@ -144,7 +144,8 @@ ul.cheflist.columns-2 li {
 }
 /* class for 3 columns */
 ul.cheflist.columns-3 li {
-	width: 30.83%; /* this value + 2.5 should = 33% */
+	/*width: 30.83%;*/ /* this value + 2.5 should = 33% */
+    width: 24.83%;
 }
 /* class for 4 columns */
 ul.cheflist.columns-4 li {
