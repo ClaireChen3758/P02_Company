@@ -245,8 +245,8 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 }
 
 .middleOf3 {
-    float: middle;
+    float: left;
 }
 .leftOf3 {
-    float: right;
+    float: left;
 }
