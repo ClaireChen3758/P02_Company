@@ -94,48 +94,51 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 }
 
 /*Styling for chef lists on homepage*/
-.chef-border{
+.chef-border,.chef-border2, .chef-border3{
     display:inline-block;
-    background-color:#696969;
-    padding:8em 2em 14em 2em;
-    text-align:left;
-    color: white;
     width:100%;
-    margin: 0em;
-    margin-bottom:0.5;
-    border-left: 0.05em solid white;
+    color: white;
+    margin-top:0;
     transition: width 2s;
     -webkit-transition: width 2s; 
+
+}
+
+
+.chef-border{
+    background-color:#696969;
+    padding:8em 2em 16.67em 2em;
+    text-align:left;
+    border-left: 0.05em solid white;
+  
 }
 
 .chef-border2{
-    display:inline-block;
     background-color: grey;
-    padding:8em 2em 15.25em 2em;
-    text-align:left;
-    color: white;
-    width:100%;
-    margin: 0em;
+    padding:8em 2em 16.67em 2em;
     margin-bottom:0.5;
-    transition: width 2s;
-    -webkit-transition: width 2s; 
 }
 
 .chef-border3{
-    display:inline-block;
     background-color:#696969;
-    margin-left:2em;
-    text-align:left;
-    color: white;
-    width:100%;
-    margin: 0em;
+    padding-top:12em;
+    padding-bottom:15.25em;
+    padding-left:1em;
     margin-bottom:0.5;
     border-left: 0.05em solid white;
-    transition: width 2s;
-    -webkit-transition: width 2s; 
+
+}
+
+.chef-border:hover{
+    color:black;
+}
+
+.underline{
+     border-bottom: 0.1em solid white;
 }
 /*
 .chef-border:hover{
+    position:absolute;
     float:left;
     color:black;
     width:400%;
@@ -251,7 +254,6 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     margin-left: 2em;
     padding: 0.5em 1em;
     font-weight: bold;
-
 }
 
 .default-buttom:hover, .submit-buttom:hover{
