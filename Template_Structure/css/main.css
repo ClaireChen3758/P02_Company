@@ -289,7 +289,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     width:100%;
 }
 
-/*upcoming page: detail information animation*/
+/* Upcoming page: detail information animation*/
 .detail-info{
     display:block;
     opacity:0;
@@ -327,3 +327,33 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 .leftOf3 {
     float: left;
 }
+
+/* Details Page */
+.leftAlign {
+    text-align: left !important;
+}
+
+h1.name {
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    font-size: 2.9rem;
+    float: left;
+    margin: 5rem 0 1rem 3.3rem;
+}
+
+p.title {
+    padding: 10rem 0 1rem 3.4rem;
+}
+
+p.title1 {
+    padding: 4rem 0 1rem 3.4rem;
+}
+
+li.aboutList {
+    margin-left: 3.1rem;
+    list-style-type: circle;
+}
+
+li.foodType {
+    margin: 0.5rem 0rem 0.3rem 2rem;
+}
+
