@@ -345,7 +345,7 @@ p.title {
 }
 
 p.title1 {
-    padding: 4rem 0 1rem 3.4rem;
+    padding: 0rem 0 1rem 3.4rem;
 }
 
 li.aboutList {
@@ -357,3 +357,6 @@ li.foodType {
     margin: 0.5rem 0rem 0.3rem 2rem;
 }
 
+li.foodType1 {
+    margin: 3.7rem 0rem 0.3rem 2rem;
+}
