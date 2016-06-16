@@ -178,3 +178,30 @@ ul.cheflist.columns-4 li {
         padding-right: -15rem;
 	}
 }
+
+@media(max-width: 52em){
+		ul.grid-nav li {
+		display: block;
+		margin: 5rem 5rem 5rem;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.cheflist {
+		margin-left: 0;
+	}
+	ul.cheflist li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 1rem 0rem 1rem -1rem;
+        padding-right: -15rem;
+	}
+}
+
+/*detail*/
+
+@media(max-width: 52em){
+    .grid-col-1of4{
+		margin: 5rem 5rem 5rem;
+	}
+}
+
