@@ -260,9 +260,6 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 .submit-buttom{
     padding: 1em 5em 1em 5em;
-    font-weight: bold;
-    text-align: center;
-    border:solid #ED5C0C;
     background-color:white;
     margin-top:0.8em;
     color:#ED5C0C;
@@ -270,7 +267,10 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
   
 }
 
-
+.submit-buttom, .book-buttom{
+    font-weight: bold;
+    border:solid #ED5C0C;
+}
 
 .submit-buttom:focus~ .purchase-item2, .submit-buttom:hover{
    color:white;
@@ -282,8 +282,6 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     margin-top:8em;
     margin-left: -5em;
     padding: 0.5em 1em;
-    font-weight: bold;
-    border:solid #ED5C0C;
     background-color:#ED5C0C;
     color:white;
     opacity:0.7;
@@ -423,14 +421,10 @@ li.allergies {
     float:left;
 }
 
-
-
 figure {
     position: relative;
     max-width: 100%;
 }
-
-
 
 figcaption {
     font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
