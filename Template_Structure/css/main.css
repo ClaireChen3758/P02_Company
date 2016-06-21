@@ -196,15 +196,15 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 }
 
 .purchase-item1{
-   padding-bottom:1.7rem;
+   padding-bottom:2rem;
 }
 
 .purchase-item2{
-    padding-bottom:1.7rem;
+    padding-bottom:1.93rem;
     visibility:visible;
 }
 .purchase-item3{
-    padding-bottom:1.7rem;
+    padding-bottom:1.9rem;
     visibility:visible;
 }
 
@@ -224,12 +224,12 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 .placeholder2{
     width:100%;
-    height: 64.5%;
+    height: 65%;
 }
 
 .placeholder3{
     width:100%;
-    height: 69.35%;
+    height: 70.25%;
 }
 
 
@@ -251,7 +251,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
   width:80%;
 }
 
-.default-buttom, .submit-buttoml,.book-bottom{
+.default-buttom,.book-bottom{
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     color: black;
     background: white;
@@ -259,7 +259,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 }
 
 .submit-buttom{
-    padding: 1em 10em;
+    padding: 1em 5em 1em 5em;
     font-weight: bold;
     text-align: center;
     border:solid #ED5C0C;
@@ -269,19 +269,32 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     width:100%;
   
 }
-.submit-buttom:focus~ .purchase-item2{
+
+
+
+.submit-buttom:focus~ .purchase-item2, .submit-buttom:hover{
+   color:white;
+   background-color:#ED5C0C;
    visibility:visible;
 }
 
 .book-buttom{
-    margin-left: 2em;
+    margin-top:8em;
+    margin-left: -5em;
     padding: 0.5em 1em;
     font-weight: bold;
+    border:solid #ED5C0C;
+    background-color:#ED5C0C;
+    color:white;
+    opacity:0.7;
+}
+
+.book-buttom:hover, img.heart:hover{
+    opacity:1;
 }
 
 /*remove blue border once being clicked*/
-.default-buttom:hover, .submit-buttom:hover, .default-buttom:focus, .submit-buttom:focus{
-    opacity:0.4;
+.default-buttom:hover, .submit-buttom:hover, .default-buttom:focus, .submit-buttom:focus, .book-buttom:focus{
     outline:0 !important;
 }
 
@@ -341,6 +354,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 .about p{
     line-height: 1.5em;
     color: #999;
+    padding-bottom:3em;
     display:inline-block;
     float: left;
 }
@@ -426,7 +440,7 @@ figcaption {
     z-index: 10;
     color:  #ED5C0C;
     opacity:0;
-    padding:2em;
+    padding:4em;
 }
 
 figcaption:hover{
@@ -457,4 +471,28 @@ figcaption:hover{
    
 }
 
+li.chef-name2{
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    border-bottom: 0.1em solid white;
+    font-size:3em;
+    color:white;
+    font-weight:bold;
+}
+figcaption.expanded-info{
+    z-index:1;
+    opacity:1;
+    color:white;
+}
+
+li.information{
+    margin-left: -3em;
+    margin-top: 0.5em;
+    color: white;
+}
+
+img.heart{
+    margin-top: 0.5em;
+    margin-left: -5rem;
+    opacity:0.7;
+}
 
