@@ -259,7 +259,6 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 .default-buttom, .submit-buttoml,.book-bottom{
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-
     color: black;
     background: white;
     width:100%;
@@ -268,7 +267,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 .submit-buttom{
     padding: 1em 10em;
     font-weight: bold;
-  
+    text-align: center;
     border:solid #ED5C0C;
     background-color:white;
     margin-top:0.8em;
