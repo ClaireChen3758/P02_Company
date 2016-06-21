@@ -59,7 +59,7 @@
             	<div class="grid-col-3of10"> 
 
 					<div class="purchase-item1">
-						<h2>STEP1: SAVED CHEFS</h2>
+						<h2 class="steps">STEP1: SAVED CHEFS</h2>
         					
         					<div class="grid-row"> <!-- Open a grid in grid-->
         						
@@ -72,7 +72,7 @@
             					<div class="grid-col-4of10"> <!-- Second column of grid in grid -->
             						<ul>
 							           	<li><h3>James</h3></li>
-							           	<li><p>Cuisine</p></li>
+							           	<li><p class = "purchase-info">Cuisine</p></li>
 							           	<li><img class = "calendar" src="img/calendar.png" height="30" width="30"/></li>
 							           	<li><input type="submit" class="default-buttom" value="Add to Cart"></li>
 							        </ul>
@@ -86,18 +86,28 @@
 
             					<div class="grid-col-4of10"> <!-- Fourth column of grid in grid -->
 								        <ul>
-								           	<li><h3>Name</h3></li>
-								           	<li><p>Cuisine</p></li>
+								           	<li><h3>Allen</h3></li>
+								           	<li><p class = "purchase-info">Cuisine</p></li>
 								           	<li><img class = "calendar" src="img/calendar.png" height="30" width="30"/></li>
 								           	<li><input type="submit" class="default-buttom" value="Add to Cart"></li>
 								        </ul>
 								</div> <!-- Closing the Fourth column -->
 
-
-          					</div> <!-- Closing our grid in grid -->
-          						<div class ="grid-col-2of3"> 
-	            				    <input type="submit" class="submit-buttom" value="Process to Payment">
+								<div class ="grid-col-2of3"> 
+	            					<div class ="placeholder3">
+	            						<p></p>
+	            					</div>
 	            				</div>
+
+          						</div> <!-- Closing our grid in grid -->
+	          						<div class ="grid-col-2of3"> 
+		            				    <input type="submit" class="submit-buttom" value="REVIEW YOUR ORDER">
+		            				</div>
+
+
+		            				<div class ="grid-col-2of3"> 
+		            				    <input type="submit" class="submit-buttom" value="CANCEL">
+		            				</div>
         			</div> 
 
       			</div> <!-- Closing the first column of our grid: section 1 end -->
@@ -106,21 +116,21 @@
  				<!--Second column of grid: Purchase section 2 -->
 	      		<div class="grid-col-3of10">
 					<div class="purchase-item2">
-						<h2>STEP2: IN YOUR CART</h2>
+						<h2 class="steps">STEP2: IN YOUR CART</h2>
 
 	        				<div class="grid-row"> 
 
 								<div class="grid-col-4of10">
 	            					
-	              						<img src="img/" height="96" width="89"/>
+	              						<img src="img/" height="89" width="96"/>
 	         						
 	            				</div>  
 
 	            				<div class="grid-col-4of10">
 								    <ul>
-									    <li><h3>Name</h3></li>
-									    <li><p>Cuisine</p></li>
-									    <li><p></p></li>
+									    <li><h3>Jenny</h3></li>
+									    <li><p class = "purchase-info">Cuisine</p></li>
+									 	<li><img class = "calendar" src="img/calendar.png" height="30" width="30"/></li>
 									    <li><input type="submit" class="default-buttom" value="Add to Cart"></li>
 									</ul>
 								</div>
@@ -129,19 +139,20 @@
 									<label for="check" /label>
 									<label class="checkbox">
 									    <input type="checkbox" name="check"/>
-									    <span></span>
+									    
 									</label>
 	            				</div>  
 
 								<div class="grid-col-7of10">
-	              					<p>RESTURANT</p>
+	              					<h3 class= "resturant">RESTURANT</h3>
+
 	            				</div>  
 
 	            				<div class="grid-col-1of4">
 	            					<label for="check" /label>
 										<label class="checkbox">
 										    <input type="checkbox" name="check"/>
-										    <span></span>
+										 
 										</label>
 	            				</div>  
 
@@ -151,7 +162,7 @@
 
 
 	            				<div class="grid-col-2of3">
-	              					<p>Person1's meal</p>
+	              					<h4>Person1's meal</h4>
 	            				</div>  
 
 	            				<div class="grid-col-1of4">
@@ -167,7 +178,7 @@
 	            				</div>  
 
 								<div class="grid-col-2of3">
-	              					<p>Person2's meal</p>
+	              					<h4>Person2's meal</h4>
 	            				</div> 
 
 	            				<div class="grid-col-1of4">
@@ -182,16 +193,23 @@
 	              					<input type="text" class="fillarea" placeholder="" id="input-location">
 	            				</div> 
 
+	            				<div class="grid-col-2of3">
+	            					<p >TOTAL: $130</p>
+	            				</div>
 	            				<div class ="grid-col-2of3"> 
 	            					<div class ="placeholder">
 	            						<p></p>
 	            					</div>
 	            				</div>
 
-	            				<div class="grid-col-2of3">
-	            					<p>TOTAL: $130</p>
-	            				</div>
+	            				<div class ="grid-col-2of3"> 
+		            				    <input type="submit" class="submit-buttom" value="FILL YOUR INFORMATION">
+		            				</div>
 
+	            				
+		            				<div class ="grid-col-2of3"> 
+		            				    <input type="submit" class="submit-buttom" value="CANCEL">
+		            				</div>
 							</div> 
 	        		</div>
 
@@ -202,11 +220,11 @@
 				<div class="grid-col-3of10"> 
 					<div class="purchase-item3">
 
-	          			<h2>STEP3: YOUR INFORMATION</h2>
+	          			<h2 >STEP3: YOUR INFORMATION</h2>
 	        
 	          				<div class="grid-row">
 
-	      						<div class="grid-col-2of3">
+	      						<div class="grid-col-2of3 personal-info">
 	      							<p>FIRST NAME<p>
 	              					<input type="text" class="textfield" placeholder="" id="input-location">
 	            				</div>
@@ -228,9 +246,13 @@
 	            				</div>
 
 	            				<div class ="grid-col-2of3"> 
-	            				    <input type="submit" class="submit-buttom" value="Process to Payment">
+	            				    <input type="submit" class="submit-buttom" value="PROCESS TO PAYMENT">
 	            				</div>
 
+
+		            			<div class ="grid-col-2of3"> 
+		            				<input type="submit" class="submit-buttom" value="CANCEL">
+		            			</div>
 					        </div> 
 
 	        		</div>

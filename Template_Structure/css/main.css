@@ -39,20 +39,31 @@ li{
 
 p{
     text-align: left;
+    width:100%;
+}
+
+p.purchase-info{
     font-size: 0.8em;
     margin-right:1.5rem;
     margin-top:-1em;
-    width:100%;
 }
 
 h2{
     text-align:left;
     font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
-    margin-left:2.8rem;
 }
 
+h2.steps{
+    margin-left:2.2rem;
+}
 h3{
-    margin-right:6rem;
+    margin-right:6.5rem;
+}
+
+h3.resturant{
+    margin-top:-0.4rem;
+    margin-right:10rem;
+
 }
 
 h1 {
@@ -73,12 +84,12 @@ footer{
 }
 
 #footer {
-	background:#ffab62;
-	width:100%;
-	height:100px;
-	position:absolute;
-	bottom:0;
-	left:0;
+    background:#ffab62;
+    width:100%;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    left:0;
 }
 
 /*Home page styling*/
@@ -93,7 +104,7 @@ footer{
     text-decoration: none;
     border-bottom: 0.2em solid black;
     width:100%;
-	float: left;
+    float: left;
 }
 
 a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover{
@@ -179,28 +190,31 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 .purchase-item1, .purchase-item2, .purchase-item3{
     display: inline-block;
     margin-top: 0;
-    margin-left: 1em;
+    margin-left: 0;
     padding-top: 2em;
     background-color: white;
     text-align:center;
     width:100%;
     color: black;
     border-bottom: 0.05em solid grey; 
-    border-left: 0.05em solid grey; 
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .purchase-item1{
-    padding-bottom:33.7em;
+   padding-bottom:1.7rem;
 }
 
 .purchase-item2{
-    padding-bottom:1.3em;
+    padding-bottom:1.7rem;
+    visibility:visible;
 }
 .purchase-item3{
-    padding-bottom:1em;
+    padding-bottom:1.7rem;
+    visibility:visible;
 }
+
+
 
 .calendar{
     margin-right:8rem;
@@ -211,17 +225,17 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 /*make column the same high*/
 .placeholder{
     width:100%;
-    height:52.9%;
+    height:41.5%;
 }
 
 .placeholder2{
     width:100%;
-    height: 72.5%;
+    height: 64.5%;
 }
 
 .placeholder3{
     width:100%;
-    height: 9%;
+    height: 69.35%;
 }
 
 
@@ -229,7 +243,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 .textfield{
     display:inline-block;
-    margin-top: 0.4em;
+    padding:1rem;
     width:100%;
     height:5%;
 }
@@ -245,17 +259,25 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 .default-buttom, .submit-buttoml,.book-bottom{
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+
     color: black;
     background: white;
     width:100%;
 }
 
 .submit-buttom{
-    padding: 1em 8em;
+    padding: 1em 10em;
     font-weight: bold;
-    border:none;
-    outline-color:1em solid black;
-    margin-left:2.5rem;
+  
+    border:solid #ED5C0C;
+    background-color:white;
+    margin-top:0.8em;
+    color:#ED5C0C;
+    width:100%;
+  
+}
+.submit-buttom:focus~ .purchase-item2{
+   visibility:visible;
 }
 
 .book-buttom{
@@ -264,19 +286,24 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     font-weight: bold;
 }
 
-.default-buttom:hover, .submit-buttom:hover{
+/*remove blue border once being clicked*/
+.default-buttom:hover, .submit-buttom:hover, .default-buttom:focus, .submit-buttom:focus{
     opacity:0.4;
+    outline:0 !important;
 }
+
 
 .checkbox input {
     position: relative;
-    z-index: -9999;
+    width:100%;
+    z-index: 1;
+    margin-left:2.2rem;
 }
 
 .checkbox span {
     background-color: black;
-    width: 20px;
-    height: 20px;
+    width: 20em;
+    height: 20em;
     display: block;
     background: url("link_to_resturant");
 }
@@ -320,7 +347,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 /*About page*/
 .about p{
     line-height: 1.5em;
-	color: #999;
+    color: #999;
     display:inline-block;
     float: left;
 }
