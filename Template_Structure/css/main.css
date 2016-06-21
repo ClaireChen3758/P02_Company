@@ -107,7 +107,7 @@ footer{
     float: left;
 }
 
-a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover{
+a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover, figcaption:hover{
     -o-transition: 0.4s;
     -ms-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -130,13 +130,6 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 }
 
 
-.chef-border{
-    background-color:#696969;
-    padding:8em 2em 16.67em 2em;
-    text-align:left;
-    border-left: 0.05em solid white;
-  
-}
 
 .chef-border2{
     background-color: grey;
@@ -153,6 +146,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     border-left: 0.05em solid white;
 
 }
+
 
 .chef-border:hover{
     color:black;
@@ -414,3 +408,53 @@ li.allergies {
 .floatLeft {
     float:left;
 }
+
+
+
+figure {
+    position: relative;
+    max-width: 100%;
+}
+
+
+
+figcaption {
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    position: absolute;
+    bottom: 2.5em;
+    left: 0em;
+    z-index: 10;
+    color:  #ED5C0C;
+    opacity:0;
+    padding:2em;
+}
+
+figcaption:hover{
+    opacity:1;
+}
+
+.cuisine{
+   font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+   font-size:1.3em;
+   margin-top:-1.5em;
+   color: #ED5C0C;
+   font-weight:bold;
+}
+
+.chef-name{
+    font-size:2.5em;
+    border-bottom: 0.1em solid  #ED5C0C;
+    font-weight:bold;
+}
+
+.chef-img{
+    opacity:0.9;
+
+}
+
+.chef-img:hover{
+    opacity:1;
+   
+}
+
+
