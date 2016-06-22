@@ -121,9 +121,10 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 /*Styling for chef lists on homepage*/
 .chef-border,.chef-border2, .chef-border3{
     display:inline-block;
+    background-color:white;
     width:100%;
     color: white;
-    margin-top:0;
+    margin-top:3em;
     transition: width 2s;
     -webkit-transition: width 2s; 
 
@@ -133,8 +134,9 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 .chef-border2{
     background-color: grey;
-    padding:8em 2em 16.67em 2em;
+    padding:19em 2em 19em 2em;
     margin-bottom:0.5;
+    opacity:0.2;
 }
 
 .chef-border3{
@@ -428,7 +430,7 @@ figure {
 
 figcaption {
     font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
-    position: absolute;
+    position:absolute;
     bottom: 2.5em;
     left: 0em;
     z-index: 10;
@@ -444,19 +446,24 @@ figcaption:hover{
 .cuisine{
    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
    font-size:1.3em;
-   margin-top:-1.5em;
+   margin-top:-2em;
    color: #ED5C0C;
    font-weight:bold;
 }
 
 .chef-name{
-    font-size:2.5em;
+    margin-top:1em;
+    border:1em;
+    font-size:3em;
     border-bottom: 0.1em solid  #ED5C0C;
     font-weight:bold;
 }
 
+
 .chef-img{
+    float:right;
     opacity:0.9;
+    width:100%;
 
 }
 
@@ -478,10 +485,23 @@ figcaption.expanded-info{
     color:white;
 }
 
+figcaption.information{
+    position: absolute;
+    bottom: 0em;
+    left: -2em;
+   
+}
+
 li.information{
     margin-left: -3em;
     margin-top: 0.5em;
     color: white;
+
+}
+
+img.information{
+    max-width:100%;
+    height:auto;
 }
 
 img.heart{
