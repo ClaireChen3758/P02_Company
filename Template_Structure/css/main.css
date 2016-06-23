@@ -538,3 +538,13 @@ img.heart{
     opacity:0.7;
 }
 
+/*Previous Page*/
+.details {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+}
+
+.address {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
