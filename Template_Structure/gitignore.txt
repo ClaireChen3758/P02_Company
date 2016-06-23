@@ -1,0 +1,7 @@
+echo "" > .gitignore
+git add .gitignore
+git commit -m "message" .gitignore
+
+.DS_Store
+*.DS_Store
+*/.DS_Store
