@@ -451,6 +451,15 @@ li.allergies {
     float:left;
 }
 
+.floatLeftColumn2 {
+    float:left;
+    margin-left: 1rem;
+}
+
+.paddingtop {
+    margin-top: 2.5rem;
+}
+
 figure {
     position: relative;
     max-width: 100%;
