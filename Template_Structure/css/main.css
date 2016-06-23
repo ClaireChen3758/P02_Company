@@ -261,6 +261,11 @@ input[type = "submit"]:hover > .purchasse-item2{
     visibility:hidden;
 }
 
+.placeholder5{
+    width:100%;
+    height: 13.6%;
+}
+
 /*Styling fill in area: mostly at purchase webpage*/
 
 .textfield{
