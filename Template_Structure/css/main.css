@@ -4,6 +4,23 @@ body {
     color: black;
     margin:0;
     background-color: white;
+    height: 100%;
+}
+
+html {
+height: 100%;
+}
+
+.header-wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+.footer, .push {
+height: 4em;
+clear: both;
 }
 
 a, a:link{
