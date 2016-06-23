@@ -59,20 +59,20 @@
             	<div class="grid-col-3of10"> 
 
 					<div class="purchase-item1">
-						<h2>STEP1: SAVED CHEFS</h2>
+						<h2 class="steps">STEP1: SAVED CHEFS</h2>
         					
         					<div class="grid-row"> <!-- Open a grid in grid-->
         						
 								<div class="grid-col-4of10"> <!-- First column of grid in grid-->
             						
-             							<img src="img/" height="96" width="89"/>
+             							<img src="img/chef4_small.jpg" height="96" width="89"/>
           						
             					</div>  <!-- Closing the first column of grid in grid-->
 
             					<div class="grid-col-4of10"> <!-- Second column of grid in grid -->
             						<ul>
-							           	<li><h3>James</h3></li>
-							           	<li><p>Cuisine</p></li>
+							           	<li><h3>George</h3></li>
+							           	<li><p class = "purchase-info">American</p></li>
 							           	<li><img class = "calendar" src="img/calendar.png" height="30" width="30"/></li>
 							           	<li><input type="submit" class="default-buttom" value="Add to Cart"></li>
 							        </ul>
@@ -80,24 +80,34 @@
 
 								<div class="grid-col-4of10"> <!-- Third column of grid in grid-->
             						
-             							<img class = "purchase-img"src="img/" height="89" width="96"/>
+             							<img class = "purchase-img"src="img/chef3_small.jpg" height="96" width="89"/>
           							
             					</div>  <!-- Closing the third column of grid in grid-->
 
             					<div class="grid-col-4of10"> <!-- Fourth column of grid in grid -->
 								        <ul>
-								           	<li><h3>Name</h3></li>
-								           	<li><p>Cuisine</p></li>
+								           	<li><h3>James</h3></li>
+								           	<li><p class = "purchase-info">German</p></li>
 								           	<li><img class = "calendar" src="img/calendar.png" height="30" width="30"/></li>
 								           	<li><input type="submit" class="default-buttom" value="Add to Cart"></li>
 								        </ul>
 								</div> <!-- Closing the Fourth column -->
 
-
-          					</div> <!-- Closing our grid in grid -->
-          						<div class ="grid-col-2of3"> 
-	            				    <input type="submit" class="submit-buttom" value="Process to Payment">
+								<div class ="grid-col-2of3"> 
+	            					<div class ="placeholder3">
+	            						<p></p>
+	            					</div>
 	            				</div>
+
+          						</div> <!-- Closing our grid in grid -->
+	          						<div class ="grid-col-2of3"> 
+		            				    <input type="submit" class="submit-buttom" value="REVIEW YOUR ORDER">
+		            				</div>
+
+
+		            				<div class ="grid-col-2of3"> 
+		            				    <input type="submit" class="submit-buttom" value="CANCEL">
+		            				</div>
         			</div> 
 
       			</div> <!-- Closing the first column of our grid: section 1 end -->
@@ -106,92 +116,121 @@
  				<!--Second column of grid: Purchase section 2 -->
 	      		<div class="grid-col-3of10">
 					<div class="purchase-item2">
-						<h2>STEP2: IN YOUR CART</h2>
+						<h2 class="steps">STEP2: IN YOUR CART</h2>
 
 	        				<div class="grid-row"> 
 
 								<div class="grid-col-4of10">
 	            					
-	              						<img src="img/" height="96" width="89"/>
+	              						<img src="img/chef3_small.jpg" height="96" width="89"/>
 	         						
 	            				</div>  
 
 	            				<div class="grid-col-4of10">
 								    <ul>
-									    <li><h3>Name</h3></li>
-									    <li><p>Cuisine</p></li>
-									    <li><p></p></li>
+									    <li><h3>James</h3></li>
+									    <li><p class = "purchase-info">German</p></li>
+									 	<li><img class = "calendar" src="img/calendar.png" height="30" width="30"/></li>
 									    <li><input type="submit" class="default-buttom" value="Add to Cart"></li>
 									</ul>
 								</div>
 
-								<div class="grid-col-1of4">
-									<label for="check" /label>
+								
+								<div class="grid-col-3of10 checkbox">
+									
 									<label class="checkbox">
 									    <input type="checkbox" name="check"/>
-									    <span></span>
+									    
 									</label>
 	            				</div>  
 
-								<div class="grid-col-7of10">
-	              					<p>RESTURANT</p>
+								<div class="grid-col-7of10-purchase">
+	              					<p >RESTURANT</p>
+
 	            				</div>  
 
-	            				<div class="grid-col-1of4">
-	            					<label for="check" /label>
+	            				<div class="grid-col-3of10">
+	            					
 										<label class="checkbox">
 										    <input type="checkbox" name="check"/>
-										    <span></span>
+										 
 										</label>
 	            				</div>  
 
-								<div class="grid-col-7of10">
+								<div class="grid-col-7of10-purchase">
 	              					<input type="text" class="textfield" placeholder="Different location" id="input-location">
 	            				</div>  
 
 
+	            				<div class="grid-col-3of10">
+	              					<h4>Person1's meal</h4>
+	            				</div>  
+
+	            				<div class = "grid-col-4of10 placeholder4">
+	            					<p>placeholder</p>
+
+	            				</div>
+
+	            				<div class = "grid-col-1of8">
+	            					<h4>Edited</h4>
+
+	            				</div>
+
+	            				<div class="grid-col-1of4">
+	              					<input type="text" class="fillarea" placeholder="" id="input-location">
+	            				</div>  
+
+								<div class="grid-col-1of4">
+	              					<input type="text" class="fillarea" placeholder="" id="input-location">
+	            				</div>  
+
+	            				<div class="grid-col-1of4">
+	              					<input type="text" class="fillarea" placeholder="" id="input-location">
+	            				</div>  
+
+								<div class="grid-col-3of10">
+	              					<h4>Person1's meal</h4>
+	            				</div>  
+
+	            				<div class = "grid-col-4of10 placeholder4">
+	            					<p>placeholder</p>
+
+	            				</div>
+
+	            				<div class = "grid-col-1of8">
+	            					<h4>Edited</h4>
+
+	            				</div>
+
+	            				<div class="grid-col-1of4">
+	              					<input type="text" class="fillarea" placeholder="" id="input-location">
+	            				</div>  
+
+								<div class="grid-col-1of4">
+	              					<input type="text" class="fillarea" placeholder="" id="input-location">
+	            				</div>  
+
+	            				<div class="grid-col-1of4">
+	              					<input type="text" class="fillarea" placeholder="" id="input-location">
+	            				</div> 
+
 	            				<div class="grid-col-2of3">
-	              					<p>Person1's meal</p>
-	            				</div>  
-
-	            				<div class="grid-col-1of4">
-	              					<input type="text" class="fillarea" placeholder="" id="input-location">
-	            				</div>  
-
-								<div class="grid-col-1of4">
-	              					<input type="text" class="fillarea" placeholder="" id="input-location">
-	            				</div>  
-
-	            				<div class="grid-col-1of4">
-	              					<input type="text" class="fillarea" placeholder="" id="input-location">
-	            				</div>  
-
-								<div class="grid-col-2of3">
-	              					<p>Person2's meal</p>
-	            				</div> 
-
-	            				<div class="grid-col-1of4">
-	              					<input type="text" class="fillarea" placeholder="" id="input-location">
-	            				</div>  
-
-								<div class="grid-col-1of4">
-	              					<input type="text" class="fillarea" placeholder="" id="input-location">
-	            				</div>  
-
-	            				<div class="grid-col-1of4">
-	              					<input type="text" class="fillarea" placeholder="" id="input-location">
-	            				</div> 
-
+	            					<p>TOTAL: $130</p>
+	            				</div>
 	            				<div class ="grid-col-2of3"> 
 	            					<div class ="placeholder">
 	            						<p></p>
 	            					</div>
 	            				</div>
 
-	            				<div class="grid-col-2of3">
-	            					<p>TOTAL: $130</p>
-	            				</div>
+	            				<div class ="grid-col-2of3"> 
+		            				    <input type="submit" class="submit-buttom" value="FILL YOUR INFORMATION">
+		            				</div>
 
+	            				
+		            				<div class ="grid-col-2of3"> 
+		            				    <input type="submit" class="submit-buttom" value="CANCEL">
+		            				</div>
 							</div> 
 	        		</div>
 
@@ -202,11 +241,11 @@
 				<div class="grid-col-3of10"> 
 					<div class="purchase-item3">
 
-	          			<h2>STEP3: YOUR INFORMATION</h2>
+	          			<h2 >STEP3: YOUR INFORMATION</h2>
 	        
 	          				<div class="grid-row">
 
-	      						<div class="grid-col-2of3">
+	      						<div class="grid-col-2of3 personal-info">
 	      							<p>FIRST NAME<p>
 	              					<input type="text" class="textfield" placeholder="" id="input-location">
 	            				</div>
@@ -228,9 +267,13 @@
 	            				</div>
 
 	            				<div class ="grid-col-2of3"> 
-	            				    <input type="submit" class="submit-buttom" value="Process to Payment">
+	            				    <input type="submit" class="submit-buttom" value="CONFIRM">
 	            				</div>
 
+
+		            			<div class ="grid-col-2of3"> 
+		            				<input type="submit" class="submit-buttom" value="CANCEL">
+		            			</div>
 					        </div> 
 
 	        		</div>
@@ -244,31 +287,31 @@
 			<footer>
 		
 					<div class="grid-row">
-   						<div class = "grid-col-10of10">
+   
 					        <div class = "grid-col-1of3"> 
-								<a class= "web-nav" href="Homepage.html">Copyright</a>
+								<a class= "web-nav" href="homepage.html">Copyright</a>
  							</div>
 
  						    <div class = "grid-col-1of3">
-								<a class= "web-nav" href="Homepage.html">Contact us</a>
+								<a class= "web-nav" href="homepage.html">Contact us</a>
 							</div>
 					        
 					        <div class = "grid-col-1of3">
-								<a class= "web-nav" href="previous.html">Security and Privacy</a>	
+								<a class= "web-nav" href="homepage.html">Security and Privacy</a>	
 				        	</div>
 				       
 				            <div class = "grid-col-1of3">							
-								<a class= "web-nav" href="Homepage.html">Terms of use</a>					            	
+								<a class= "web-nav" href="homepage.html">Terms of use</a>					            	
 				        	</div>
 
 				        	<div class = "grid-col-1of3">
-								<a class= "web-nav" href="Homepage.html">Site map</a>
+								<a class= "web-nav" href="homepage.html">Site map</a>
 					    	</div>
 
 					        <div class = "grid-col-1of3">
-								<a class= "web-nav" href="purchase1.html">Career</a>		
+								<a class= "web-nav" href="homepage.html">Career</a>		
 				            </div>
-				        </div>
+
 					</div>
 
 			</footer>

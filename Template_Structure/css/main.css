@@ -39,20 +39,34 @@ li{
 
 p{
     text-align: left;
-    font-size: 0.8em;
-    margin-right:1.5rem;
-    margin-top:-1em;
     width:100%;
 }
 
+p.purchase-info{
+    font-size: 0.8em;
+    margin-right:1.5rem;
+    margin-top:-1em;
+}
+
+p.purchase-info1{
+    margin-right:4rem;
+}
 h2{
     text-align:left;
     font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
-    margin-left:2.8rem;
 }
 
+h2.steps{
+    margin-left:2.2rem;
+}
 h3{
-    margin-right:6rem;
+    margin-right:6.5rem;
+}
+
+h3.resturant{
+    margin-top:-0.4rem;
+    margin-right:10rem;
+
 }
 
 h1 {
@@ -68,17 +82,16 @@ h5 {
 }
 
 footer{
-    font-size: 0.5em;
     padding: 0.02em 0;
 }
 
 #footer {
-	background:#ffab62;
-	width:100%;
-	height:100px;
-	position:absolute;
-	bottom:0;
-	left:0;
+    background:#ffab62;
+    width:100%;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    left:0;
 }
 
 /*Home page styling*/
@@ -90,13 +103,14 @@ footer{
     padding: 1em 0;
     margin-top:0em;
     text-align:center;
+    color:#696969;
     text-decoration: none;
     border-bottom: 0.2em solid black;
     width:100%;
-	float: left;
+    float: left;
 }
 
-a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover{
+a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover, figcaption:hover{
     -o-transition: 0.4s;
     -ms-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -105,32 +119,28 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
     border-bottom: 0.2em solid #ED5C0C;
+    color:white;
 }
 
 /*Styling for chef lists on homepage*/
 .chef-border,.chef-border2, .chef-border3{
     display:inline-block;
+    background-color:white;
     width:100%;
     color: white;
-    margin-top:0;
+    margin-top:3em;
     transition: width 2s;
     -webkit-transition: width 2s; 
 
 }
 
 
-.chef-border{
-    background-color:#696969;
-    padding:8em 2em 16.67em 2em;
-    text-align:left;
-    border-left: 0.05em solid white;
-  
-}
 
 .chef-border2{
     background-color: grey;
-    padding:8em 2em 16.67em 2em;
+    padding:19em 2em 19em 2em;
     margin-bottom:0.5;
+    opacity:0.2;
 }
 
 .chef-border3{
@@ -142,6 +152,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     border-left: 0.05em solid white;
 
 }
+
 
 .chef-border:hover{
     color:black;
@@ -179,27 +190,32 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 .purchase-item1, .purchase-item2, .purchase-item3{
     display: inline-block;
     margin-top: 0;
-    margin-left: 1em;
+    margin-left: 0;
     padding-top: 2em;
     background-color: white;
     text-align:center;
     width:100%;
     color: black;
     border-bottom: 0.05em solid grey; 
-    border-left: 0.05em solid grey; 
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .purchase-item1{
-    padding-bottom:33.7em;
+   padding-bottom:2rem;
 }
 
 .purchase-item2{
-    padding-bottom:1.3em;
+    padding-bottom:1.93rem;
+    visibility:visible;
 }
 .purchase-item3{
-    padding-bottom:1em;
+    padding-bottom:1.9rem;
+    visibility:visible;
+}
+
+input[type = "submit"]:hover > .purchasse-item2{
+    visibility:visible;
 }
 
 .calendar{
@@ -211,25 +227,28 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 /*make column the same high*/
 .placeholder{
     width:100%;
-    height:52.9%;
+    height:41.5%;
 }
 
 .placeholder2{
     width:100%;
-    height: 72.5%;
+    height: 68%;
 }
 
 .placeholder3{
     width:100%;
-    height: 9%;
+    height: 72.85%;
 }
 
+.placeholder4{
+    visibility:hidden;
+}
 
 /*Styling fill in area: mostly at purchase webpage*/
 
 .textfield{
     display:inline-block;
-    margin-top: 0.4em;
+    padding:1rem;
     width:100%;
     height:5%;
 }
@@ -243,7 +262,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
   width:80%;
 }
 
-.default-buttom, .submit-buttoml,.book-bottom{
+.default-buttom,.book-bottom{
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     color: black;
     background: white;
@@ -251,33 +270,58 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 }
 
 .submit-buttom{
-    padding: 1em 8em;
+    padding: 1em 5em 1em 5em;
+    background-color:white;
+    margin-top:0.8em;
+    color:#ED5C0C;
+    width:100%;
+  
+}
+
+.submit-buttom, .book-buttom{
     font-weight: bold;
-    border:none;
-    outline-color:1em solid black;
-    margin-left:2.5rem;
+    border:solid #ED5C0C;
+}
+
+.submit-buttom:focus~ .purchase-item2, .submit-buttom:hover{
+   color:white;
+   background-color:#ED5C0C;
+   visibility:visible;
 }
 
 .book-buttom{
-    margin-left: 2em;
-    padding: 0.5em 1em;
-    font-weight: bold;
+    margin-top:1em;
+    padding: 0.5em 1em 0.5em 1em;
+    width:100%;
+    background-color:#ED5C0C;
+    color:white;
+    opacity:0.7;
 }
 
-.default-buttom:hover, .submit-buttom:hover{
-    opacity:0.4;
+.book-buttom:hover, img.heart:hover{
+    opacity:1;
 }
+
+/*remove blue border once being clicked*/
+.default-buttom:hover, .submit-buttom:hover, .default-buttom:focus, .submit-buttom:focus, .book-buttom:focus{
+    outline:0 !important;
+}
+
 
 .checkbox input {
+    height:1.5em;
     position: relative;
-    z-index: -9999;
+    margin-top:1em;
+    margin-left:-2.3rem;
+    width:100%;
+    z-index: 1;
 }
 
 .checkbox span {
     background-color: black;
-    width: 20px;
-    height: 20px;
-    display: block;
+    width: 20em;
+    height: 20em;
+    display: inline-block;
     background: url("link_to_resturant");
 }
 
@@ -320,7 +364,8 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 /*About page*/
 .about p{
     line-height: 1.5em;
-	color: #999;
+    color: #999;
+    padding-bottom:3em;
     display:inline-block;
     float: left;
 }
@@ -388,3 +433,91 @@ li.allergies {
 .floatLeft {
     float:left;
 }
+
+figure {
+    position: relative;
+    max-width: 100%;
+}
+
+figcaption {
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    position:absolute;
+    bottom: 2.5em;
+    left: 0em;
+    z-index: 10;
+    color:  #ED5C0C;
+    opacity:0;
+    padding:4em;
+}
+
+figcaption:hover{
+    opacity:1;
+}
+
+.cuisine{
+   font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+   font-size:1.3em;
+   margin-top:-2em;
+   color: #ED5C0C;
+   font-weight:bold;
+}
+
+.chef-name{
+    margin-top:1em;
+    border:1em;
+    font-size:3em;
+    border-bottom: 0.1em solid  #ED5C0C;
+    font-weight:bold;
+}
+
+
+.chef-img{
+    float:right;
+    opacity:0.9;
+    width:100%;
+
+}
+
+.chef-img:hover{
+    opacity:1;
+   
+}
+
+li.chef-name2{
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    border-bottom: 0.1em solid white;
+    font-size:3em;
+    color:white;
+    font-weight:bold;
+}
+figcaption.expanded-info{
+    z-index:1;
+    opacity:1;
+    color:white;
+}
+
+figcaption.information{
+    position: absolute;
+    bottom: 0em;
+    left: -2em;
+   
+}
+
+li.information{
+    margin-left: -3em;
+    margin-top: 0.5em;
+    color: white;
+
+}
+
+img.information{
+    max-width:100%;
+    height:auto;
+}
+
+img.heart{
+    margin-top: 0.5em;
+    margin-left: -5rem;
+    opacity:0.7;
+}
+
