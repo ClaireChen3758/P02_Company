@@ -198,6 +198,12 @@ ul.cheflist.columns-4 li {
 	}
 }
 
+@media(max-width:47.25em){
+	figcaption.information{
+		font-size:65%;
+	}
+}
+
 @media(max-width: 52em){
 		ul.grid-nav li {
 		display: block;
@@ -217,15 +223,6 @@ ul.cheflist.columns-4 li {
 }
 
 
-/*responsive text*/
-
-@media(max-width: 52em){
-    figcaption{
-		font-size:100%;
-	}
-
-
-}
 
 
 /*detail*/
@@ -248,4 +245,28 @@ ul.cheflist.columns-4 li {
         padding: 1rem;
 	}
 }
+
+/*responsive text*/
+
+
+@media(max-width:28em){
+	figcaption.information{
+		font-size:50%;
+	}
+}
+
+@media(max-width: 52em){
+    figcaption.information{
+		font-size:100%;
+	}
+
+}
+
+@media(max-width:70em){
+	figcaption.information{
+		font-size:75%;
+	}
+}
+
+
 
