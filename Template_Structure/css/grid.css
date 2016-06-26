@@ -53,6 +53,7 @@
 
 .grid-col-1of4{
 	width:100%;
+	 
 }
 
 .grid-col-4of10{
@@ -92,6 +93,7 @@
      
     .grid-col-1of4{
     width:25%;
+
     }
 
 	.grid-col-3of4{
@@ -215,6 +217,18 @@ ul.cheflist.columns-4 li {
         padding-right: -15rem;
 	}
 }
+
+
+/*responsive text*/
+
+@media(max-width: 52em){
+    figcaption{
+		font-size:100%;
+	}
+
+
+}
+
 
 /*detail*/
 

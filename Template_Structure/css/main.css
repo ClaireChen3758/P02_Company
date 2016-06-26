@@ -492,18 +492,18 @@ li.allergies {
 
 figure {
     position: relative;
-    max-width: 100%;
+    max-width: 120%;
 }
 
 figcaption {
     font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
     position:absolute;
-    bottom: 2.5em;
-    left: 0em;
     z-index: 10;
-    color:  #ED5C0C;
-    opacity:0;
-    padding:4em;
+    color: white;
+    opacity:1;
+    padding:5em;
+    margin-top: 14em;
+    margin-left: -2em;
 }
 
 figcaption:hover{
@@ -514,7 +514,7 @@ figcaption:hover{
    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
    font-size:1.3em;
    margin-top:-2em;
-   color: #ED5C0C;
+   color:white;
    font-weight:bold;
 }
 
@@ -522,7 +522,7 @@ figcaption:hover{
     margin-top:1em;
     border:1em;
     font-size:3em;
-    border-bottom: 0.1em solid  #ED5C0C;
+    border-bottom: 0.1em solid white;
     font-weight:bold;
 }
 
@@ -531,6 +531,8 @@ figcaption:hover{
     float:right;
     opacity:0.9;
     width:100%;
+    height:auto;
+    margin-top:-1em;
 
 }
 
