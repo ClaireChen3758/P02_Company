@@ -18,6 +18,7 @@ height: 100%;
 margin: 0 auto -4em;
 }
 
+
 .footer, .push {
 height: -0.5em;
 clear: both;
@@ -114,18 +115,41 @@ footer{
 /*Home page styling*/
 
 /*Styling naviation bar and footer section*/
-.web-nav{
+.web-nav, .nav-toggle, .nav-mobile, .logo{
     display:block;
     background-color:black;
     padding: 1em 0;
     margin-top:0em;
     text-align:center;
-    color:#696969;
+    color:#DBDBDB;
     text-decoration: none;
     border-bottom: 0.2em solid black;
     width:100%;
     float: left;
+    opacity:0.7;
 }
+
+.nav-toggle{
+    height:auto;
+}
+
+
+.logo:hover{
+    border-bottom: 0.2em solid black;
+    color:white;
+}
+
+
+.nav-toggle.hidden, .nav-mobile.hidden,.logo.hidden {
+    visibility: hidden;
+    position: absolute; 
+}
+
+.nav-toggle.shown, .nav-mobile.shown, .logo.shown {
+    visibility: visible;
+    position: relative;
+}
+
 
 a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover, figcaption:hover{
     -o-transition: 0.4s;
@@ -137,6 +161,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
     border-bottom: 0.2em solid #ED5C0C;
     color:white;
+
 }
 
 /*Styling for chef lists on homepage*/

@@ -21,6 +21,16 @@
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
 */
+.grid-col-1of3-mobile-nav{
+	width:33.33%;
+
+}
+
+.grid-col-2of3-mobile-nav{
+	width:66.66%;
+
+}
+
 .grid-col-2of10 {
 	width: 100%;
 }
