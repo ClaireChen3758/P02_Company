@@ -1,1 +1,43 @@
-password.txt
+# remove any existing files from the repo, skipping over ones not in repo
+find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch
+# specify a global exclusion list
+git config --global core.excludesfile ~/.gitignore
+# adding .DS_Store to that list
+echo .DS_Store >> ~/.gitignore
+
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+.DS_Store
+
+git add .gitignore
+git commit -m '.DS_Store banished!'
+
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+.DS_Store
+*.DS_Store
+*/.DS_Store
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

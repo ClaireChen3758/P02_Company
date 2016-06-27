@@ -123,6 +123,7 @@ footer{
     padding: 1em 0;
     margin-top:0em;
     text-align:center;
+}
 
 .web-nav, .nav-toggle, .nav-mobile, .logo{
     display:block;
@@ -130,12 +131,14 @@ footer{
     padding: 1em 0;
     margin-top:0em;
     text-align:center;
+
     color:#DBDBDB;
 
     text-decoration: none;
     border-bottom: 0.2em solid black;
     width:100%;
     float: left;
+
 
     color: rgba(255,255,255, 0.8);
 
@@ -161,7 +164,6 @@ footer{
 .nav-toggle.shown, .nav-mobile.shown, .logo.shown {
     visibility: visible;
     position: relative;
-
 }
 
 
