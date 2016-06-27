@@ -18,6 +18,7 @@ height: 100%;
 margin: 0 auto -4em;
 }
 
+
 .footer, .push {
 height: -0.5em;
 clear: both;
@@ -115,18 +116,54 @@ footer{
 /*Home page styling*/
 
 /*Styling naviation bar and footer section*/
+
 .web-nav{
     /*display:block;*/
     background-color: black;
     padding: 1em 0;
     margin-top:0em;
     text-align:center;
+
+.web-nav, .nav-toggle, .nav-mobile, .logo{
+    display:block;
+    background-color:black;
+    padding: 1em 0;
+    margin-top:0em;
+    text-align:center;
+    color:#DBDBDB;
+
     text-decoration: none;
     border-bottom: 0.2em solid black;
     width:100%;
     float: left;
+
     color: rgba(255,255,255, 0.8);
+
+    opacity:0.7;
 }
+
+.nav-toggle{
+    height:auto;
+}
+
+
+.logo:hover{
+    border-bottom: 0.2em solid black;
+    color:white;
+}
+
+
+.nav-toggle.hidden, .nav-mobile.hidden,.logo.hidden {
+    visibility: hidden;
+    position: absolute; 
+}
+
+.nav-toggle.shown, .nav-mobile.shown, .logo.shown {
+    visibility: visible;
+    position: relative;
+
+}
+
 
 a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover, figcaption:hover{
    /* -o-transition: 0.4s;
@@ -137,9 +174,14 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 
 .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
     border-bottom: 0.2em solid #ED5C0C;
+
     color: rgba(255,255,255, 1);
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+
+    color:white;
+
+
 }
 
 /*Styling for chef lists on homepage*/
@@ -470,18 +512,18 @@ li.allergies {
 
 figure {
     position: relative;
-    max-width: 100%;
+    max-width: 120%;
 }
 
 figcaption {
     font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
     position:absolute;
-    bottom: 2.5em;
-    left: 0em;
     z-index: 10;
-    color:  #ED5C0C;
-    opacity:0;
-    padding:4em;
+    color: white;
+    opacity:1;
+    padding:5em;
+    margin-top: 14em;
+    margin-left: -2em;
 }
 
 figcaption:hover{
@@ -492,7 +534,7 @@ figcaption:hover{
    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
    font-size:1.3em;
    margin-top:-2em;
-   color: #ED5C0C;
+   color:white;
    font-weight:bold;
 }
 
@@ -500,7 +542,7 @@ figcaption:hover{
     margin-top:1em;
     border:1em;
     font-size:3em;
-    border-bottom: 0.1em solid  #ED5C0C;
+    border-bottom: 0.1em solid white;
     font-weight:bold;
 }
 
@@ -509,6 +551,8 @@ figcaption:hover{
     float:right;
     opacity:0.9;
     width:100%;
+    height:auto;
+    margin-top:-1em;
 
 }
 
@@ -531,15 +575,19 @@ figcaption.expanded-info{
 }
 
 figcaption.information{
-    position: absolute;
+    position: absolute; 
     bottom: 0em;
     left: -2em;
-   
+    opacity:0;
 }
 
+figcaption.information:hover, img.information:hover{
+    opacity:1;
+
+}
 li.information{
     margin-left: -3em;
-    margin-top: 0.5em;
+    margin-top: 1em;
     color: white;
 
 }
@@ -547,7 +595,10 @@ li.information{
 img.information{
     max-width:100%;
     height:auto;
+    margin-top:-1em;
+    bottom:0em;
 }
+
 
 img.heart{
     margin-top: 0.5em;

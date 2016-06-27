@@ -21,6 +21,14 @@
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
 */
+.grid-col-1of3-mobile-nav{
+	width:33.33%;
+}
+
+.grid-col-2of3-mobile-nav{
+	width:66.66%;
+}
+
 .grid-col-2of10 {
 	width: 100%;
 }
@@ -43,6 +51,7 @@
 
 .grid-col-1of4{
 	width:100%;
+	 
 }
 
 .grid-col-4of10{
@@ -82,6 +91,7 @@
      
     .grid-col-1of4{
     width:25%;
+
     }
 
 	.grid-col-3of4{
@@ -188,6 +198,12 @@ ul.cheflist.columns-4 li {
 	}
 }
 
+@media(max-width:47.25em){
+	figcaption.information{
+		font-size:65%;
+	}
+}
+
 @media(max-width: 52em){
 		ul.grid-nav li {
 		display: block;
@@ -205,6 +221,9 @@ ul.cheflist.columns-4 li {
         padding-right: -15rem;
 	}
 }
+
+
+
 
 /*detail*/
 
@@ -226,4 +245,28 @@ ul.cheflist.columns-4 li {
         padding: 1rem;
 	}
 }
+
+/*responsive text*/
+
+
+@media(max-width:28em){
+	figcaption.information{
+		font-size:50%;
+	}
+}
+
+@media(max-width: 52em){
+    figcaption.information{
+		font-size:100%;
+	}
+
+}
+
+@media(max-width:70em){
+	figcaption.information{
+		font-size:75%;
+	}
+}
+
+
 
