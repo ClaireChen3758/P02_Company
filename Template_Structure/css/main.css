@@ -24,16 +24,17 @@ clear: both;
 }
 
 a, a:link{
-    color:white;
     text-decoration: none;
-    /*font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
-    font-size: 1rem;*/
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;
+    /*-webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;*/
 }
 
 a:hover{
-    color:#696969;
-/*    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
-    font-size: 1rem;*/
 }
 
 ul{
@@ -115,28 +116,30 @@ footer{
 
 /*Styling naviation bar and footer section*/
 .web-nav{
-    display:block;
-    background-color:black;
+    /*display:block;*/
+    background-color: black;
     padding: 1em 0;
     margin-top:0em;
     text-align:center;
-    color:#696969;
     text-decoration: none;
     border-bottom: 0.2em solid black;
     width:100%;
     float: left;
+    color: rgba(255,255,255, 0.8);
 }
 
 a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover, figcaption:hover{
-    -o-transition: 0.4s;
+   /* -o-transition: 0.4s;
     -ms-transition: 0.4s;
     -moz-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    -webkit-transition: 0.4s;*/
 }
 
 .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
     border-bottom: 0.2em solid #ED5C0C;
-    color:white;
+    color: rgba(255,255,255, 1);
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 }
 
 /*Styling for chef lists on homepage*/
