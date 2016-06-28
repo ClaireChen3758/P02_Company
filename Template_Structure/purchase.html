@@ -96,12 +96,12 @@
 								
           						</div> <!-- Closing our grid in grid -->
 	          						<div class ="grid-col-2of3"> 
-		            				    <input type="submit" class="submit-buttom" value="REVIEW YOUR ORDER">
+		            				    <input type="submit" class="submit-buttom1" value="REVIEW YOUR ORDER">
 		            				</div>
 
 
 		            				<div class ="grid-col-2of3"> 
-		            				    <input type="submit" class="submit-buttom" value="CANCEL">
+		            				    <input type="submit" class="cancel-buttom" onClick="location.href='details.html'" value="CANCEL">
 		            				</div>
         			</div> 
 
@@ -111,7 +111,7 @@
             
  				<!--Second column of grid: Purchase section 2 -->
 	      		<div class="grid-col-3of10">
-					<div class="purchase-item2">
+					<div class="purchase-item2 hidden">
 						<h2 class="steps">STEP2: IN YOUR CART</h2>
 
 	        				<div class="grid-row"> 
@@ -216,12 +216,12 @@
 	            				
 
 	            				<div class ="grid-col-2of3"> 
-		            				    <input type="submit" class="submit-buttom" value="FILL YOUR INFORMATION">
+		            				    <input type="submit" class="submit-buttom2" value="FILL YOUR INFORMATION">
 		            				</div>
 
 	            				
 		            				<div class ="grid-col-2of3"> 
-		            				    <input type="submit" class="submit-buttom" value="CANCEL">
+		            				    <input type="submit" class="cancel-buttom2" value="CANCEL">
 		            				</div>
 							</div> 
 	        		</div>
@@ -230,8 +230,8 @@
 
 
 	      		 <!-- Second column of grid: Purchase section 3 -->
-				<div class="grid-col-3of10"> 
-					<div class="purchase-item3">
+				<div class="grid-col-3of10 "> 
+					<div class="purchase-item3 hidden">
 
 	          			<h2 >STEP3: YOUR INFORMATION</h2>
 	        
@@ -258,7 +258,7 @@
 
 
 		            			<div class ="grid-col-2of3"> 
-		            				<input type="submit" class="submit-buttom" value="CANCEL">
+		            				<input type="submit" class="cancel-buttom3" value="CANCEL">
 		            			</div>
 					        </div> 
 
@@ -306,6 +306,10 @@
 					</div>
 
 			</footer>
+
+			<!--javascript for buttom animation-->
+		    <script src="js/jquery.js"></script>
+		    <script src="js/purchase.js"></script>
 
 		</body>
 	</html>
