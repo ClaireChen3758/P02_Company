@@ -445,7 +445,7 @@ input[type = "submit"]:hover > .purchasse-item2{
 .fluid-ratio-resize { 
     max-width: 1920px; /* actual img width */
     *height: 903px; /* actual img height - IE7 */
-    background-image: url(/img/AboutFull.jpg);
+    background-image: url(img/AboutFull.jpg);
     background-size: cover;
     background-position: center;
 }
