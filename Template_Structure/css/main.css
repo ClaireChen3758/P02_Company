@@ -441,6 +441,21 @@ input[type = "submit"]:hover > .purchasse-item2{
   text-align: center;
     width: 100%;
 }
+    
+.fluid-ratio-resize { 
+    max-width: 1920px; /* actual img width */
+    *height: 903px; /* actual img height - IE7 */
+    background-image: url(/img/AboutFull.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fluid-ratio-resize:after {
+	content: " ";
+	display: block; 
+	width: 100%; 
+	padding-top: 21.579%; /* slope */
+	height: h88.684px; /* start height */
+}
 
 .leftOf3 {
     float: left;
