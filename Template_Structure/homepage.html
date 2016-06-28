@@ -1,166 +1,191 @@
-<html lang="en">
+	<html lang="en">
 
-	<head>
+		<head>
 
-		<title>Homepage</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Homepage</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	    <link rel="stylesheet" href="css/main.css">
-	    <link rel="stylesheet" href="css/grid.css">
-	    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+		    <link rel="stylesheet" href="css/main.css">
+		    <link rel="stylesheet" href="css/grid.css">
+		    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-  </head>
+	  </head>
 
-	<body>
+		<body>
 
-        <!--navigation bar for website-->
-		<div class="header-wrapper">
+	        <!--navigation bar for website-->
+			<div class="header-wrapper">
 
-			<div class="header-bkgd">
+				<div class="header-bkgd">
+					
+						<!--mobile hamburger nav: hidden when window larger than 400-->
+		                <div class= "grid-col-1of3-mobile-nav">
+							<a href="#top" class="nav-toggle hidden"><img src="img/hamburger_icon.png" height="19" width="20"alt="mobile_nav" /></a>
+					    </div>
 
-				<nav>
-					<div class="grid-row">
-   
-					        <div class = "grid-col-1of3"> 
-								<a class= "web-nav logo" href="Homepage.html">CHEFBOUND</a>
- 							</div>
 
- 						    <div class = "grid-col-1of3">
-								<a class= "web-nav" href="Homepage.html">HOME</a>
-							</div>
-					        
-					        <div class = "grid-col-1of3">
-								<a class= "web-nav" href="previous.html">PREVIOUS</a>	
-				        	</div>
-				       
-				            <div class = "grid-col-1of3">							
-								<a class= "web-nav" href="event.html">UPCOMING</a>					            	
-				        	</div>
+		                <div class= "grid-col-2of3-mobile-nav">
+							<a href="#top" class="nav-mobile hidden">Logo</a>
+						</div>
+				    	
+						<!--navigation larger than 400-->     
+					<nav>
+						<div class="grid-row">
+	    						
+	    						<div class = "grid-col-1of3">
+									<a class= "logo shown" href="Homepage.html">LOGO</a>
+								</div>
 
-				        	<div class = "grid-col-1of3">
-								<a class= "web-nav" href="about.html">ABOUT</a>
-					    	</div>
+	 						    <div class = "grid-col-1of3">
+									<a class= "web-nav" href="Homepage.html">HOME</a>
+								</div>
+						        
+						        <div class = "grid-col-1of3">
+									<a class= "web-nav" href="previous.html">PREVIOUS</a>	
+					        	</div>
 
-					        <div class = "grid-col-1of3">
-								<a class= "web-nav" href="purchase.html">CART</a>		
-				            </div>
+					            <div class = "grid-col-1of3">						
+									<a class= "web-nav" href="event.html">UPCOMING</a>					            	
+					        	</div>
 
-					</div>
-				</nav>
+					        	<div class = "grid-col-1of3">
+									<a class= "web-nav" href="about.html">ABOUT</a>
+						    	</div>
 
-			</div>
-		</div>
+						        <div class = "grid-col-1of3">
+									<a class= "web-nav" href="purchase.html">CART</a>		
+					            </div>
 
-	
+						</div>
+					</nav>
 
-        <!--Chef image section-->
-      
-        <div class = "grid-row chef-position">
-        		
-	            <div class = "grid-col-1of4 chef-img">
-	         		
-	         			<figure>
-	         				<a href="Expanded.html">
-	         					<source 
-       							 media="(min-width: 832px)"
-        						 srcset="img/chef1_test.jpg 1x">
-        						 <source 
-        						 srcset="img/chef1_resize.jpg 1x">
-
-	         				    <img src="img/chef1_test.jpg" 
-	         				     srcset="img/chef1_test.jpg 1x, img/chef1_resize.jpg 1x" height="623" width="333.84"alt="Chef"/>
-
-	         				<figcaption>
-	         					<p class="chef-name">Alex</p>
-	         					<p class= "cuisine">Italian</p>
-	         				</figcaption>	
-	         				</a>
-	         			</figure> 
-	         		
 	            </div>
-
-	         	<div class = "grid-col-1of4 chef-img">
-	         		<a href="Expanded.html">
-	         			<figure>
-	         				<a href="Expanded.html">
-	         			<img src="img/chef3_cropped.jpg" height="623" width="333.84"/>
-							<figcaption>
-	         					<p class="chef-name">James</p>
-	         					<p class= "cuisine">German</p>
-	         				</figcaption>
-	         				</a>	
-	         			</figure>
-
-	         		</a>
-	            </div>
-
-	         	<div class = "grid-col-1of4 chef-img">
-	         		
-	         			<figure>
-	         				<a href="Expanded.html">
-	         					<img src="img/chef4_cropped1.jpg" height="623" width="333.84"/>
-				         			<figcaption>
-				         				<p class="chef-name">George</p>
-				         				<p class= "cuisine">American</p>
-				         			</figcaption>	
-							</a>
-		         		</figure>
-	         	 </div>
-
-	         	<div class = "grid-col-1of4 chef-img">
-	         		
-	         			<figure>
-	         				<a href="Expanded.html">
-	         			<img src="img/chef2_cropped.jpg" height="623" width="333.84"/>
-		         			<figcaption>
-		         					<p class="chef-name">Danny</p>
-		         					<p class= "cuisine">Australian</p>
-		         			</figcaption>
-		         			</a>
-		         		</figure>	
-	         		
-	            </div>
-	        
-        	</div>
-       			
-		</div>
-
-			<!--footer section-->
-			<footer>
 		
-					<div class="grid-row">
-   
-					        <div class = "grid-col-1of3"> 
-								<a class= "web-nav" href="homepage.html">Copyright</a>
- 							</div>
+			 <!--Title-->
+	        <div class = "upcoming-list">
+	            <div class = "grid-row">
+	                <div class = "grid-col-10of10">
+	                    <h1>CURRENT CHEFS</h1>
+	                </div>
+	            </div>
+	        </div>
 
- 						    <div class = "grid-col-1of3">
-								<a class= "web-nav" href="homepage.html">Contact us</a>
-							</div>
-					        
-					        <div class = "grid-col-1of3">
-								<a class= "web-nav" href="homepage.html">Security and Privacy</a>	
-				        	</div>
-				       
-				            <div class = "grid-col-1of3">							
-								<a class= "web-nav" href="homepage.html">Terms of use</a>					            	
-				        	</div>
 
-				        	<div class = "grid-col-1of3">
-								<a class= "web-nav" href="homepage.html">Site map</a>
-					    	</div>
+	        <!--Chef image section-->
+	      
+	        <div class = "grid-row chef-position">
+	        		
+		            <div class = "grid-col-1of4">
+		         		
+		         			<figure>
+		         				<a href="Expanded.html">
+		         					<source 
+	       							 media="(min-width: 832px)"
+	        						 srcset="img/chef1_test.jpg 1x">
+	        						 <source 
+	        						 srcset="img/chef1_resize.jpg 1x">
 
-					        <div class = "grid-col-1of3">
-								<a class= "web-nav" href="homepage.html">Career</a>		
-				            </div>
+		         				    <img  class = "chef-img" src="img/chef1_test.jpg" 
+		         				     srcset="img/chef1_test.jpg 1x, img/chef1_resize.jpg 1x" alt="Chef"/>
 
-					</div>
+		         				<figcaption>
+		         					<p class="chef-name">Alex</p>
+		         					<p class= "cuisine">Italian</p>
+		         				</figcaption>	
+		         				</a>
+		         			</figure> 
+		         		
+		            </div>
 
-			</footer>
+		         	<div class = "grid-col-1of4">
+		         		<a href="Expanded.html">
+		         			<figure>
+		         				<a href="Expanded.html">
+		         			<img class = "chef-img" src="img/chef_test.jpg" />
+								<figcaption>
+		         					<p class="chef-name">James</p>
+		         					<p class= "cuisine">German</p>
+		         				</figcaption>
+		         				</a>	
+		         			</figure>
 
-	</body>
-</html>
+		         		</a>
+		            </div>
 
+		         	<div class = "grid-col-1of4">
+		         		
+		         			<figure>
+		         				<a href="Expanded.html">
+		         					<img class = "chef-img" src="img/chef4_cropped1.jpg"/>
+					         			<figcaption>
+					         				<p class="chef-name">George</p>
+					         				<p class= "cuisine">American</p>
+					         			</figcaption>	
+								</a>
+			         		</figure>
+		         	 </div>
+
+		         	<div class = "grid-col-1of4">
+		         		
+		         			<figure>
+		         				<a href="Expanded.html">
+		         			<img class = "chef-img" src="img/chef2_test.jpg"/>
+			         			<figcaption>
+			         					<p class="chef-name">Danny</p>
+			         					<p class= "cuisine">Australian</p>
+			         			</figcaption>
+			         			</a>
+			         		</figure>	
+		         		
+		            </div>
+		        
+	        	</div>
+	       			
+			</div>
+	    </div>
+	        
+	        <div class="push"></div>
+
+				<!--footer section-->
+				<footer>
 			
+						<div class="grid-row">
+	   						<div class = "grid-col-10of10">
+						        <div class = "grid-col-1of3"> 
+									<a class= "web-nav" href="homepage.html">Copyright</a>
+	 							</div>
+
+	 						    <div class = "grid-col-1of3">
+									<a class= "web-nav" href="homepage.html">Contact us</a>
+								</div>
+						        
+						        <div class = "grid-col-1of3">
+									<a class= "web-nav" href="homepage.html">Security and Privacy</a>	
+					        	</div>
+					       
+					            <div class = "grid-col-1of3">							
+									<a class= "web-nav" href="homepage.html">Terms of use</a>					            	
+					        	</div>
+
+					        	<div class = "grid-col-1of3">
+									<a class= "web-nav" href="homepage.html">Site map</a>
+						    	</div>
+
+						        <div class = "grid-col-1of3">
+									<a class= "web-nav" href="homepage.html">Career</a>		
+					            </div>
+					        </div>
+						</div>
+
+				</footer>
+	    
+			<!--javascript for mobile menu-->
+		    <script src="js/jquery.js"></script>
+		    <script src="js/menu.js"></script>
+
+		</body>
+	</html>
+
+				

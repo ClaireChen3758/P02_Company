@@ -4,19 +4,38 @@ body {
     color: black;
     margin:0;
     background-color: white;
+    height: 100%;
+}
+
+html {
+height: 100%;
+}
+
+.header-wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+
+.footer, .push {
+height: -0.5em;
+clear: both;
 }
 
 a, a:link{
-    color:white;
     text-decoration: none;
-    /*font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
-    font-size: 1rem;*/
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;
+    /*-webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;*/
 }
 
 a:hover{
-    color:#696969;
-/*    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
-    font-size: 1rem;*/
 }
 
 ul{
@@ -42,9 +61,18 @@ p{
     width:100%;
 }
 
+p.purchase-info{
+    font-size: 0.8em;
+    margin-right:1.5rem;
+    margin-top:-1em;
+}
+
+p.purchase-info1{
+    margin-right:4rem;
+}
 h2{
-    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
     text-align:left;
+    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
 }
 
 h2.steps{
@@ -88,43 +116,75 @@ footer{
 /*Home page styling*/
 
 /*Styling naviation bar and footer section*/
-.logo{
-    font-weight:bold;
-    font-style:italic;
-}
+
 .web-nav{
-    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
+    /*display:block;*/
+    background-color: black;
+    padding: 1em 0;
+    margin-top:0em;
+    text-align:center;
+}
+
+.web-nav, .nav-toggle, .nav-mobile, .logo{
     display:block;
     background-color:black;
     padding: 1em 0;
     margin-top:0em;
     text-align:center;
-    color:#696969;
+
+    color:#DBDBDB;
+
     text-decoration: none;
     border-bottom: 0.2em solid black;
     width:100%;
     float: left;
+
+    color: rgba(255,255,255, 0.8);
+
 }
 
+.nav-toggle{
+    height:auto;
+}
+
+
+.logo:hover{
+    border-bottom: 0.2em solid black;
+    color:white;
+}
+
+
+.nav-toggle.hidden, .nav-mobile.hidden,.logo.hidden {
+    visibility: hidden;
+    position: absolute; 
+}
+
+.nav-toggle.shown, .nav-mobile.shown, .logo.shown {
+    visibility: visible;
+    position: relative;
+}
+
+
 a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover, figcaption:hover{
-    -o-transition: 0.4s;
+   /* -o-transition: 0.4s;
     -ms-transition: 0.4s;
     -moz-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    -webkit-transition: 0.4s;*/
 }
 
 .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
     border-bottom: 0.2em solid #ED5C0C;
-    color:white;
-}
 
-.logo:hover{
-    border-bottom:0.2em solid black;
+    color: rgba(255,255,255, 1);
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+
+    color:white;
+
+
 }
 
 /*Styling for chef lists on homepage*/
-
-/* might use later
 .chef-border,.chef-border2, .chef-border3{
     display:inline-block;
     background-color:white;
@@ -133,7 +193,10 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     margin-top:3em;
     transition: width 2s;
     -webkit-transition: width 2s; 
+
 }
+
+
 
 .chef-border2{
     background-color: grey;
@@ -149,16 +212,25 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     padding-left:1em;
     margin-bottom:0.5;
     border-left: 0.05em solid white;
+
 }
 
 
 .chef-border:hover{
     color:black;
 }
-*/
 
 .underline{
      border-bottom: 0.1em solid white;
+}
+/*
+.chef-border:hover{
+    position:absolute;
+    float:left;
+    color:black;
+    width:400%;
+    z-index:20;
+
 }
 
 /* mobile navigation for next week
@@ -204,17 +276,6 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     visibility:visible;
 }
 
-p.purchase-info{
-    font-size: 0.8em;
-    margin-right:1.5rem;
-    margin-top:-1em;
-}
-
-p.purchase-info1{
-    margin-right:4rem;
-}
-
-/*code problem: for hiding purchase process*/
 input[type = "submit"]:hover > .purchasse-item2{
     visibility:visible;
 }
@@ -228,7 +289,7 @@ input[type = "submit"]:hover > .purchasse-item2{
 /*make column the same high*/
 .placeholder{
     width:100%;
-    height:48.2%;
+    height:41.5%;
 }
 
 .placeholder2{
@@ -238,11 +299,16 @@ input[type = "submit"]:hover > .purchasse-item2{
 
 .placeholder3{
     width:100%;
-    height: 79.3%;
+    height: 72.85%;
 }
 
 .placeholder4{
     visibility:hidden;
+}
+
+.placeholder5{
+    width:100%;
+    height: 13.6%;
 }
 
 /*Styling fill in area: mostly at purchase webpage*/
@@ -266,17 +332,17 @@ input[type = "submit"]:hover > .purchasse-item2{
 .default-buttom,.book-bottom{
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     color: black;
-    background-color: white;
+    background: white;
     width:100%;
 }
 
 .submit-buttom{
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     padding: 1em 5em 1em 5em;
     background-color:white;
     margin-top:0.8em;
     color:#ED5C0C;
     width:100%;
+  
 }
 
 .submit-buttom, .book-buttom{
@@ -284,7 +350,7 @@ input[type = "submit"]:hover > .purchasse-item2{
     border:solid #ED5C0C;
 }
 
-.submit-buttom:focus, .submit-buttom:hover{
+.submit-buttom:focus~ .purchase-item2, .submit-buttom:hover{
    color:white;
    background-color:#ED5C0C;
    visibility:visible;
@@ -308,7 +374,7 @@ input[type = "submit"]:hover > .purchasse-item2{
     outline:0 !important;
 }
 
-/*check box style*/
+
 .checkbox input {
     height:1.5em;
     position: relative;
@@ -352,6 +418,16 @@ input[type = "submit"]:hover > .purchasse-item2{
     opacity:1;
 }
 
+/*image sectino*/
+.event-box{
+    margin-top: 0.3em;
+    background-color: #696969;
+    color: white;
+    padding: 0.5em 3em 8em 3em;
+    border-left: 0.05em solid white; 
+    width:100%;
+}
+
 /*About page*/
 .about p{
     line-height: 1.5em;
@@ -359,6 +435,11 @@ input[type = "submit"]:hover > .purchasse-item2{
     padding-bottom:3em;
     display:inline-block;
     float: left;
+}
+
+.aboutHeader {
+  text-align: center;
+    width: 100%;
 }
 
 .leftOf3 {
@@ -425,21 +506,29 @@ li.allergies {
     float:left;
 }
 
-/* text overlay image for homepage and expanded page*/
+.floatLeftColumn2 {
+    float:left;
+    margin-left: 1rem;
+}
+
+.marginTop {
+    margin-top: 2.5rem;
+}
+
 figure {
     position: relative;
-    max-width: 100%;
+    max-width: 120%;
 }
 
 figcaption {
     font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
     position:absolute;
-    bottom: 2.5em;
-    left: 0em;
     z-index: 10;
-    color: #ED5C0C;
-    opacity:0;
-    padding:4em;
+    color: white;
+    opacity:1;
+    padding:5em;
+    margin-top: 14em;
+    margin-left: -2em;
 }
 
 figcaption:hover{
@@ -450,7 +539,7 @@ figcaption:hover{
    font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
    font-size:1.3em;
    margin-top:-2em;
-   color: #ED5C0C;
+   color:white;
    font-weight:bold;
 }
 
@@ -458,7 +547,7 @@ figcaption:hover{
     margin-top:1em;
     border:1em;
     font-size:3em;
-    border-bottom: 0.1em solid  #ED5C0C;
+    border-bottom: 0.1em solid white;
     font-weight:bold;
 }
 
@@ -467,6 +556,8 @@ figcaption:hover{
     float:right;
     opacity:0.9;
     width:100%;
+    height:auto;
+    margin-top:-1em;
 
 }
 
@@ -489,15 +580,19 @@ figcaption.expanded-info{
 }
 
 figcaption.information{
-    position: absolute;
+    position: absolute; 
     bottom: 0em;
     left: -2em;
-   
+    opacity:0;
 }
 
+figcaption.information:hover, img.information:hover{
+    opacity:1;
+
+}
 li.information{
     margin-left: -3em;
-    margin-top: 0.5em;
+    margin-top: 1em;
     color: white;
 
 }
@@ -505,7 +600,10 @@ li.information{
 img.information{
     max-width:100%;
     height:auto;
+    margin-top:-1em;
+    bottom:0em;
 }
+
 
 img.heart{
     margin-top: 0.5em;
@@ -513,3 +611,13 @@ img.heart{
     opacity:0.7;
 }
 
+/*Previous Page*/
+.details {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+}
+
+.address {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}

@@ -21,6 +21,14 @@
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
 */
+.grid-col-1of3-mobile-nav{
+	width:33.33%;
+}
+
+.grid-col-2of3-mobile-nav{
+	width:66.66%;
+}
+
 .grid-col-2of10 {
 	width: 100%;
 }
@@ -43,11 +51,13 @@
 
 .grid-col-1of4{
 	width:100%;
+	 
 }
 
 .grid-col-4of10{
 	width:100%;
 }
+
 
 .grid-col-10of10{
 	width:100%;
@@ -60,9 +70,7 @@
 	width:100%;
 }
 
-.grid-col-7of10-purchase{
-	width:100%;
-}
+
 
 @media(min-width:47em){
 	.grid-col-4of10{
@@ -82,6 +90,7 @@
      
     .grid-col-1of4{
     width:25%;
+
     }
 
 	.grid-col-3of4{
@@ -103,6 +112,10 @@
 	width:66.66%;
 	}
 
+    .grid-col-3of10-process2{
+    	width:33.33%;
+    }
+
 	.grid-col-7of10-purchase{
 	width:66.66%;
 	margin-left:-4rem;
@@ -116,8 +129,10 @@
 @media(min-width: 36em){
 	.grid-col-2of10{
 	width: 20%;
-
 	}
+
+	
+
 }
 
 /*Previous Listing Grid*/
@@ -188,6 +203,12 @@ ul.cheflist.columns-4 li {
 	}
 }
 
+@media(max-width:47.25em){
+	figcaption.information{
+		font-size:65%;
+	}
+}
+
 @media(max-width: 52em){
 		ul.grid-nav li {
 		display: block;
@@ -205,6 +226,9 @@ ul.cheflist.columns-4 li {
         padding-right: -15rem;
 	}
 }
+
+
+
 
 /*detail*/
 
@@ -227,3 +251,136 @@ ul.cheflist.columns-4 li {
 	}
 }
 
+/*responsive text*/
+
+
+@media(max-width:28em){
+	figcaption.information{
+		font-size:50%;
+	}
+
+	figcaption.expanded-info{
+		font-size:50%;
+	}
+}
+
+@media(max-width: 52em){
+    figcaption.information{
+		font-size:100%;
+	}
+
+    .book-buttom{
+    	width:100%;
+    }
+	figcaption.expanded-info{
+		font-size:100%;
+	}
+
+}
+
+@media(max-width:70em){
+	figcaption.information{
+		font-size:75%;
+	}
+
+	figcaption.expanded-info{
+		font-size:75%;
+	}
+
+	 .book-buttom{
+    	width:55%;
+    }
+
+}
+
+
+
+/*grid for purchase process*/
+
+.grid-col-4of10-process2{
+    width:33.33%;
+}
+
+.grid-col-7of10-purchase{
+	width:66.66%;
+}
+
+@media(min-width: 36em){
+
+ 	.grid-col-3of10-process2{
+    	width:33.33%;
+    }
+    
+	.grid-col-7of10-purchase{
+	width:66.66%;
+	margin-left:-3rem;
+	}
+
+}
+
+@media(max-width: 37em){
+
+	.grid-col-4of10-process1{
+    	width:100%;
+    	
+    }
+
+
+	.grid-col-3of10-process2{
+    	width:33.33%;
+    }
+    
+	.grid-col-7of10-purchase{
+	width:66.66%;
+	margin-left:-3rem;
+	}
+
+}
+@media(max-width: 46em){
+
+ 	.grid-col-4of10-process1{
+    	width:100%;
+    	margin-left: -2em;
+    	margin-top: 1em;
+    }
+
+    .grid-col-3of10-process2{
+    	width:33.33%;
+    }
+    
+	.grid-col-7of10-purchase{
+	width:66.66%;
+	margin-left:-3rem;
+	}
+
+}
+
+@media(min-width: 52em){
+	
+	.grid-col-4of10-process1{
+    	width:45%;
+    	margin-left:-3em;
+    }
+
+}
+
+@media(max-width:62.37em){
+
+	 .grid-col-3of10-process2{
+    	width:33.33%;
+    
+    }
+    
+	.grid-col-7of10-purchase{
+	width:66.66%;
+	margin-left:-2rem;
+	}
+
+	}
+
+@media(min-width:70em){
+	 .grid-col-4of10-process1{
+    	width:45%;
+    	margin-left:-1em;
+    }
+}
