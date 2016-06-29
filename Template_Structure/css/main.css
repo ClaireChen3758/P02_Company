@@ -341,7 +341,7 @@ input[type = "submit"]:hover > .purchasse-item2{
 
 /*Styling fill in area: mostly at purchase webpage*/
 
-.textfield, .textfield-diner-name {
+.textfield, .textfield-diner-name, .textfield-card-details {
     display:inline-block;
     padding:1rem;
     width:100%;
@@ -349,9 +349,9 @@ input[type = "submit"]:hover > .purchasse-item2{
 }
 
 /*purchase process3: personal information*/
-.textfield-diner-name{
+.textfield-diner-name, .textfield-card-details{
     width: 80%;
-    margin-left: -3.2rem;
+    margin-left: -3rem;
     margin-right:0.5rem;
 }
 

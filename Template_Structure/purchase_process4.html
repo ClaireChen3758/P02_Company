@@ -2,7 +2,7 @@
 
 		<head>
 
-			<title>PaymentInformation</title>
+			<title>Receipt</title>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -59,7 +59,7 @@
 			<div class="grid-row"> <!-- Start a grid-row -->
             	  
                 <div class="grid-col-10of10">
-                	<h1 class="steps">Payment Details</h1>
+                	<h1 class="steps">Thank you for your order!</h1>
                 </div>
 
 					<!--Second column of grid: Purchase section 2 -->
@@ -76,30 +76,33 @@
 
 
 	      						<div class="grid-col-2of3">
-	      							<p>Name on card</p>
-	              					<input type="text" class="textfield" placeholder="Kate Chan" id="input-location">
+	      							<p>Diner name</p>
+
+	      						</div>
+
+	      						<div class="grid-col-10of10">
+	      							<div class = "grid-col-5of10-diner ">
+	              					<input type="text" class="textfield-diner-name" placeholder="First name" id="input-location">
+	              				</div>
+	            				
+	            					<div class = "grid-col-5of10-diner ">
+	              					<input type="text" class="textfield-diner-name" placeholder="Last name" id="input-location">
+	              					</div>
+	            				</div>
+	            			</div>
+
+	            			<div class="grid-col-2of3">
+	            					<p>Phone<p>
+	              					<input type="text" class="textfield" placeholder="" id="input-location">
 	            				</div>
 
 	            				<div class="grid-col-2of3">
-	            					<p>Card number<p>
-	              					<input type="text" class="textfield" placeholder="xxxx-xxxx-xxxx-xxxx" id="input-location">
+	            					<p>Email<p>
+	              					<input type="text" class="textfield" placeholder="For booking confirmation" id="input-location">
 	            				</div>
-
-	            				<div class = "grid-col-10of10">
-	            				<div class="grid-col-5of10-card-information">
-	      							<p>Expired date</p>
-	              					<input type="text" class="textfield-card-details" placeholder="MM/YY" id="input-location">
-	            				</div>
-
-	            				<div class="grid-col-5of10-card-information">
-	            					<p>Security code<p>
-	              					<input type="text" class="textfield-card-details" placeholder="xxx" id="input-location">
-	            				</div>
-
-	            			</div>
 
 	            				<div class ="grid-col-2of3"> 
-	            				    <input type="submit" class="submit-buttom" onClick="location.href='purchase_process4.html'"value="CONFIRM YOUR PAYMENT">
+	            				    <input type="submit" class="submit-buttom" onClick="location.href='purchase_process3.html'"value="CONFIRM">
 	            				</div>
 
 
