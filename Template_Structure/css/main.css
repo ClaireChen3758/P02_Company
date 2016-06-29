@@ -159,6 +159,15 @@ footer{
     position: absolute; 
 }
 
+.purchase-item2.hidden, .purchase-item3.hidden{
+    visibility:hidden;
+}
+
+.purchase-item2.shown, .purchase-item3.shown{
+    visibility:visible;
+}
+
+
 .nav-toggle.shown, .nav-mobile.shown, .logo.shown {
     visibility: visible;
     position: relative;
@@ -270,10 +279,17 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
 .purchase-item2{
     padding-bottom:1.93rem;
     visibility:visible;
+    opacity:1;
 }
+
+.purchase-item2:hover, .purchase-item3:hover{
+    opacity:1;
+}
+
 .purchase-item3{
     padding-bottom:1.9rem;
     visibility:visible;
+    opacity:1;
 }
 
 input[type = "submit"]:hover > .purchasse-item2{
@@ -336,7 +352,7 @@ input[type = "submit"]:hover > .purchasse-item2{
     width:100%;
 }
 
-.submit-buttom{
+.submit-buttom,.submit-buttom2, .submit-buttom1, .cancel-buttom, .cancel-buttom2,.cancel-buttom3{
     padding: 1em 5em 1em 5em;
     background-color:white;
     margin-top:0.8em;
@@ -345,12 +361,12 @@ input[type = "submit"]:hover > .purchasse-item2{
   
 }
 
-.submit-buttom, .book-buttom{
+.submit-buttom, .submit-buttom2, .submit-buttom1, .book-buttom, .cancel-buttom, .cancel-buttom2,.cancel-buttom3{
     font-weight: bold;
     border:solid #ED5C0C;
 }
 
-.submit-buttom:focus~ .purchase-item2, .submit-buttom:hover{
+.submit-buttom:hover,.submit-buttom2:hover, .submit-buttom1:hover, .cancel-buttom:hover, .cancel-buttom2:hover,.cancel-buttom3:hover {
    color:white;
    background-color:#ED5C0C;
    visibility:visible;
@@ -370,7 +386,7 @@ input[type = "submit"]:hover > .purchasse-item2{
 }
 
 /*remove blue border once being clicked*/
-.default-buttom:hover, .submit-buttom:hover, .default-buttom:focus, .submit-buttom:focus, .book-buttom:focus{
+.default-buttom:hover, .submit-buttom:hover, .submit-buttom1:hover, .submit-buttom2:hover,.default-buttom:focus, .submit-buttom:focus, .book-buttom:focus, .cancel-buttom:hover, .cancel-buttom2:hover,.cancel-buttom3:hover{
     outline:0 !important;
 }
 
