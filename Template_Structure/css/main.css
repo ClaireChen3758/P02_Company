@@ -125,6 +125,11 @@ footer{
     text-align:center;
 }
 
+.logo {
+    margin-top: 0.5em;
+    padding: 0em !important;
+}
+
 .web-nav, .nav-toggle, .nav-mobile, .logo{
     display:block;
     background-color:black;
@@ -445,10 +450,14 @@ input[type = "submit"]:hover > .purchasse-item2{
 }
 
 /*About page*/
+.about h2{
+    padding: 2% 13% 0%;
+}
+
 .about p{
     line-height: 1.5em;
     color: #999;
-    padding-bottom:3em;
+    padding: 0% 13% 2%;
     display:inline-block;
     float: left;
 }
