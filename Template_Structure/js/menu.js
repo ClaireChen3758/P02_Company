@@ -11,13 +11,11 @@ $(document).ready( function() {
         $(".logo").removeClass("shown");
 		$(".logo").addClass("hidden"); 
         
-<<<<<<< HEAD
-		$("nav").hide();		// Setting nav to hide using jQuery/Zepto's method
-=======
+
 		$("nav").hide();	
 
 		console.log("hidden");	// Setting nav to hide using jQuery/Zepto's method
->>>>>>> e60d575... update function for click buttom
+
 	}else {
 
 		$(".nav-toggle").removeClass("shown");
@@ -26,15 +24,11 @@ $(document).ready( function() {
 		$(".nav-mobile").addClass("hidden"); 
         $(".logo").removeClass("hidden");
 		$(".logo").addClass("shown"); 
-<<<<<<< HEAD
-        
-		$("nav").show();		// Setting nav to show using jQuery/Zepto's method
-=======
+
 		
 		$("nav").show();
 
-			// Setting nav to show using jQuery/Zepto's method
->>>>>>> e60d575... update function for click buttom
+
 	}
 
 	/*
