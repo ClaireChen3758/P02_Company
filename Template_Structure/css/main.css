@@ -548,7 +548,11 @@ li.allergies {
 
 figure {
     position: relative;
-    max-width: 120%;
+    max-width: 100%;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+    margin-top:0;
 }
 
 figcaption {
@@ -588,8 +592,6 @@ figcaption:hover{
     opacity:0.9;
     width:100%;
     height:auto;
-    margin-top:-1em;
-
 }
 
 .chef-img:hover{
