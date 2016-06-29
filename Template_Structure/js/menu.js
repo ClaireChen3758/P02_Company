@@ -1,9 +1,5 @@
 $(document).ready( function() {
 	
-
-	
-	
-
 	var width = $(window).width();
 
 
@@ -18,15 +14,15 @@ $(document).ready( function() {
 		$("nav").hide();	
 
 		console.log("hidden");	// Setting nav to hide using jQuery/Zepto's method
-	}else if(width >400) {
+	}else {
 
-		$(".nav-toggle").removeClass("shown"); //not working
-		$(".nav-toggle").addClass("hidden"); // Adding a class to show our toggle
+		$(".nav-toggle").removeClass("shown");
+		$(".nav-toggle").addClass("hidden"); 
 		$(".nav-mobile").removeClass("shown");
 		$(".nav-mobile").addClass("hidden"); 
         $(".logo").removeClass("hidden");
 		$(".logo").addClass("shown"); 
-        console.log("shown");	
+		
 		$("nav").show();
 
 			// Setting nav to show using jQuery/Zepto's method
