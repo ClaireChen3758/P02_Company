@@ -461,7 +461,11 @@ input[type = "submit"]:hover > .purchasse-item2{
     opacity:1;
 }
 
-/*image sectino*/
+/*Image section*/
+.upcoming-transparent{
+    opacity: 0.6;
+}
+
 .event-box{
     margin-top: 0.3em;
     background-color: #696969;
@@ -469,6 +473,42 @@ input[type = "submit"]:hover > .purchasse-item2{
     padding: 0.5em 3em 8em 3em;
     border-left: 0.05em solid white; 
     width:100%;
+}
+
+
+/*Tool Tip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 /*About page*/
@@ -620,15 +660,16 @@ figcaption:hover{
 
 .chef-img{
     float:right;
-    opacity:0.9;
     width:100%;
     height:auto;
+    background-color: #000000;
+    opacity: 0.8;
 }
 
 .chef-img:hover{
-    opacity:1;
-   
+    opacity: 1;
 }
+
 
 li.chef-name2{
     font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
@@ -654,6 +695,8 @@ figcaption.information:hover, img.information:hover{
     opacity:1;
 
 }
+
+
 li.information{
     margin-left: -3em;
     margin-top: 1em;
@@ -664,8 +707,10 @@ li.information{
 img.information{
     max-width:100%;
     height:auto;
-    margin-top:-1em;
-    bottom:0em;
+    margin-top:0em;
+    margin-bottom:0em;
+    background-color: black !important;
+    z-index: 1000 !important;
 }
 
 
@@ -673,6 +718,7 @@ img.heart{
     margin-top: 0.5em;
     margin-left: -5rem;
     opacity:0.7;
+    
 }
 
 /*Previous Page*/
