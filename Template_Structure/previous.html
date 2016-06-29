@@ -82,7 +82,15 @@
         <ul class="cheflist columns-3">
             <li>
                 <a href="details.html">
-                <img src="img/chef1_prev.jpg" height="350" width="219"/>
+                <source 
+	       							 media="(min-width: 832px)"
+	        						 srcset="img/chef1_prev.jpg 1x">
+	        						 <source 
+	        						 srcset="img/chef1_resize.jpg 1x">
+
+		         				    <img  class = "chef-img" src="img/chef.jpg" 
+		         				     srcset="img/chef1_prev.jpg 1x, img/chef1_detail.jpg 1x" alt="Chef"/>
+
                 </a>
                 <h3>Pierre</h3>
                 <p>Top French Cuisne chef in the world.</p>

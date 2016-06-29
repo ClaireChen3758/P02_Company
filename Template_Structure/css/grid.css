@@ -185,7 +185,7 @@ ul.cheflist {
 	list-style: none;
 	font-size: 0px;
 	margin-left: 17.5%; 
-    margin-right: 3%;  
+    margin-right: 0%;  
     padding-bottom: 2rem;
 }
 ul.cheflist li {
@@ -230,49 +230,59 @@ ul.cheflist.columns-4 li {
 	width: 22.5%; /* this value + 2.5 should = 25% */
 }
  
-@media (max-width: 480px) {
+
+@media(max-width: 70em){
+    ul.grid-nav li {
+		display: block;
+		margin: 4rem;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.cheflist {
+		margin-left:5%;
+	}
+	ul.cheflist li {
+		width: 28% !important; /* over-ride all li styles */
+		margin: 1rem 3rem 1rem -1rem;
+	}
+}
+
+
+@media (max-width: 42.125em) {
+    ul.grid-nav li {
+		display: block;
+		margin: 4rem;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.cheflist {
+		margin:5% 0% 5% 7%;
+	}
+	ul.cheflist li {
+		width: 42% !important; /* over-ride all li styles */
+		margin: 1rem 3rem 1rem -1rem;
+	}
+}
+
+@media (max-width: 29.5em) {
 	ul.grid-nav li {
 		display: block;
-		margin: 5rem 5rem 5rem;
+		margin: 4rem;
 	}
 	ul.grid-nav li a {
 		display: block;
 	}
 	ul.cheflist {
-		margin-left: 0;
+		margin:5% 0% 5% 7%;
 	}
 	ul.cheflist li {
-		width: 100% !important; /* over-ride all li styles */
-		margin: 1rem 0rem 1rem -1rem;
-        padding-right: -15rem;
+		width: 88% !important; /* over-ride all li styles */
+		margin: 1rem 3rem 1rem -1rem;
 	}
+    
 }
-
-@media(max-width:47.25em){
-	figcaption.information{
-		font-size:65%;
-	}
-}
-
-@media(max-width: 52em){
-		ul.grid-nav li {
-		display: block;
-		margin: 5rem 5rem 5rem;
-	}
-	ul.grid-nav li a {
-		display: block;
-	}
-	ul.cheflist {
-		margin-left: 0;
-	}
-	ul.cheflist li {
-		width: 100% !important; /* over-ride all li styles */
-		margin: 1rem 0rem 1rem -1rem;
-        padding-right: -15rem;
-	}
-}
-
-
 
 
 /*detail*/
