@@ -408,6 +408,8 @@ a.cite {
 
 .textfield-label {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    margin-bottom: -0.3rem;
+}
 }
 
 .textfield {
