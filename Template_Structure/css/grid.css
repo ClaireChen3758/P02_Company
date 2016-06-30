@@ -141,6 +141,8 @@
 
 @media(min-width:47em){
 
+
+
 	.customize-meal{
 		width:30%;
 	}
@@ -578,6 +580,7 @@ ul.cheflist.columns-4 li {
 
 .grid-col-4of10-column{
 	width:100%;
+	margin-top:1em;
 }
 
 .grid-col-4of10-addcart{
@@ -930,15 +933,51 @@ ul.cheflist.columns-4 li {
 	}
 }
 
-@media(min-width:64em){
+
+
+.cancel-buttom4{
+    	margin-left:0rem;
+    	width:100%;
+    }
+
+
+@media(min-width:34em){
 
 .grid-col-5of10-diner{
 	width:50%;
 	
 	}
 
+.cancel-buttom4{
+	width:40%;
 
 }
 
 
+}
+
+
+@media(min-width:46.87em){
+
+    .cancel-buttom4{
+    margin-left: 4rem;
+    width: 140%;
+    }
+}
+
+@media(min-width:64em){
+
+    .cancel-buttom4{
+    margin-left: 6rem;
+    width: 140%;
+    }
+}
+
+@media(min-width:75em){
+
+    .cancel-buttom4{
+    margin-left: 8rem;
+    width: 140%;
+    }
+}
 

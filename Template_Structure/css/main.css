@@ -348,11 +348,13 @@ input[type = "submit"]:hover > .purchasse-item2{
     padding:1rem;
     width:100%;
     height:5%;
+    margin-top:1rem;
 
 
 }
 .textfield-diner-name{
     margin-top:0.5em;
+
 }
 /*purchase process3: personal information*/
 
@@ -373,7 +375,7 @@ input[type = "submit"]:hover > .purchasse-item2{
     width:100%;
 }
 
-.submit-buttom,.submit-buttom2, .submit-buttom1, .cancel-buttom, .cancel-buttom2,.cancel-buttom3{
+.submit-buttom,.submit-buttom2, .submit-buttom1, .cancel-buttom, .cancel-buttom2,.cancel-buttom3, .cancel-buttom4{
     background-color: white;
     margin-top: 0.8em;
     color: #ED5C0C;
@@ -386,18 +388,19 @@ input[type = "submit"]:hover > .purchasse-item2{
 }
 
 
-.submit-buttom, .submit-buttom2, .submit-buttom1, .book-buttom, .cancel-buttom, .cancel-buttom2,.cancel-buttom3{
+.submit-buttom, .submit-buttom2, .submit-buttom1, .book-buttom, .cancel-buttom, .cancel-buttom2,.cancel-buttom3, .cancel-buttom4{
     font-weight: bold;
     border:0.2em solid #ED5C0C;
     opacity:0.6;
 }
 
-.submit-buttom:hover,.submit-buttom2:hover, .submit-buttom1:hover, .cancel-buttom:hover, .cancel-buttom2:hover,.cancel-buttom3:hover {
+.submit-buttom:hover,.submit-buttom2:hover, .submit-buttom1:hover, .cancel-buttom:hover, .cancel-buttom2:hover,.cancel-buttom3:hover, .cancel-buttom4:hover {
    color:white;
    background-color:#ED5C0C;
    visibility:visible;
    opacity:1;
 }
+
 
 .book-buttom{
     margin-top:1em;
@@ -767,4 +770,10 @@ img.heart{
  
 }
 
+
+.thanks-message{
+    font-size: 1em;
+    color: grey;
+    text-align: center;
+}
 
