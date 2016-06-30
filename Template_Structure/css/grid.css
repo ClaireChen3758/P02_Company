@@ -364,10 +364,10 @@ ul.cheflist.columns-4 li {
         display: block;
     }
     ul.cheflist {
-        margin:5% 0% 5% 7%;
+        margin:5% 0% 5% 13%;
     }
     ul.cheflist li {
-        width: 88% !important; /* over-ride all li styles */
+        width: 78% !important; /* over-ride all li styles */
         margin: 1rem 3rem 1rem -1rem;
     }
 }
@@ -377,20 +377,35 @@ ul.cheflist.columns-4 li {
 
 @media(max-width: 52em){
     .aboutList{
-        margin: 0rem 2rem 1rem -2rem;
+        margin: 0rem 2rem 0rem -2rem;
     }
-}
-
-@media(max-width: 52em){
+    
     .default-buttom floatLeft {
         margin: 0rem 0rem 5rem 0rem;
         padding-bottom: 5rem;
     }
-}
 
-@media(max-width: 52em){
     .about {
         padding: 1rem;
+    }
+        
+    .description {
+        padding-right: 6rem;
+       
+            
+        }
+    
+    .allergies {
+        padding: 0 5rem 0 2rem;
+        margin-bottom: -1rem;
+    }
+    
+    .default-buttom {
+        margin-right:-5rem;
+    }
+    
+    .infoBook {
+        padding-left: 5.5rem;
     }
 }
 

@@ -112,7 +112,8 @@ footer{
 }
 
 .logo {
-    margin-top: 0.5em;
+    margin-top: 0em;
+    margin-bottom:-2rem;
     padding: 0em !important;
 }
 
@@ -411,14 +412,25 @@ footer{
     
 
 /*About page*/
-.about h2{
-    padding: 2% 13% 0%;
+h2.about{
+    margin: 10% 0% 0% 0%;
+    padding: 6% 20% 2%;
+    opacity: 1;
+    color: black;
 }
 
-.about p{
+p.about {
+    margin: 0% 0% 35% 0%;
+    padding: 0% 20% 0;
+    opacity: 1;
+    color: #696969;
+}
+
+.about{
     line-height: 1.5em;
-    color: #999;
-    padding: 0% 13% 2.8%;
+
+    background: white;
+    opacity: 0.7;
     display:inline-block;
     float: left;
 }
@@ -431,7 +443,7 @@ footer{
 .fluid-ratio-resize { 
     max-width: 1920px; 
     height: 903px; /* actual img height - IE7 */
-    background-image: url(../img/AboutFull.jpg);
+    background-image: url(../img/AboutFull1920.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -498,8 +510,8 @@ li.foodType1 {
     margin: 3.7rem 0rem 0.3rem 2rem;
 }
 
-li.allergies {
-    margin: 3.7rem 0rem 0.3rem 0rem;
+.allergies {
+    margin: 3.1em 1rem 2rem 2rem;
 }
 
 .infoBook{
