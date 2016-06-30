@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="css/grid.css">
       <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   </head>
 
   <body>
@@ -30,16 +31,16 @@
       <!-- Default Button styling section -->
       <section>
 
-        <h3>Navigation Button</h3>
+        <h2>Navigation Button</h2>
 
         <h4>CSS selector:</h4>
-        <p>.button-nav</p>
+        <p>.book-button</p>
 
         <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="book-button"&gt;Learn More&lt;/a&gt;</code>
 
         <h4>Rendered element:</h4>
-        <a class="button-nav" href="#">Default Button</a>
+        <a class="book-button" href="#">Learn More</a>
 
       </section>
 
@@ -54,20 +55,31 @@
             <h4>Rendered element:</h4>
             <a href="">This is a link.</a>
       </section>
-
+        
       <section>
         <h2>Submit/Reset Buttons</h2>
             <h4>CSS selector:</h4>
-            <p>.button.submit<br/>
-              .button.reset</p>
+            <p>.submit-button<br/>
+              .cancel-button</p>
 
             <h4>Sample code:</h4>
-            <code>&lt;input type="submit" class="button submit" value="Submit form"&gt;<br/>
-            &lt;input type="submit" class="button reset" value="Clear all"&gt;</code>
+            <code>&lt;input type="submit" class="submit-button" value="Submit form"&gt;<br/>
+            &lt;input type="submit" class="cancel-button" value="Clear all"&gt;</code>
 
             <h4>Rendered element:</h4>
-            <input type="submit" class="button submit" value="Add to Cart">
-            <input type="reset" class="button reset" value="Clear all">
+            <input type="submit" class="submit-button" value="Checkout">
+            <input type="reset" class="cancel-button" value="Cancel">
+          
+            <h4>CSS selector:</h4>
+            <p>.default-button<br/>
+            </p>
+
+            <h4>Sample code:</h4>
+            <code>&lt;input type="submit" class="default-button" onClick="location.href='purchase_process1_ordersummary2.html'" value="Add to Cart"&gt;
+            </code>
+
+            <h4>Rendered element:</h4>
+            <input type="submit" class="default-button" onClick="location.href='purchase_process1_ordersummary2.html'" value="Add to Cart">
       </section>
 
       <section>
@@ -139,8 +151,7 @@
                                 #FFFFFF&lt;/div&gt;</code>
                         <code>&lt;div class="blocks cOrange"&gt;Orange
                                 #ED5C0C&lt;/div&gt;</code>
-                        <code>&lt;div class="blocks cCreamsicle"&gt;Creamsicle
-                                #E5CEB1&lt;/div&gt;</code>
+                        <code>&lt;div class="blocks cLightgray"&gt;Light Gray #DBDBDB&lt;/div&gt;</code>
                         <code>&lt;div class="blocks cGray"&gt;Gray
                                 #696969&lt;/div&gt;</code>
             
@@ -158,9 +169,9 @@
                             Orange
                             #ED5C0C
                         </div>
-                        <div class="blocks cCreamsicle">
-                            Creamsicle
-                            #E5CEB1
+                        <div class="blocks cLightgray">
+                            Light Gray
+                            #DBDBDB
                         </div>
                         <div class="blocks cGray">
                             Gray
@@ -190,27 +201,6 @@
                 </ul>
       </section>
 
-      <section>
-        <h2>Numbered Lists</h2>
-          <h4>CSS selector:</h4>  
-            <p>ol</p>
-
-            <h4>Sample code:</h4>
-                <code>&lt;ol&gt;<br/>
-                    <span class="tab">&lt;li&gt;&lt;span class="listitem"&gt;This is a list item.&lt;span&gt;&lt;/li&gt;</span><br/>
-                    <span class="tab">&lt;li&gt;&lt;span class="listitem"&gt;This is a list item.&lt;span&gt;&lt;/li&gt;</span><br/>
-                    <span class="tab">&lt;li&gt;&lt;span class="listitem"&gt;This is a list item.&lt;span&gt;&lt;/li&gt;</span><br/>
-                    &lt;/ol&gt;
-                </code>
-          
-            <h4>Rendered element:</h4>
-            <ol>
-              <li><span class="listitem">This is a list item.</span></li>
-              <li><span class="listitem">This is a list item.</span></li>
-              <li><span class="listitem">This is a list item.</span></li>
-            </ol>
-      </section>
-
     </section>
     <!-- // TEXT ELEMENTS SECTION -->
 
@@ -226,17 +216,17 @@
 
                     <h4>Sample code:</h4>
                         <code>&lt;nav&gt;<br/>
-                            <span class="tab">&lt;a class="button navlink" href=""&gt;Home&lt;/a&gt;</span><br/>
-                            <span class="tab">&lt;a class="button navlink" href=""&gt;Previous&lt;/a&gt;</span><br/>
-                            <span class="tab">&lt;a class="button navlink" href=""&gt;Upcoming&lt;/a&gt;</span><br/>
-                            <span class="tab">&lt;a class="button navlink" href=""&gt;About&lt;/a&gt;</span><br/>
-                            <span class="tab">&lt;a class="button navlink" href=""&gt;Checkout&lt;/a&gt;</span><br/>
+                            <span class="tab">&lt;a class="web-nav" href=""&gt;Home&lt;/a&gt;</span><br/>
+                            <span class="tab">&lt;a class="web-nav" href=""&gt;Previous&lt;/a&gt;</span><br/>
+                            <span class="tab">&lt;a class="web-nav" href=""&gt;Upcoming&lt;/a&gt;</span><br/>
+                            <span class="tab">&lt;a class="web-nav" href=""&gt;About&lt;/a&gt;</span><br/>
+                            <span class="tab">&lt;a class="web-nav" href=""&gt;Cart&lt;/a&gt;</span><br/>
                             &lt;/nav&gt;</code>
 
                 <h4>Rendered element:</h4>
                     <nav class="menu">
-                        <a class="menu" href="">Home</a><a class="menu" href="">Previous</a><a class="menu" href="">Upcoming</a><a class="menu" href="">About</a><a class="menu"
-                        href="">Checkout</a>
+                        <a class="web-nav" href="">Home</a><a class="web-nav" href="">Previous</a><a class="web-nav" href="">Upcoming</a><a class="web-nav" href="">About</a><a class="web-nav"
+                        href="">Cart</a>
                     </nav>
             </section>
 
