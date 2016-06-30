@@ -106,43 +106,7 @@
     .grid-col-5of10-card-information{		
        width:100%;
     }
-
 }
-
-
-@media(min-width:20em){
-       .grid-col-4of10-addcart{
-        width:80%;
-        
-    }
-
-    div.grid-col-4of10-addcart.save-chef{
-        margin-left:2em;
-        margin-bottom:1em;
-    }
-
-    .customer_name{
-        margin-left:1.5em;
-    }
-
-   .location-selected{
-         margin-left: 3rem;
-
-    }
-}
-
-@media(min-width:25em){
-       .grid-col-4of10-addcart{
-        width:70%;
-        
-    }
-
-    div.grid-col-4of10-addcart.save-chef{
-        margin-left:2em;
-        margin-bottom:1em;
-    }
-}
-
 
 @media(min-width:28.81em){
     .grid-col-5of10-card-information{
@@ -162,8 +126,6 @@
         margin-right: 0.4em;
         width: 49%;
     }
-
-
 }
 
 
@@ -274,26 +236,6 @@
 
 }
 
-@media(min-width:47em){
-    .grid-col-1of4-chef-image{
-        width:100%; 
-    }
-
-     .grid-col-5of10-event-image{
-        width:100%; 
-    }
-
-
-@media(min-width:50em){
-    .grid-col-1of4-chef-image{
-        width:25%; 
-    }
-
-
-     .grid-col-5of10-event-image{
-        width:50%; 
-    }
-}
 
 @media(min-width:50em){
     .grid-col-10of10-purchase-buttom {
@@ -313,96 +255,159 @@
 
 /*Previous Listing Grid*/
 ul.cheflist {
-		list-style: none;
-		font-size: 0px;
-		margin-left: 17.5%; 
-	    margin-right: 3%;  
-	    padding-bottom: 2rem;
-	}
-	ul.cheflist li {
-		display: inline-block;
-		padding: 10px;
-		margin: 3.5% 2.7% 1% 3.5%;
-	    padding-bottom: 0.2rem;
-		background: #fff;
-		border: 1px solid #ddd;
-		font-size: 16px;
-		font-size: 1rem;
-		vertical-align: top;
-		box-shadow: 0 0 5px #ddd;
-		box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-	}
-	ul.cheflist li img {
-		max-width: 100%;
-		height: auto;
-		margin: 0 0 1.4rem;
-	}
-	ul.cheflist li h3 {
-		margin: 0 0 0.5rem;
-	}
-	ul.cheflist li p {
-		font-size: .9em;
-		line-height: 1.5em;
-		color: #999;
-	}
-	/* class for 2 columns */
-	ul.cheflist.columns-2 li {
-		width: 47.5%; /* this value + 2.5 should = 50% */
-	}
-	/* class for 3 columns */
-	ul.cheflist.columns-3 li {
-		/*width: 30.83%;*/ /* this value + 2.5 should = 33% */
-	    width: 18.83%;
-	}
-	/* class for 4 columns */
-	ul.cheflist.columns-4 li {
-		width: 22.5%; /* this value + 2.5 should = 25% */
-	}
-	 
-	@media (max-width: 480px) {
-		ul.grid-nav li {
-			display: block;
-			margin: 5rem 5rem 5rem;
-		}
-		ul.grid-nav li a {
-			display: block;
-		}
-		ul.cheflist {
-			margin-left: 0;
-		}
-		ul.cheflist li {
-			width: 100% !important; /* over-ride all li styles */
-			margin: 1rem 0rem 1rem -1rem;
-	        padding-right: -15rem;
-		}
-	}
+    list-style: none;
+    font-size: 0px;
+    margin-left: 17.5%; 
+    margin-right: 0%;  
+    padding-bottom: 2rem;
+}
 
-	@media(max-width:47.25em){
-		figcaption.information{
-			font-size:65%;
-		}
-	}
+ul.cheflist li {
+    display: inline-block;
+    padding: 10px;
+    margin: 3.5% 2.7% 1% 3.5%;
+    padding-bottom: 0.2rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 
-	@media(max-width: 52em){
-			ul.grid-nav li {
-			display: block;
-			margin: 5rem 5rem 5rem;
-		}
-		ul.grid-nav li a {
-			display: block;
-		}
-		ul.cheflist {
-			margin-left: 0;
-		}
-		ul.cheflist li {
-			width: 100% !important; /* over-ride all li styles */
-			margin: 1rem 0rem 1rem -1rem;
-	        padding-right: -15rem;
-		}
-	}
+ul.cheflist li img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 1.4rem;
+}
 
+ul.cheflist li h3 {
+    margin: 0 0 0.5rem;
+}
+
+ul.cheflist li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+}
+
+
+/* Class for 2 columns */
+ul.cheflist.columns-2 li {
+    width: 47.5%; 
+}
+
+
+/* Class for 3 columns */
+ul.cheflist.columns-3 li {
+    width: 18.83%;
+}
+
+
+/* Class for 4 columns */
+ul.cheflist.columns-4 li {
+    width: 22.5%; 
+}
+
+
+/*Breakpoints for Previous Page*/
+
+@media(max-width: 70em){
+    ul.grid-nav li {
+        display: block;
+        margin: 4rem;
+    }
+
+    ul.grid-nav li a {
+        display: block;
+    }
+
+    ul.cheflist {
+        margin-left:5%;
+    }
+
+    ul.cheflist li {
+        width: 28% !important; /* over-ride all li styles */
+        margin: 1rem 3rem 1rem -1rem;
+    }
+}
+
+@media (max-width: 42.125em) {
+    ul.grid-nav li {
+        display: block;
+        margin: 4rem;
+    }
+
+    ul.grid-nav li a {
+        display: block;
+    }
+
+    ul.cheflist {
+        margin:5% 0% 5% 7%;
+    }
+
+    ul.cheflist li {
+        width: 42% !important; /* over-ride all li styles */
+        margin: 1rem 3rem 1rem -1rem;
+    }
+}
+
+@media (max-width: 29.5em) {
+    ul.grid-nav li {
+        display: block;
+        margin: 4rem;
+    }
+    ul.grid-nav li a {
+        display: block;
+    }
+    ul.cheflist {
+        margin:5% 0% 5% 13%;
+    }
+    ul.cheflist li {
+        width: 78% !important; /* over-ride all li styles */
+        margin: 1rem 3rem 1rem -1rem;
+    }
+}
+
+
+/*Detail Page*/
+
+@media(max-width: 52em){
+    .aboutList{
+        margin: 0rem 2rem 0rem -2rem;
+    }
+    
+    .default-buttom floatLeft {
+        margin: 0rem 0rem 5rem 0rem;
+        padding-bottom: 5rem;
+    }
+
+    .about {
+        padding: 1rem;
+    }
+        
+    .description {
+        padding-right: 6rem;
+       
+            
+        }
+    
+    .allergies {
+        padding: 0 5rem 0 2rem;
+        margin-bottom: -1rem;
+    }
+    
+    .default-buttom {
+        margin-right:-5rem;
+    }
+    
+    .infoBook {
+        padding-left: 5.5rem;
+    }
+}
 
 
 /*Responsive Text: upcomging events and homepage*/
@@ -1080,6 +1085,4 @@ div.grid-col-4of10-addcart.save-chef {
         margin-top: 8%;
     }
 }
-
-
     
