@@ -1,30 +1,47 @@
+<!DOCTYPE html>
 	<html lang="en">
+	<!--Lab D101 Claire Chen 301232556 Serena  -->
+		<head>
 
-			<head>
-
-				<title>Receipt</title>
-				<meta charset="utf-8">
+			<meta charset="utf-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+				<title>recipt</title>
 			    <link rel="stylesheet" href="css/main.css">
 			    <link rel="stylesheet" href="css/grid.css">
 			    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-			</head>
+		        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-			<body>
+		</head>
 
-				 <!--navigation bar for website-->
+		<body>
+
+	        <!--navigation bar for website-->
 			<div class="header-wrapper">
 
 				<div class="header-bkgd">
+					
+						<!--mobile hamburger nav: hidden when window larger than 400-->
+		                <div class= "grid-col-1of3-mobile-nav">
+							<a href="#top" class="nav-toggle hidden"><img src="img/hamburger_icon.png" height="19" width="20" alt="mobile_nav"></a>
+					    </div>
 
+
+		                <div class= "grid-col-2of3-mobile-nav">
+							<a href="Homepage.html" class="nav-mobile hidden">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+						</div>
+				    	
+						<!--navigation larger than 400-->     
 					<nav>
 						<div class="grid-row">
-	   
-						        <div class = "grid-col-1of3"> 
-									<a class= "web-nav" href="Homepage.html">LOGO</a>
-	 							</div>
+	    						
+	    						<div class = "grid-col-1of3">
+									<a class= "web-nav logo" href="Homepage.html">
+                                    	<img src="img/logo.png" alt="logo">
+                                	</a>
+								</div>
 
 	 						    <div class = "grid-col-1of3">
 									<a class= "web-nav" href="Homepage.html">HOME</a>
@@ -33,8 +50,8 @@
 						        <div class = "grid-col-1of3">
 									<a class= "web-nav" href="previous.html">PREVIOUS</a>	
 					        	</div>
-					       
-					            <div class = "grid-col-1of3">							
+
+					            <div class = "grid-col-1of3">						
 									<a class= "web-nav" href="event.html">UPCOMING</a>					            	
 					        	</div>
 
@@ -49,14 +66,11 @@
 						</div>
 					</nav>
 
-				</div>
-			
+	            </div>
+				
+				<!--purchase section: receipt-->
 
-				<!--purchase section-->
-
-
-				<!-- First column of grid: Purchase section 1 -->
-				<div class="grid-row"> <!-- Start a grid-row -->
+				<div class="grid-row"> 
 	            	  
 	                <div class="grid-col-10of10">
 	                	<h1 class="steps">Thank you</h1>
@@ -64,50 +78,33 @@
 	                	
 	                </div>
 
-						<!--Second column of grid: Purchase section 2 -->
 		      		<div class="grid-col-3of10">
-						
-		        				<p></p>
-		      		</div> <!--Close second column: section 2 end-->
+						<p></p>
+		      		</div>
 
-	<!--Second column of grid: Purchase section 2 -->
 		      		<div class="grid-col-3of10 ">
 						
-						
 						<p class= "thanks-message">An email receipt including the details about your order has been sent to the email address provided. Please keep it for your records.
-		          				<div class="grid-row">
+		          		
+		          			<div class="grid-row">
 
-
-
-		            				<div class ="grid-col-3of10"> 
-			            				<input type="submit" class="cancel-buttom4" onClick="location.href='details.html'" value="BACK TO HOME">
-			            			</div>
+								<div class ="grid-col-3of10"> 
+			            			<input type="submit" class="cancel-buttom4" onClick="location.href='details.html'" value="BACK TO HOME">
+			            		</div>
 			            				
+							 </div>
+						</div>
 
-			            			
-
-						      
-			            			
-						        </div>
-						    </div>
-
-
-		      		 <!-- Second column of grid: Purchase<div class="grid-col-3of10 "> 
-							 <!--Second column of grid: Purchase section 2 -->
 		      		<div class="grid-col-2of10">
-						
-		        				<p></p>
-		      		</div> <!--Close second column: section 2 end-->
-		        		</div>
+						<p></p>
+		      		</div> 
+		        </div>
 
-		      		</div> <!---Close second column: section 3 end -->
-
-		    	 <!-- Close header-wrapper -->
-	           <!-- Close header-wrapper -->
+		    </div> 
 	            
-		    	<!--Purchase section end -->
+		    	<!--Purchase section: receipt end -->
 		    	
-	            <div class="push"></div>
+	        <div class="push"></div>
 	            
 				<!--footer section-->
 				<footer>
@@ -134,5 +131,6 @@
 			    <script src="js/jquery.js"></script>
 			    <script src="js/purchase.js"></script>
 
-			</body>
-		</html>
+	</body>
+	
+</html>

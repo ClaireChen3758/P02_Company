@@ -1,76 +1,74 @@
-<html lang="en">
-
+<!DOCTYPE html>
+	<html lang="en">
+	<!--Lab D101 Claire Chen 301232556 Serena  -->
 		<head>
 
-			<title>Add to cart</title>
 			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		    <link rel="stylesheet" href="css/main.css">
-		    <link rel="stylesheet" href="css/grid.css">
-		    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+				<title>Add to cart</title>
+
+			    <link rel="stylesheet" href="css/main.css">
+			    <link rel="stylesheet" href="css/grid.css">
+			    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 		</head>
 
 		<body>
 
-			 <!--navigation bar for website-->
-		<div class="header-wrapper">
+		<!--navigation bar for website-->
+			<div class="header-wrapper">
 
-			<div class="header-bkgd">
-                
-                <!--mobile hamburger nav: hidden when window larger than 400-->
+				<div class="header-bkgd">
+					
+						<!--mobile hamburger nav: hidden when window larger than 400-->
 		                <div class= "grid-col-1of3-mobile-nav">
-							<a href="#top" class="nav-toggle hidden"><img src="img/hamburger_icon.png" height="19" width="20"alt="mobile_nav" /></a>
+							<a href="#top" class="nav-toggle hidden"><img src="img/hamburger_icon.png" height="19" width="20" alt="mobile_nav"></a>
 					    </div>
 
 
 		                <div class= "grid-col-2of3-mobile-nav">
 							<a href="Homepage.html" class="nav-mobile hidden">
-                                <img src="img/logo.png"/>
+                                <img src="img/logo.png" alt="logo">
                             </a>
 						</div>
 				    	
-                <!--navigation larger than 400-->    
+						<!--navigation larger than 400-->     
+					<nav>
+						<div class="grid-row">
+	    						
+	    						<div class = "grid-col-1of3">
+									<a class= "web-nav logo" href="Homepage.html">
+                                    	<img src="img/logo.png" alt="logo">
+                                	</a>
+								</div>
 
-				<nav>
+	 						    <div class = "grid-col-1of3">
+									<a class= "web-nav" href="Homepage.html">HOME</a>
+								</div>
+						        
+						        <div class = "grid-col-1of3">
+									<a class= "web-nav" href="previous.html">PREVIOUS</a>	
+					        	</div>
 
+					            <div class = "grid-col-1of3">						
+									<a class= "web-nav" href="event.html">UPCOMING</a>					            	
+					        	</div>
 
-					<div class="grid-row">
-   
-					        <div class = "grid-col-1of3"> 
-								<a class= "web-nav logo" href="Homepage.html">
-                                    <img src="img/logo.png"/>
-                                </a>
- 							</div>
+					        	<div class = "grid-col-1of3">
+									<a class= "web-nav" href="about.html">ABOUT</a>
+						    	</div>
 
- 						    <div class = "grid-col-1of3">
-								<a class= "web-nav" href="Homepage.html">HOME</a>
-							</div>
-					        
-					        <div class = "grid-col-1of3">
-								<a class= "web-nav" href="previous.html">PREVIOUS</a>	
-				        	</div>
-				       
-				            <div class = "grid-col-1of3">							
-								<a class= "web-nav" href="event.html">UPCOMING</a>					            	
-				        	</div>
+						        <div class = "grid-col-1of3">
+									<a class= "web-nav" href="purchase.html">CART</a>		
+					            </div>
 
-				        	<div class = "grid-col-1of3">
-								<a class= "web-nav" href="about.html">ABOUT</a>
-					    	</div>
+						</div>
+					</nav>
 
-					        <div class = "grid-col-1of3">
-								<a class= "web-nav" href="purchase.html">CART</a>		
-				            </div>
+	            </div>
 
-					</div>
-				</nav>
-
-			</div>
-		
-
-				<!--purchase section-->
+			<!--purchase section-->
 
 			<!-- First column of grid: Purchase section 1 -->
 			<div class="grid-row"> <!-- Start a grid-row -->
@@ -79,105 +77,101 @@
                 	<h1 class="steps">SAVED CHEFS</h1>
                 </div>
 
-					<!--Second column of grid: Purchase section 2 -->
+				<!--Second column of grid: Purchase section 2 -->
 	      		<div class="grid-col-3of10-column1">
-					
-	        				<p></p>
+					<p></p>
 	      		</div> <!--Close second column: section 2 end-->
 
 
             	<div class="grid-col-4of10-column"> 
-
-					
-        					
+	
         					<div class="grid-row"> <!-- Open a grid in grid-->
         						
-								<div class="grid-col-4of10-addcart chef-image-checkout"> <!-- First column of grid in grid-->
-            						
-             							<img src="img/chef4_small.jpg" height="96" width="100" alt="chef-pierre"/>
-          						
-            					</div>  <!-- Closing the first column of grid in grid-->
+									<div class="grid-col-4of10-addcart chef-image-checkout"> <!-- First column of grid in grid-->
+	            						
+	             						<img src="img/chef4_small.jpg" height="96" width="100" alt="chef-pierre">
+	          						
+	            					</div>  <!-- Closing the first column of grid in grid-->
 
-            					<div class="grid-col-4of10-addcart save-chef"> <!-- Second column of grid in grid -->
-            						
-							           	<h2>Pierre</h2>
-							           	<p class="cuisine-type-save">French Cuisine</p>
-							           <img class = "calendar" src="img/calendar.png" height="30" width="30"/>
-							           <input type="submit" class="default-buttom" onClick="location.href='purchase_process1.html'" value="Add to Cart">
-							     
-								</div> <!-- Closing the second column -->
+	            					<div class="grid-col-4of10-addcart save-chef"> <!-- Second column of grid in grid -->
+	            						
+								        <h2>Pierre</h2>
+								        <p class="cuisine-type-save">French Cuisine</p>
+								        <img class = "calendar" src="img/calendar.png" height="30" width="30" alt="icon">
+								        <input type="submit" class="default-buttom" onClick="location.href='purchase_process1.html'" value="Add to Cart">
+								     
+									</div> <!-- Closing the second column -->
 
-								<div class = "grid-col-1of10-remove-chef remove-chef">
+									<div class = "grid-col-1of10-remove-chef remove-chef">
 
-             							<img src="img/remove_icon.png" height="30" width="30"/>
-          						
-            					</div>  <!-- Closing the first column of grid in grid-->
+	             						<img src="img/remove_icon.png" height="30" width="30" alt="icon">
+	          						
+	            					</div>  <!-- Closing the first column of grid in grid-->
 
-								<div class="grid-col-4of10-addcart chef-image-checkout"> <!-- Third column of grid in grid-->
-            						
-             							<img class = "purchase-img"src="img/chef2_small.jpg" height="96" width="100" alt="chef-danny"/>
-          							
-            					</div>  <!-- Closing the third column of grid in grid-->
+									<div class="grid-col-4of10-addcart chef-image-checkout"> 
+										<!-- Third column of grid in grid-->
+	            						
+	             							<img class = "purchase-img" src="img/chef2_small.jpg" height="96" width="100" alt="chef-danny">
+	          							
+	            					</div>  <!-- Closing the third column of grid in grid-->
 
-            					<div class="grid-col-4of10-addcart save-chef "> <!-- Fourth column of grid in grid -->
-								        
-								           	<h2>Danny</h2>
-								           	<p class = "cuisine-type-save">Australia Cuisine</p>
-								           	<img class = "calendar" src="img/calendar.png" height="30" width="30"/>
-								           	<input type="submit" class="default-buttom" onClick="location.href='purchase_process1_ordersummary2.html'"value="Add to Cart">
-								        
-								</div> <!-- Closing the Fourth column -->
+	            					<div class="grid-col-4of10-addcart save-chef "> 
+	            						<!-- Fourth column of grid in grid -->
+									        
+									        <h2>Danny</h2>
 
-								<div class = "grid-col-1of10-remove-chef remove-chef">
+									        <p class = "cuisine-type-save">Australia Cuisine</p>
 
-             							<img src="img/remove_icon.png" height="30" width="30"/>
-          						
-            					</div>  <!-- Closing the first column of grid in grid-->
+									        <img class = "calendar" src="img/calendar.png" height="30" width="30" alt="icon">
+
+									        <input type="submit" class="default-buttom" onClick="location.href='purchase_process1_ordersummary2.html'" value="Add to Cart">
+									        
+									</div> <!-- Closing the Fourth column -->
+
+									<div class = "grid-col-1of10-remove-chef remove-chef">
+
+	             							<img src="img/remove_icon.png" height="30" width="30" alt="icon">
+	          						
+	            					</div>  <!-- Closing the first column of grid in grid-->
 
 
           						</div> <!-- Closing our grid in grid -->
 
 	          						
 	          					<div class ="grid-col-10of10-purchase-buttom">
-	            				<div class ="grid-col-3of10"> 
-		            				<input type="submit" class="cancel-buttom3" onClick="location.href='details.html'" value="CANCEL">
-		            			</div>
+		            				<div class ="grid-col-3of10"> 
+			            				<input type="submit" class="cancel-buttom3" onClick="location.href='details.html'" value="CANCEL">
+			            			</div>
 		            				
 
-		            			<div class="grid-col-2of10-gap">
-					
-	        				<p></p>
+			            			<div class="grid-col-2of10-gap">
+						
+		        						<p></p>
 
-      			</div> <!-- Closing the first column of our grid: section 1 end -->
-
-
-		            			<div class ="grid-col-3of10"> 
-	            				    <input type="submit" class="submit-buttom" onClick="location.href='purchase_process1.html'"value="CHECK OUT">
-	            				</div>
-
-					        </div>
-        		 
+	      							</div> <!-- Closing the first column of our grid: section 1 end -->
 
 
-	      		</div> <!--Close second column: section 2 end-->
+			            			<div class ="grid-col-3of10"> 
+		            				    <input type="submit" class="submit-buttom" onClick="location.href='purchase_process1.html'" value="CHECK OUT">
+		            				</div>
 
-	            				<div class="grid-col-3of10-column1">
-					
-	        				<p></p>
-	      		</div> <!--Close second column: section 2 end-->
+					        	</div>
 
-      
-            
- 			
+					      	</div> <!--Close second column: section 2 end-->
 
+					            <div class="grid-col-3of10-column1">
+									
+					        		<p></p>
 
-	      	
-	    	</div> 
-            
-          </div> <!-- Close header-wrapper -->
+					      		</div> <!--Close second column: section 2 end-->
+
+					    	</div> 
+				            
+			</div> <!-- Close header-wrapper -->
             
 	    	
-            <div class="push"></div>
+            <div class="push">
+            </div>
             
 			<!--footer section-->
 				<footer>

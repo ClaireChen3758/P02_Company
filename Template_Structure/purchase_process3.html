@@ -1,30 +1,47 @@
+<!DOCTYPE html>
 	<html lang="en">
+	<!--Lab D101 Claire Chen 301232556 Serena  -->
+		<head>
 
-			<head>
-
-				<title>PaymentInformation</title>
-				<meta charset="utf-8">
+			<meta charset="utf-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+				<title>payment_details</title>
 			    <link rel="stylesheet" href="css/main.css">
 			    <link rel="stylesheet" href="css/grid.css">
 			    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-			</head>
+		        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-			<body>
+		</head>
 
-				 <!--navigation bar for website-->
+		<body>
+
+	        <!--navigation bar for website-->
 			<div class="header-wrapper">
 
 				<div class="header-bkgd">
+					
+						<!--mobile hamburger nav: hidden when window larger than 400-->
+		                <div class= "grid-col-1of3-mobile-nav">
+							<a href="#top" class="nav-toggle hidden"><img src="img/hamburger_icon.png" height="19" width="20" alt="mobile_nav"></a>
+					    </div>
 
+
+		                <div class= "grid-col-2of3-mobile-nav">
+							<a href="Homepage.html" class="nav-mobile hidden">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+						</div>
+				    	
+						<!--navigation larger than 400-->     
 					<nav>
 						<div class="grid-row">
-	   
-						        <div class = "grid-col-1of3"> 
-									<a class= "web-nav" href="Homepage.html">LOGO</a>
-	 							</div>
+	    						
+	    						<div class = "grid-col-1of3">
+									<a class= "web-nav logo" href="Homepage.html">
+                                    	<img src="img/logo.png" alt="logo">
+                                	</a>
+								</div>
 
 	 						    <div class = "grid-col-1of3">
 									<a class= "web-nav" href="Homepage.html">HOME</a>
@@ -33,8 +50,8 @@
 						        <div class = "grid-col-1of3">
 									<a class= "web-nav" href="previous.html">PREVIOUS</a>	
 					        	</div>
-					       
-					            <div class = "grid-col-1of3">							
+
+					            <div class = "grid-col-1of3">						
 									<a class= "web-nav" href="event.html">UPCOMING</a>					            	
 					        	</div>
 
@@ -49,93 +66,80 @@
 						</div>
 					</nav>
 
-				</div>
-			
+	            </div>
+				
 
-				<!--purchase section-->
+				<!--purchase section: payment details-->
 
-
-				<!-- First column of grid: Purchase section 1 -->
-				<div class="grid-row"> <!-- Start a grid-row -->
+				<div class="grid-row"> 
 	            	  
 	                <div class="grid-col-10of10">
 	                	<h1 class="steps">Payment Details</h1>
 	                </div>
 
-						<!--Second column of grid: Purchase section 2 -->
 		      		<div class="grid-col-3of10">
-						
-		        				<p></p>
-		      		</div> <!--Close second column: section 2 end-->
+						<p></p>
+		      		</div> 
 
-	<!--Second column of grid: Purchase section 2 -->
 		      		<div class="grid-col-4of10">
 						
+						<div class="grid-row">
 
-		          				<div class="grid-row">
-
-
-		      						<div class="grid-col-2of3">
-		      							<p>Name on card</p>
-		              					<input type="text" class="textfield" placeholder="" id="input-location">
+							<div class="grid-col-2of3">
+		      					<p>Name on card</p>
+		              			<input type="text" class="textfield" placeholder="" id="input-name">
 		            				</div>
 
-		            				<div class="grid-col-2of3">
-		            					<p>Card number<p>
-		              					<input type="text" class="textfield" placeholder="xxxx-xxxx-xxxx-xxxx" id="input-location">
-		            				</div>
+		            			<div class="grid-col-2of3">
+		            				<p>Card number<p>
+		              				<input type="text" class="textfield" placeholder="xxxx-xxxx-xxxx-xxxx" id="input-cardnumber">
+		            			</div>
 
-		            				<div class = "grid-col-10of10">
+		            			<div class = "grid-col-10of10">
 		            				<div class="grid-col-5of10-card-information">
 		      							<p>Expired date</p>
-		              					<input type="text" class="textfield-card-details" placeholder="MM/YY" id="input-location">
-		            				</div>
+		              					<input type="text" class="textfield-card-details" placeholder="MM/YY" id="input-expired_date">
+		            			</div>
 
 		            				<div class="grid-col-5of10-card-information">
 		            					<p>Security code<p>
-		              					<input type="text" class="textfield-card-details" placeholder="xxx" id="input-location">
+		              					<input type="text" class="textfield-card-details" placeholder="xxx" id="input-code">
 		            				</div>
 
 		            			</div>
 
 		            				
-		          					<div class ="grid-col-10of10-purchase-buttom-2">
-		            				<div class ="grid-col-3of10"> 
-			            				<input type="submit" class="cancel-buttom3" onClick="location.href='purchase_process2.html'" value="CANCEL">
-			            			</div>
+		          			<div class ="grid-col-10of10-purchase-buttom-2">
+		            			<div class ="grid-col-3of10"> 
+			            			<input type="submit" class="cancel-buttom3" onClick="location.href='purchase_process2.html'" value="CANCEL">
+			            		</div>
 
-		            				<div class="grid-col-2of10">
+		            			<div class="grid-col-2of10">
+						
+		        					<p></p>
+		      					</div>
+
+			            		<div class ="grid-col-3of10"> 
+		            				<input type="submit" class="submit-buttom" onClick="location.href='purchase_process4.html'" value="CONFIRM PAYMENT">
+		            			</div>
+						    </div>
+						</div>
+
+
+		      				<div class="grid-col-2of10">
 						
 		        				<p></p>
-		      		</div> <!--Close second column: section 2 end-->
-
-			            			
-			            			<div class ="grid-col-3of10"> 
-		            				    <input type="submit" class="submit-buttom" onClick="location.href='purchase_process4.html'"value="CONFIRM PAYMENT">
-		            				</div>
-						        </div>
-						        </div>
-
-
-		      		 <!-- Second column of grid: Purchase<div class="grid-col-3of10 "> 
-							 <!--Second column of grid: Purchase section 2 -->
-		      		<div class="grid-col-2of10">
-						
-		        				<p></p>
-		      		</div> <!--Close second column: section 2 end-->
+		      				</div> 
 		        		</div>
 
-		      		</div> <!---Close second column: section 3 end -->
+		      		</div> 
 
 		    	</div> 
 	            
-	           <!-- Close header-wrapper -->
-	            
-                <!-- Close header-wrapper -->
-	            
-		    	<!--Purchase section end -->
+	           
+		    	<!--Purchase section: payment information end -->
 		    	
-	            <div class="push"></div>
+	        <div class="push"></div>
 	            
 				<!--footer section-->
 				<footer>
@@ -147,7 +151,7 @@
  							</div>
 				       
                         
-                        <div class = "grid-col-3of10">
+                        	<div class = "grid-col-3of10">
 								<a class= "web-nav" target="_blank"  href="../Style_Guide/Citations.html">Citation</a>
 							</div>
 
@@ -156,11 +160,11 @@
 				            </div>
 					</div>
 
-			</footer>
+				</footer>
 
 				<!--javascript for buttom animation-->
 			    <script src="js/jquery.js"></script>
 			    <script src="js/purchase.js"></script>
 
-			</body>
-		</html>
+		</body>
+</html>
