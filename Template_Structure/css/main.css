@@ -280,7 +280,7 @@ a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-
     text-align:center;
     width:100%;
     color: black;
-   
+    border:solid grey;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }

@@ -78,6 +78,10 @@
 	width:100%;
 }
 
+.grid-col-2of10-gap{
+	width:100%;
+	margin-bottom:-4rem;
+}
 
 
 @media(min-width:47em){
@@ -150,10 +154,11 @@
 	}
 
 	.grid-col-10of10-purchase-buttom{
-		display:inline-block;
-	margin-left: -0.6em;
+	display:inline-block;
+	margin-left: 3.5em;
     margin-bottom: 4%;
     margin-top:8%;
+
 	}
 
 	.purchase-final-step{
@@ -167,6 +172,14 @@
     margin-top: 2%;
     margin-bottom: 10%;
 	}
+
+
+	.grid-col-2of10-gap{
+	width:20%;
+	margin-bottom:0rem;
+}
+
+   
 }
 
 
@@ -446,7 +459,6 @@ ul.cheflist.columns-4 li {
 @media(min-width:23.25em){
 	.grid-col-4of10-addcart{
 		width:80%;
-		margin-left:1em;
 		margin-top:0.5em;
 	}
 
@@ -470,12 +482,12 @@ ul.cheflist.columns-4 li {
 	}
 
 	.customize-meal{
-		width:100%;
+		width:30%;
+		margin-left:2rem;
+		margin-right:-2rem;
 	}
 
-	.grid-col-10of10.customer_name{
-		margin:1em;
-	}
+	
 	div.grid-col-3of10-customer_name{
 		width:58%;
 	
@@ -489,3 +501,91 @@ ul.cheflist.columns-4 li {
 		width:100%;
 	}
 }
+
+/*purchase process1: saved chefs*/
+.grid-col-3of10-column1{
+   width:100%;
+}
+
+.grid-col-4of10-column{
+	width:100%;
+}
+
+.grid-col-4of10-addcart{
+	width:100%;
+}
+
+.grid-col-1of10-remove-chef{
+	width:10%;
+}
+
+
+@media(min-width:19em){
+	.grid-col-4of10-addcart{
+	width: 75%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+}
+
+
+@media(min-width:23em){
+	.grid-col-4of10-addcart{
+	width:70%;
+}
+}
+
+@media(min-width:29em){
+	.grid-col-4of10-addcart{
+	width:80%;
+}
+}
+
+
+@media(min-width:43em){
+	.grid-col-4of10-addcart{
+	width:40%;
+}
+}
+
+
+@media(min-width:48em){
+.grid-col-3of10-column1{
+   width:30%;
+}
+
+.grid-col-4of10-column{
+	width:40%;
+}
+
+.grid-col-4of10-addcart{
+   width:40%;
+}
+
+}
+
+@media(min-width:88em){
+.grid-col-4of10-addcart{
+   width:35%;
+}
+
+}
+
+@media(min-width:77em){
+.grid-col-4of10-addcart{
+   width:35%;
+}
+
+}
+
+
+@media(min-width:62.25em){
+.grid-col-4of10-addcart{
+   width:35%;
+}
+
+@media(min-width:47.25em){
+.grid-col-4of10-addcart{
+   width:35%;
+}
+
