@@ -63,6 +63,11 @@
 	width:100%;
 }
 
+.grid-col-10of10-purchase-buttom{
+	width:100%;
+}
+
+
 .grid-col-6of10{
 	width:60%;
 }
@@ -112,7 +117,7 @@
 
 	.grid-col-5of10-card-information{
 	width:50%;
-	
+
 	}
 	
 	
@@ -136,7 +141,28 @@
 	.grid-col-10of10{
 	width:100%;
 	}
+
+	.grid-col-10of10-purchase-buttom{
+		display:inline-block;
+	margin-left: -0.6em;
+    margin-bottom: 4%;
+    margin-top:8%;
+	}
+
+	.purchase-final-step{
+	margin-left:-3em;
+    margin-top: 8%;
+    margin-bottom: 4%;
+	}
+
+	.purchase-final-step2{
+	margin-left:-3em;
+    margin-top: 2%;
+    margin-bottom: 10%;
+	}
 }
+
+
 
 @media(min-width: 36em){
 	.grid-col-2of10{

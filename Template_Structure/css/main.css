@@ -372,23 +372,29 @@ input[type = "submit"]:hover > .purchasse-item2{
 }
 
 .submit-buttom,.submit-buttom2, .submit-buttom1, .cancel-buttom, .cancel-buttom2,.cancel-buttom3{
-    padding: 1em 5em 1em 5em;
-    background-color:white;
-    margin-top:0.8em;
-    color:#ED5C0C;
-    width:100%;
+    background-color: white;
+    margin-top: 0.8em;
+    color: #ED5C0C;
+    width: 80%;
+    font-size: 0.5em;
+    padding: 0.8em;
+    border-radius:2em;
+
   
 }
 
+
 .submit-buttom, .submit-buttom2, .submit-buttom1, .book-buttom, .cancel-buttom, .cancel-buttom2,.cancel-buttom3{
     font-weight: bold;
-    border:solid #ED5C0C;
+    border:0.2em solid #ED5C0C;
+    opacity:0.6;
 }
 
 .submit-buttom:hover,.submit-buttom2:hover, .submit-buttom1:hover, .cancel-buttom:hover, .cancel-buttom2:hover,.cancel-buttom3:hover {
    color:white;
    background-color:#ED5C0C;
    visibility:visible;
+   opacity:1;
 }
 
 .book-buttom{
