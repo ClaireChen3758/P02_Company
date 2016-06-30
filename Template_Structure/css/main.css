@@ -348,14 +348,14 @@ input[type = "submit"]:hover > .purchasse-item2{
     padding:1rem;
     width:100%;
     height:5%;
-}
 
-/*purchase process3: personal information*/
-.textfield-diner-name, .textfield-card-details{
-    width: 80%;
-    margin-left: -3rem;
-    margin-right:0.5rem;
+
 }
+.textfield-diner-name{
+    margin-top:0.5em;
+}
+/*purchase process3: personal information*/
+
 
 .fillarea{
   border:0;

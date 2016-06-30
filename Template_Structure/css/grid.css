@@ -103,6 +103,42 @@
 	}
 }
 
+@media(min-width:17.25em){
+	.grid-col-5of10-card-information{
+	
+   width:100%;
+
+	}
+
+
+}
+
+@media(min-width:28.81em){
+	.grid-col-5of10-card-information{
+	
+   width:100%;
+
+	}
+}
+
+@media(min-width:33.81em){
+	
+	.grid-col-5of10-card-information {
+    margin-right: 1.2em;
+  
+    width: 46%;
+
+	}
+}
+
+@media(min-width:40.75em){
+	.grid-col-5of10-card-information{
+	margin-right: 0.4em;
+    width: 49%;
+
+	}
+}
+
 @media(min-width:47em){
 
 	.customize-meal{
@@ -152,13 +188,11 @@
 
 	}
 
-	.grid-col-5of10-diner{
-	width:50%;
-	margin-right: -2rem;
-	}
-
+	
 	.grid-col-5of10-card-information{
 	width:50%;
+	width: 40%;
+    margin-right: 1em;
 
 	}
 	
@@ -217,6 +251,16 @@
    
 }
 
+
+
+@media(min-width:50em){
+	.grid-col-10of10-purchase-buttom {
+    display: inline-block;
+    margin-left: 1.5em;
+    margin-bottom: 4%;
+    margin-top: 8%;
+}
+}
 
 
 @media(min-width: 36em){
@@ -481,6 +525,12 @@ ul.cheflist.columns-4 li {
     }
 }
 
+@media(min-width:17.25em){
+	 .cancel-buttom3, .submit-buttom{
+    	width:100%;
+    }
+}
+
 @media(min-width:23.25em){
 	.grid-col-4of10-addcart{
 		width:80%;
@@ -518,10 +568,7 @@ ul.cheflist.columns-4 li {
 	
 	}
 
-	
-	.grid-col-5of10-diner{
-		width:100%;
-	}
+
 }
 
 /*purchase process1: saved chefs*/
@@ -665,7 +712,7 @@ ul.cheflist.columns-4 li {
 
 
  .grid-col-5of10-placeholder4{
-   	width:29%;
+   	width:15%;
    }
 
    }
@@ -768,8 +815,14 @@ ul.cheflist.columns-4 li {
  .chef-information-checkout{
     margin-left: -1em;
 
-   
 }
+
+.grid-col-5of10-diner{
+	width:100%;
+
+	}
+
+
 }
 
 @media(min-width:20em){
@@ -809,4 +862,83 @@ ul.cheflist.columns-4 li {
    
  	}
 }
+
+
+
+.grid-col-5of10-diner{
+	width:100%;
+	margin-left:1.7em;
+
+	}
+
+.textfield-diner-name{
+	width:100%;
+}
+
+
+@media(min-width:23.25em){
+
+.grid-col-5of10-diner{
+		width:100%;
+		margin-left:1em;
+		margin-bottom:0.5em;
+	}
+
+
+}
+
+@media(min-width:25.4em){
+
+.grid-col-5of10-diner{
+		width:100%;
+		 margin-left: 1.7em;
+	}
+
+
+}
+
+
+
+
+@media(min-width:38.65em){
+
+.grid-col-5of10-diner{
+	margin-left: 1.7em;
+    margin-right: 0.8em;
+    
+	}
+}
+
+
+@media(min-width:46.06em){
+
+.grid-col-5of10-diner{
+	width:50%;
+	margin-right: -2rem;
+	
+	    margin-left: 1em;
+	}
+}
+
+@media(min-width:47.5em){
+
+.grid-col-5of10-diner{
+	width:50%;
+	margin-right: -2rem;
+	
+	    margin-left: 1.7em;
+	}
+}
+
+@media(min-width:64em){
+
+.grid-col-5of10-diner{
+	width:50%;
+	
+	}
+
+
+}
+
+
 
