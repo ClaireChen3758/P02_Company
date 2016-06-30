@@ -58,6 +58,9 @@
 	width:100%;
 }
 
+.grid-col-4of10-addcart{
+	width:100%;
+}
 
 .grid-col-10of10{
 	width:100%;
@@ -80,6 +83,10 @@
 @media(min-width:47em){
 	.grid-col-4of10{
 		width:40%;
+	}
+
+	.grid-col-4of10-addcart{
+		width:45%;
 	}
 
 	.grid-col-2of3{
@@ -414,6 +421,9 @@ ul.cheflist.columns-4 li {
 	margin-left:-2rem;
 	}
 
+	.grid-col-4of10-addcart{
+		width:46%;
+	}
 	}
 
 @media(min-width:70em){
@@ -421,4 +431,51 @@ ul.cheflist.columns-4 li {
     	width:45%;
     	margin-left:-1em;
     }
+}
+
+@media(min-width:23.25em){
+	.grid-col-4of10-addcart{
+		width:80%;
+		margin-left:1em;
+		margin-top:0.5em;
+	}
+
+  .grid-col-1of10{
+     width:5%;
+  }
+
+	.chef-image-checkout{
+		width:100%;
+
+	}
+    .cancel-buttom3, .submit-buttom{
+    	width:100%;
+    }
+	.grid-col-3of10-buttom{
+		width:100%;
+	}
+
+	.grid-col-8of10{
+		width:100%;
+	}
+
+	.customize-meal{
+		width:100%;
+	}
+
+	.grid-col-10of10.customer_name{
+		margin:1em;
+	}
+	div.grid-col-3of10-customer_name{
+		width:58%;
+	
+	}
+
+	.grid-col-4of10-placeholder4{
+		width:26%;
+	}
+
+	.grid-col-5of10-diner{
+		width:100%;
+	}
 }
