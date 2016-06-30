@@ -440,6 +440,10 @@ ul.cheflist.columns-4 li {
     .infoBook {
         padding-left: 5.5rem;
     }
+    
+    .marginTop{
+        margin-bottom: 2rem;
+    }
 }
 
 
