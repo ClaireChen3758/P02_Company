@@ -43,6 +43,18 @@
         <a class="book-button" href="#">Learn More</a>
 
       </section>
+
+      <section>
+        <h2>In-text link</h2>
+          <h4>CSS selector:</h4>
+            <p>a</p>
+
+            <h4>Sample code:</h4>
+            <code>&lt;a href=""&gt;This is a link.&lt;/a&gt;</code>
+
+            <h4>Rendered element:</h4>
+            <a href="">This is a link.</a>
+      </section>
         
       <section>
         <h2>Submit/Reset Buttons</h2>
@@ -221,66 +233,33 @@
         <section>
             <h2>Product Listing</h2>
                 <h4>CSS selector:</h4>
-                    <p>.cheflist</p>
+                    <p>.chef-listing</p>
 
                 <h4>Sample code:</h4>
 
-                    <code>&lt;ul class="cheflist columns-3"&gt;<br/>
-                        <span class="tab">&lt;li&gt;</span><br/>
-                        <span class="tab2">&lt;a href="expanded_chef2.html"&gt;&lt;img class= "chef-img" src="img/chef1.jpg" alt="Chef"&gt;&lt;/a&gt;</span><br/>
-                        <span class="tab2">&lt;h3&gt;Pierre&lt;/h3&gt;</span><br/>
-                        <span class="tab2">&lt;p&gt;Top French Cuisne chef in the world.&lt;/p&gt;</span><br/>
-                        <span class="tab">&lt;/li&gt;</span><br/>
-                        &lt;/ul&gt;<br/><br/>
-                        
-                        &lt;ul class="cheflist columns-3"&gt;<br/>
-                        <span class="tab">&lt;li&gt;</span><br/>
-                        <span class="tab2">&lt;a href="expanded_chef2.html"&gt;&lt;img class= "chef-img" src="img/chef1.jpg" alt="Chef"&gt;&lt;/a&gt;</span><br/>
-                        <span class="tab2">&lt;h3&gt;Jasmine&lt;/h3&gt;</span><br/>
-                        <span class="tab2">&lt;p&gt;Specializing in fusion cuisine!&lt;/p&gt;</span><br/>
-                        <span class="tab">&lt;/li&gt;</span><br/>
-                        &lt;/ul&gt;<br/><br/>
-                        
-                        &lt;ul class="cheflist columns-3"&gt;<br/>
-                        <span class="tab">&lt;li&gt;</span><br/>
-                        <span class="tab2">&lt;a href="expanded_chef2.html"&gt;&lt;img class= "chef-img" src="img/chef1.jpg" alt="Chef"&gt;&lt;/a&gt;</span><br/>
-                        <span class="tab2">&lt;h3&gt;Hector&lt;/h3&gt;</span><br/>
-                        <span class="tab2">&lt;p&gt;First place winner of Chef Now!&lt;/p&gt;</span><br/>
-                        <span class="tab">&lt;/li&gt;</span><br/>
-                        &lt;/ul&gt;<br/>
+                    <code>&lt;div class="chef-listing"&gt;<br/>
+                        <span class="tab">&lt;img src="img/chef1.jpg" alt="Chef Alex"&gt;</span><br/>
+                        <span class="tab">&lt;img src="img/chef2.jpg" alt="Chef Polo"&gt;</span><br/>
+                        <span class="tab">&lt;img src="img/chef3a.jpg" alt="Chef Dan"&gt;</span><br/>
+                        &lt;/div&gt;
                     </code>
 
                 <h4>Rendered element:</h4>
-                    <ul class="cheflist columns-3">
-                        <li>
+                    <div class="chef-listing">
+                     <div class = "grid-row">
+                      <div class = "grid-col-10of10">
+                        <div class = "grid-col-3of10">
+                        <img src="img/chef1.jpg" width="219" height="300" alt="Chef Alex">
+                        </div>
 
-                            <a href="expanded_chef2.html">
-                                <img class = "chef-img" src="../Template_Structure/img/chef1_prev.jpg" alt="Chef">
-                            </a>
+                        <div class = "grid-col-3of10">
+                        <img src="img/chef2.jpg" width="219" height="300" alt="Chef Polo">
+                        </div>
 
-                            <h3>Pierre</h3>
-                            <p>Top French Cuisne chef in the world.</p>
-
-                        </li>
-                        <li>
-
-                            <a href="expanded_chef2.html">
-                            <img src="../Template_Structure/img/chef_prev2a.jpg" alt="Chef Jasmine" height="350" width="219"/>
-                            </a>
-
-                            <h3>Jasmine</h3>
-                            <p>Specializing in fusion cuisine!</p>
-
-                        </li>
-                        <li>
-                            <a href="expanded_chef2.html">
-                            <img src="../Template_Structure/img/chef3_prev.jpg" alt="Chef Hector" height="350" width="219"/>
-                            </a>
-
-                            <h3>Hector</h3>
-                            <p>First place winner of Chef Now!</p>
-
-                        </li>
+                        <div class = "grid-col-3of10">
+                        <img src="img/chef3a.jpg" width="219" height="300" alt="Chef Dan">
+                        </div>
+                      </div>
                     </div>
                   </div>
         </section>
