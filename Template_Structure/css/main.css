@@ -315,39 +315,100 @@ footer{
 
 
 /*Tool Tip*/
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: -5px;
-    left: 110%;
-}
+    /*White BG*/
+    .help {
+        position: relative;
+        display: inline-block;
+        opacity: 0.8;
+    }
 
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 100%;
-    margin-top: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent black transparent transparent;
-}
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
+    .help .helpText {
+        visibility: hidden;
+        width: 120px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+    }
+
+    .help .helpText::after {
+        content: "";
+        position: absolute;
+        opacity: 0.9;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent white transparent transparent;
+    }
+
+    .help:hover .helpText {
+        visibility: visible;
+    }
+
+    .help .helpText {
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .help:hover .helpText {
+        opacity: 1;
+    }
+
+    /*Black Bg*/
+    .helpBlackbg {
+        position: relative;
+        display: inline-block;
+        opacity: 0.8;
+    }
+
+    .helpBlackbg .helpTextBlackbg {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+    }
+
+    .helpBlackbg .helpTextBlackbg::after {
+        content: "";
+        position: absolute;
+        opacity: 0.9;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent black transparent transparent;
+    }
+
+    .helpBlackbg:hover .helpTextBlackbg {
+        visibility: visible;
+    }
+
+    .helpBlackbg .helpTextBlackbg {
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .helpBlackbg:hover .helpTextBlackbg {
+        opacity: 1;
+    }
+    
+    
 
 /*About page*/
 .about h2{
@@ -421,7 +482,6 @@ li.description {
 }
 
 li.aboutList {
-    color: rgb(237, 92, 12);
     margin-left: 3.1rem;
     list-style-type: circle;
 }
