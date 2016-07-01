@@ -973,7 +973,7 @@
 @media(min-width:17.25em){
 	figcaption.chef-information-expanded{
    	width: 120%;
-    margin-top: 9.5rem;
+    margin-top: 5rem;
     margin-left: -4rem;
     font-size: 90%;
     color: black;
@@ -988,10 +988,10 @@
 	}
 }
 
-@media(min-width:20em){
+@media(min-width:19.37em){
 	figcaption.chef-information-expanded{
    	width: 120%;
-    margin-top: 6rem;
+    margin-top: 5rem;
     margin-left: -4rem;
     font-size: 90%;
     color: black;
@@ -1007,6 +1007,21 @@
 }
 
 
+@media(min-width:22.3em){
+	figcaption.chef-information-expanded{
+   	width: 120%;
+    margin-top: 7rem;
+    
+	}
+
+	h2.chef-name-expanded{
+		border-bottom-color: black;
+	}
+
+	.book-buttom{
+		width:100%;
+	}
+}
 
 @media(min-width:25.68em){
 	figcaption.chef-information-expanded{
@@ -1023,7 +1038,7 @@
 }
 
 
-@media(min-width:39em){
+@media(min-width:37.56em){
 	figcaption.chef-information-expanded{
     font-size: 80%;
     width: 40%;
@@ -1049,7 +1064,7 @@
 @media(min-width:64em){
 	figcaption.chef-information-expanded{
     width: 30%;
-    margin-top: 8em;
+    margin-top: 16em;
     margin-left: 2em;
 	}
 
@@ -1075,7 +1090,7 @@
 @media(min-width:81em){
 	figcaption.chef-information-expanded{
         width:27%;
-            margin-top: 10rem;
+            margin-top: 16rem;
     margin-left: 2rem;
 
 	}
