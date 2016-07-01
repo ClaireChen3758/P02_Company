@@ -35,11 +35,9 @@ $(document).ready( function() {
 
 	}); // end of .resize()
 
-	/*
-		Here we are running a function when #navToggle is clicked
-	*/
+	
 	$(".nav-toggle").click( function() { 
-		// The .slideToggle method slides the 'nav' open/closed over 500ms
+		
 		$("nav").slideToggle(500);
 	});
 
