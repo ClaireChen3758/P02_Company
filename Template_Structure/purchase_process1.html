@@ -1,30 +1,47 @@
+<!DOCTYPE html>
 	<html lang="en">
+	<!--Lab D101 Claire Chen 301232556 Serena  -->
+		<head>
 
-			<head>
-
-				<title>OrderSummary</title>
-				<meta charset="utf-8">
+			<meta charset="utf-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+				<title>purchase_process1</title>
 			    <link rel="stylesheet" href="css/main.css">
 			    <link rel="stylesheet" href="css/grid.css">
 			    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-			</head>
+		        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-			<body>
+		</head>
 
-				 <!--navigation bar for website-->
+		<body>
+
+	        <!--navigation bar for website-->
 			<div class="header-wrapper">
 
 				<div class="header-bkgd">
+					
+						<!--mobile hamburger nav: hidden when window larger than 400-->
+		                <div class= "grid-col-1of3-mobile-nav">
+							<a href="#top" class="nav-toggle hidden"><img src="img/hamburger_icon.png" height="19" width="20" alt="mobile_nav"></a>
+					    </div>
 
+
+		                <div class= "grid-col-2of3-mobile-nav">
+							<a href="Homepage.html" class="nav-mobile hidden">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+						</div>
+				    	
+						<!--navigation larger than 400-->     
 					<nav>
 						<div class="grid-row">
-	   
-						        <div class = "grid-col-1of3"> 
-									<a class= "web-nav" href="Homepage.html">LOGO</a>
-	 							</div>
+	    						
+	    						<div class = "grid-col-1of3">
+									<a class= "web-nav logo" href="Homepage.html">
+                                    	<img src="img/logo.png" alt="logo">
+                                	</a>
+								</div>
 
 	 						    <div class = "grid-col-1of3">
 									<a class= "web-nav" href="Homepage.html">HOME</a>
@@ -33,8 +50,8 @@
 						        <div class = "grid-col-1of3">
 									<a class= "web-nav" href="previous.html">PREVIOUS</a>	
 					        	</div>
-					       
-					            <div class = "grid-col-1of3">							
+
+					            <div class = "grid-col-1of3">						
 									<a class= "web-nav" href="event.html">UPCOMING</a>					            	
 					        	</div>
 
@@ -49,112 +66,109 @@
 						</div>
 					</nav>
 
-				</div>
-			
+	            </div>
 
-				<!--purchase section-->
+				<!--purchase process1: order summary-->
 
-				<!-- First column of grid: Purchase section 1 -->
-				<div class="grid-row"> <!-- Start a grid-row -->
+				<div class="grid-row">
 	            	  
 	                <div class="grid-col-10of10">
 	                	<h1 class="steps">Order Summary</h1>
 	                </div>
 
-						<!--Second column of grid: Purchase section 2 -->
-		      			<!--Second column of grid: Purchase section 2 -->
 		      		<div class="grid-col-3of10-column1">
-						
-		        				<p></p>
-		      		</div> <!--Close second column: section 2 end-->
-
+		        		<p></p>
+		      		</div> 
 
 	            	<div class="grid-col-4of10-column"> 
 
-							
-	        				
-	        					<div class="grid-row"> <!-- Open a grid in grid-->
+	        			<div class="grid-row"> 
 	        						
-									<div class="grid-col-4of10-addcart chef-image-checkout"> <!-- First column of grid in grid-->
+							<div class="grid-col-4of10-addcart chef-image-checkout"> 
+	             				<img src="img/chef4_small.jpg" height="96" width="89" alt="chef-image">	
+	            			</div> 
 	            						
-	             							<img src="img/chef4_small.jpg" height="96" width="89"/>
-	          						
-	            					</div>  <!-- Closing the first column of grid in grid-->
-
-	            						<div class="grid-col-4of10-addcart save-chef"> <!-- Second column of grid in grid -->
-            						
-							           	<h2>Pierre</h2>
-							           	<p class="cuisine-type-save">French Cuisine</p>
-							           <img class = "calendar" src="img/calendar.png" height="30" width="30"/>
+	            			<!--restructure code: image should not put into list tag-->
+	            			<div class="grid-col-4of10-addcart save-chef">
+            				   
+							    <h2>Pierre</h2>
+							    <p class="cuisine-type-save">French Cuisine</p>
+							    <img class = "calendar" src="img/calendar.png" height="30" width="30" alt="calendar-icon">
 							          
-							     
-								</div> <!-- Closing the second column -->
+							</div> 
 
-									<div class = "grid-col-1of10-remove-chef remove-chef">
+							<div class = "grid-col-1of10-remove-chef remove-chef">
 
-	             							<img src="img/remove_icon.png" height="30" width="30"/>
+	             				<img src="img/remove_icon.png" height="30" width="30" alt="remove-icon">
 	          						
-	            					</div>  <!-- Closing the first column of grid in grid-->
+	            			</div> 
 
-	            					<div class = "grid-col-10of10 customer_name">
-	            					<div class="grid-col-3of10-customer_name">
-		              					<h4>Kate Chan</h4>
-		            				</div>  
+	            			<!--Customer basced information and meal selection-->
 
-		            				<div class = "grid-col-5of10-placeholder4">
-		            					<p></p>
+	            			<!--Customer 1-->
+	            			<div class = "grid-col-10of10 customer_name">
 
-		            				</div>
+	            				<div class="grid-col-3of10-customer_name">
+		              				<h4>Kate Chan</h4>
+		            			</div>  
 
-		            				<div class = "grid-col-2of8">
-		            					<h4>Edited</h4>
-		            				</div>
-		            				</div>
+		            			<div class = "grid-col-5of10-placeholder4">
+		            				<p></p>
+		            			</div>
 
-		            				<div class="grid-col-8of10 customize-meal">
-		              					<input type="text" class="fillarea" placeholder="Four Herb Bread" id="input-location">
-		            				</div>  
+		            			<div class = "grid-col-2of8">
+		            				<h4>Edited</h4>
+		            			</div>
+		            		</div>
 
-									<div class="grid-col-8of10 customize-meal">
-		              					<input type="text" class="fillarea" placeholder="Sizzling Spare Ribs" id="input-location">
-		            				</div>  
+		            		<!--meal selected: 3 courses-->
+		            			<div class="grid-col-8of10 customize-meal">
+		              				<input type="text" class="fillarea" placeholder="Four Herb Bread" id="input-meal1">
+		            			</div>  
 
-		            				<div class="grid-col-8of10 customize-meal">
-		              					<input type="text" class="fillarea" placeholder="Grapefruit Bowls" id="input-location">
-		            				</div>  
+								<div class="grid-col-8of10 customize-meal">
+		              				<input type="text" class="fillarea" placeholder="Sizzling Spare Ribs" id="input-meal2">
+		            			</div>  
 
-										<div class = "grid-col-10of10 customer_name">
+		            			<div class="grid-col-8of10 customize-meal">
+		              				<input type="text" class="fillarea" placeholder="Grapefruit Bowls" id="input-meal3">
+		            			</div>  
+
+		            			<!--Second customer-->
+								<div class = "grid-col-10of10 customer_name">
+
 	            					<div class="grid-col-3of10-customer_name">
 		              					<h4>John Yang</h4>
 		            				</div>  
 
 		            				<div class = "grid-col-5of10-placeholder4">
 		            					<p></p>
-
 		            				</div>
 
 		            				<div class = "grid-col-2of8">
 		            					<h4>Edited</h4>
 		            				</div>
-		            				</div>
-		            				<div class="grid-col-8of10 customize-meal">
-		              					<input type="text" class="fillarea" placeholder="Coquilles Saint-Jacques" id="input-location">
-		            				</div>  
 
-									<div class="grid-col-8of10 customize-meal">
-		              					<input type="text" class="fillarea" placeholder="Moules Marinières" id="input-location">
-		            				</div>  
+		            			</div>
 
-		            				<div class="grid-col-8of10 customize-meal">
-		              					<input type="text" class="fillarea" placeholder="Chocolate Explosion" id="input-location">
-		            				</div> 
+		            			<div class="grid-col-8of10 customize-meal">
+		              				<input type="text" class="fillarea" placeholder="Coquilles Saint-Jacques" id="input-meal4">
+		            			</div>  
 
-		            				<div class ="grid-col-10of10 location-selected">
+								<div class="grid-col-8of10 customize-meal">
+		              				<input type="text" class="fillarea" placeholder="Moules Marinières" id="input-meal5">
+		            			</div>  
+
+		            			<div class="grid-col-8of10 customize-meal">
+		              				<input type="text" class="fillarea" placeholder="Chocolate Explosion" id="input-meal6">
+		            			</div> 
+
+		            			<!--location-->
+		            			<div class ="grid-col-10of10 location-selected">
 									<div class="grid-col-3of10-process2 ">
 										
 										<label class="checkbox">
-										    <input type="checkbox" name="check"/>
-										    
+										    <input type="checkbox" name="check">
 										</label>
 		            				</div>  
 
@@ -164,64 +178,60 @@
 		            				</div>  
 		            			</div>
 
-		            				<div class ="grid-col-10of10 location-selected ">
+		            			<div class ="grid-col-10of10 location-selected ">
 		            				<div class="grid-col-3of10-process2 ">
 		            					
-											<label class="checkbox">
-											    <input type="checkbox" name="check"/>
+										<label class="checkbox">
+											<input type="checkbox" name="check">
 											 
-											</label>
+										</label>
+
 		            				</div>  
 
 									<div class="grid-col-7of10-purchase">
 		              					<input type="text" class="textfield" placeholder="Different location" id="input-location">
 		            				</div>  
 
-		            				
 		            			</div>
-		            				
 
 		            				<div class="grid-col-2of3-price ">
 		            					<p class ="total-price">TOTAL: $130</p>
 		            				</div>
-		            				
-
-		            				
 		          						
-		          					<div class ="grid-col-10of10-purchase-buttom">
+		          				<div class ="grid-col-10of10-purchase-buttom">
 		            				<div class ="grid-col-3of10"> 
 			            				<input type="submit" class="cancel-buttom3" onClick="location.href='details.html'" value="CANCEL">
 			            			</div>
 			            				
 
-			            			<div class="grid-col-2of10-gap">
-						
-		        				<p></p>
+				            		<div class="grid-col-2of10-gap">
+							
+			        					<p></p>
 
-	      			</div> <!-- Closing the first column of our grid: section 1 end -->
+		      						</div> 
 
 
-			            			<div class ="grid-col-3of10"> 
-		            				    <input type="submit" class="submit-buttom" onClick="location.href='purchase_process2.html'" value="CHECK OUT">
-		            				</div>
+			            		<div class ="grid-col-3of10"> 
+		            				<input type="submit" class="submit-buttom" onClick="location.href='purchase_process2.html'" value="CHECK OUT">
+		            			</div>
 
-						        </div>
+						    </div>
+
 	        			</div> 
 
-
-		      		
-
-		            				<div class="grid-col-3of10-column1 ">
+								<div class="grid-col-3of10-column1 ">
 						
-		        				<p></p>
-		      		</div> <!--Close second column: section 2 end-->
+		        					<p></p>
 
-		    	</div> 
-		    </div>
+		      					</div> 
+
+		    		</div> 
+
+		    	</div>
 	            
-	          </div> <!-- Close header-wrapper -->
+	        </div> 
 	            
-		    	<!--Purchase section end -->
+		    <!--Purchase section end -->
 		    	
 	            <div class="push"></div>
 	            
@@ -250,5 +260,6 @@
 			    <script src="js/jquery.js"></script>
 			    <script src="js/purchase.js"></script>
 
-			</body>
-		</html>
+		</body>
+
+</html>
