@@ -20,7 +20,7 @@
 
 
     .footer, .push {
-    height: -0.5em;
+    height: -0.5em; /*ERROR HERE*/
     clear: both;
     }
 
@@ -61,15 +61,6 @@
         width:100%;
     }
 
-    p.purchase-info{
-        font-size: 0.8em;
-        margin-right:1.5rem;
-        margin-top:-1em;
-    }
-
-    p.purchase-info1{
-        margin-right:4rem;
-    }
     h2{
         text-align:left;
         font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
@@ -83,14 +74,9 @@
     h1.steps{
         margin-top:0.6em;
     }
+
     h3{
         margin-right:6.5rem;
-    }
-
-    h3.resturant{
-        margin-top:-0.4rem;
-        margin-right:10rem;
-
     }
 
     h1 {
@@ -123,7 +109,6 @@
     /*Styling naviation bar and footer section*/
 
     .web-nav{
-        /*display:block;*/
         background-color: black;
         padding: 1em 0;
         margin-top:0em;
@@ -137,9 +122,9 @@
 
     .nav-mobile{
         padding: 0em 0 !important;
-        margin: 0 0 0em 0;
         background-color: black;
-        width: center;
+        margin: 0 0 0em 0;
+    
     }
 
     .web-nav, .nav-toggle, .nav-mobile, .logo{
@@ -148,14 +133,11 @@
         padding: 1em 0;
         margin-top:0em;
         text-align:center;
-
         color:#DBDBDB;
-
         text-decoration: none;
         border-bottom: 0.2em solid black;
         width:100%;
         float: left;
-
         color: rgba(255,255,255, 0.8);
 
     }
@@ -164,7 +146,6 @@
         height:auto;
         padding-bottom: 1.1em;
     }
-
 
     .logo:hover{
         border-bottom: 0.2em solid black;
@@ -177,75 +158,21 @@
         position: absolute; 
     }
 
-    .purchase-item2.hidden, .purchase-item3.hidden{
-        visibility:hidden;
-    }
-
-    .purchase-item2.shown, .purchase-item3.shown{
-        visibility:visible;
-    }
-
-
     .nav-toggle.shown, .nav-mobile.shown, .logo.shown {
         visibility: visible;
         position: relative;
     }
 
-
-    a:hover, .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover, .detail-info:hover, figcaption:hover{
-       /* -o-transition: 0.4s;
-        -ms-transition: 0.4s;
-        -moz-transition: 0.4s;
-        -webkit-transition: 0.4s;*/
-    }
-
     .web-nav:hover, .mobile-nav:hover, .mobile-nav-dropdown:hover{
         border-bottom: 0.2em solid #ED5C0C;
-
         color: rgba(255,255,255, 1);
         -webkit-transition: opacity 0.2s ease-in-out;
         transition: opacity 0.2s ease-in-out;
-
         color:white;
-
-
     }
 
     /*Styling for chef lists on homepage*/
-    .chef-border,.chef-border2, .chef-border3{
-        display:inline-block;
-        background-color:white;
-        width:100%;
-        color: white;
-        margin-top:3em;
-        transition: width 2s;
-        -webkit-transition: width 2s; 
-
-    }
-
-
-
-    .chef-border2{
-        background-color: grey;
-        padding:19em 2em 19em 2em;
-        margin-bottom:0.5;
-        opacity:0.2;
-    }
-
-    .chef-border3{
-        background-color:#696969;
-        padding-top:12em;
-        padding-bottom:15.25em;
-        padding-left:1em;
-        margin-bottom:0.5;
-        border-left: 0.05em solid white;
-
-    }
-
-
-    .chef-border:hover{
-        color:black;
-    }
+  
 
     .underline{
          border-bottom: 0.1em solid white;
@@ -253,79 +180,12 @@
     
     /*purchase page styling*/
 
-    /*Styling for columns: purchase webpage*/
-    .purchase-item1, .purchase-item2, .purchase-item3{
-        display: inline-block;
-        margin-top: 0;
-        margin-left: 0;
-        padding-top: 2em;
-        background-color: white;
-        text-align:center;
-        width:100%;
-        color: black;
-        border:solid grey;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-
-    .purchase-item1{
-       padding-bottom:2rem;
-    }
-
-    .purchase-item2{
-        padding-bottom:1.93rem;
-        visibility:visible;
-        opacity:1;
-        margin-top:2em;
-    }
-
-    .purchase-item2:hover, .purchase-item3:hover{
-        opacity:1;
-    }
-
-    .purchase-item3{
-        padding-bottom:1.9rem;
-        visibility:visible;
-        opacity:1;
-    }
-
-    input[type = "submit"]:hover > .purchasse-item2{
-        visibility:visible;
-    }
-
     .calendar{
     margin-right: 12rem;
     margin-top: -1rem;
     margin-bottom: 0.8rem;
     }
-    /*Styling image area, fill and buttom: purchase webpage*/
-
-
-    /*make column the same high*/
-    .placeholder{
-        width:100%;
-        height:41.5%;
-    }
-
-    .placeholder2{
-        width:100%;
-        height: 68%;
-    }
-
-    .placeholder3{
-        width:100%;
-        height: 72.85%;
-    }
-
-    .placeholder4{
-        visibility:hidden;
-    }
-
-    .placeholder5{
-        width:100%;
-        height: 13.6%;
-    }
-
+   
     /*Styling fill in area: mostly at purchase webpage*/
 
     .textfield, .textfield-diner-name, .textfield-card-details {
@@ -333,17 +193,13 @@
         padding:1rem;
         width:100%;
         height:5%;
-      
-
-
     }
+
     .textfield-diner-name{
         margin-top:0.5em;
-
     }
+
     /*purchase process3: personal information*/
-
-
     .fillarea{
       border:0;
       margin-top: 1em;
@@ -360,7 +216,7 @@
         width:100%;
     }
 
-    .submit-buttom,.submit-buttom2, .submit-buttom1, .cancel-buttom, .cancel-buttom2,.cancel-buttom3, .cancel-buttom4{
+    .submit-buttom, .cancel-buttom3, .cancel-buttom4{
         background-color: white;
         margin-top: 0.8em;
         color: #ED5C0C;
@@ -368,18 +224,16 @@
         font-size: 0.5em;
         padding: 0.8em;
         border-radius:2em;
-
-      
     }
 
 
-    .submit-buttom, .submit-buttom2, .submit-buttom1, .book-buttom, .cancel-buttom, .cancel-buttom2,.cancel-buttom3, .cancel-buttom4{
+    .submit-buttom, .book-buttom, .cancel-buttom3, .cancel-buttom4{
         font-weight: bold;
         border:0.2em solid #ED5C0C;
         opacity:0.6;
     }
 
-    .submit-buttom:hover,.submit-buttom2:hover, .submit-buttom1:hover, .cancel-buttom:hover, .cancel-buttom2:hover,.cancel-buttom3:hover, .cancel-buttom4:hover {
+    .submit-buttom:hover,.cancel-buttom3:hover, .cancel-buttom4:hover{
        color:white;
        background-color:#ED5C0C;
        visibility:visible;
@@ -401,11 +255,11 @@
     }
 
     /*remove blue border once being clicked*/
-    .default-buttom:hover, .submit-buttom:hover, .submit-buttom1:hover, .submit-buttom2:hover,.default-buttom:focus, .submit-buttom:focus, .book-buttom:focus, .cancel-buttom:hover, .cancel-buttom2:hover,.cancel-buttom3:hover{
+    .submit-buttom:hover,.default-buttom:focus, .submit-buttom:focus, .book-buttom:focus,.cancel-buttom3:hover, .cancel-buttom4:hover {
         outline:0 !important;
     }
 
-
+    /*check box*/
     .checkbox input {
         height:1.5em;
         position: relative;
@@ -524,6 +378,7 @@
         background-size: cover;
         background-position: center;
     }
+    
     .fluid-ratio-resize:after {
     	content: " ";
     	display: block; 
@@ -608,10 +463,7 @@
     figure {
         position: relative;
         max-width: 100%;
-        margin-left:0;
-        margin-right:0;
-        margin-bottom:0;
-        margin-top:0;
+        margin:0;
     }
 
     figcaption {
@@ -623,10 +475,6 @@
         padding:5em;
         margin-top: 14em;
         margin-left: -2em;
-    }
-
-    figcaption:hover{
-        opacity:1;
     }
 
     .cuisine{
@@ -654,14 +502,6 @@
         opacity: 0.8;
     }
 
-    .chef-img-expanded{
-            opacity:1;
-    }
-
-    .chef-img:hover{
-        opacity: 1;
-    }
-
 
     li.chef-name2{
         font-family: 'Abel', 'Helvetica', 'Arial', sans-serif;
@@ -669,11 +509,6 @@
         font-size:3em;
         color:white;
         font-weight:bold;
-    }
-    figcaption.expanded-info{
-        z-index:1;
-        opacity:1;
-        color:white;
     }
 
     figcaption.information{
@@ -683,18 +518,17 @@
         opacity:0;
     }
 
-    figcaption.information:hover, img.information:hover{
+    .chef-img-expanded, .chef-img:hover, figcaption.information:hover, img.information:hover, figcaption:hover{
         opacity:1;
 
     }
-
 
     li.information{
         margin-left: -3em;
         margin-top: 1em;
         color: white;
-
     }
+
 
     img.information{
         max-width:100%;
@@ -703,14 +537,6 @@
         margin-bottom:0em;
         background-color: black !important;
         z-index: 1000 !important;
-    }
-
-
-    img.heart{
-        margin-top: 0.5em;
-        margin-left: -5rem;
-        opacity:0.7;
-        
     }
 
     /*Previous Page*/
@@ -759,7 +585,6 @@
      
     }
 
-
     .thanks-message{
         font-size: 1em;
         color: grey;
@@ -769,8 +594,7 @@
 /*expaned page*/
 .cuisine-type{
     font-size: 1.2em;
-    margin-top: -1em;
-  
+    margin-top: -1em; 
 }
 
 .cuisine-type-save{
@@ -786,18 +610,16 @@
 
 .like-the-chef{
     margin-top: -2.6em;
-    margin-left: 7rem;
-    
+    margin-left: 7rem;  
 }
 
 .chef-information-expanded{
     width:27%;
-    margin-left:3rem;
-      
+    margin-left:3rem;   
 }
 
 div.grid-col-4of10-addcart.save-chef{
- margin-top: -0.7em;
+    margin-top: -0.7em;
     margin-left: -2em;
 
 }
