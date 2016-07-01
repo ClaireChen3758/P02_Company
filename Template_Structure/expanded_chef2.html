@@ -1,18 +1,19 @@
+	<!DOCTYPE html>
 	<html lang="en">
 
-			<head>
+		<head>
 
-				<title>Chef expanded</title>
-				<meta charset="utf-8">
+			<meta charset="utf-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+				<title>Chef expanded</title>
 			    <link rel="stylesheet" href="css/main.css">
 			    <link rel="stylesheet" href="css/grid.css">
 			    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-			</head>
+		</head>
 
-			<body>
+		<body>
 	 		
 	 		<!--navigation bar for website-->
 			<div class="header-wrapper">
@@ -21,13 +22,13 @@
 
 	                <!--mobile hamburger nav: hidden when window larger than 400-->
 			                <div class= "grid-col-1of3-mobile-nav">
-								<a href="#top" class="nav-toggle hidden"><img src="img/hamburger_icon.png" height="19" width="20"alt="mobile_nav" /></a>
+								<a href="#top" class="nav-toggle hidden"><img src="img/hamburger_icon.png" height="19" width="20" alt="mobile_nav" ></a>
 						    </div>
 
 
 			                <div class= "grid-col-2of3-mobile-nav">
 								<a href="Homepage.html" class="nav-mobile hidden">
-	                                <img src="img/logo.png"/>
+	                                <img src="img/logo.png" alt="logo" >
 	                            </a>
 							</div>
 					    	
@@ -38,7 +39,7 @@
 	   
 						        <div class = "grid-col-1of3"> 
 									<a class= "web-nav logo" href="Homepage.html">
-	                                    <img src="img/logo.png"/>
+	                                    <img src="img/logo.png" alt="logo">
 	                                </a>
 	 							</div>
 
@@ -66,25 +67,29 @@
 					</nav>
 
 				</div>
-
+				
 	        	<div class = "grid-row">
 		            <div class = "grid-col-10of10">
 		            	<figure>
-      					<img class="chef-img-expanded" src="img/chef4.jpg" alt="chef"> 
-      					<figcaption class="chef-information-expanded">
-      						<h2 class="chef-name-expanded">Pierre</h2>
-      						<p class="cuisine-type">French Cuisine Chef</p>
-      						<img class= "like-the-chef" src="img/heart_outline.png" height="18" width="18" alt="like"/>
-      						<p class="available-time">June 12-18, 2016</p>
+      						<img class="chef-img-expanded" src="img/chef4.jpg" alt="chef"> 
+		      					<figcaption class="chef-information-expanded">
 
-      						
-                            <a href="details.html"><input type="submit" class="book-buttom" value="BOOK CHEF"></a>
-                            <a href="homepage.html"><input type="submit" class="book-buttom" value="HOME"></a>
-      					</figcaption>
+		      						<h2 class="chef-name-expanded">Pierre</h2>
+
+		      						<p class="cuisine-type">French Cuisine Chef</p>
+
+		      						<img class= "like-the-chef" src="img/heart_outline.png" height="18" width="18" alt="like"/>
+
+		      						<p class="available-time">June 12-18, 2016</p>
+
+										<input type="submit" class="book-buttom" onClick="location.href='details1.html'" value="BOOK CHEF">           
+							            <input type="submit" class="book-buttom" onClick="location.href='homepage.html'" value="HOME">
+
+		      					</figcaption>
       					</figure>	
 		            </div>
 				
-		    </div>
+		    	</div>
 
 	      </div> <!-- Close header-wrapper -->
 
