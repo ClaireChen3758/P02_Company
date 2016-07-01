@@ -101,6 +101,7 @@
     }
 }
 
+/*card information for final process*/
 @media(min-width:17.25em){
     .grid-col-5of10-card-information{		
        width:100%;
@@ -127,6 +128,8 @@
     }
 }
 
+
+
 @media(min-width:47em){
     .customize-meal{
         width:30%;
@@ -140,14 +143,6 @@
         width:92%;
     } 
 
-    .grid-col-4of10{
-        width:40%;
-    }
-
-    .grid-col-4of10-addcart{
-        width:45%;
-    }
-
     .grid-col-2of3{
         width: 83.33%;
     }
@@ -156,13 +151,8 @@
         width:16.66%;
     }
 
-    .grid-col-3of10{
-        width:33.33%;
-    }
-
     .grid-col-1of4{
         width:25%;
-
     }
 
     .grid-col-3of4{
@@ -171,6 +161,27 @@
 
     .grid-col-1of8{
         width:12.5%;
+    }
+
+    .grid-col-2of10-gap{
+        width:20%;
+        margin-bottom:0rem;
+   }
+
+    .grid-col-3of10{
+        width:33.33%;
+    }
+
+    .grid-col-3of10-process2{
+        width:33.33%;
+    }
+
+    .grid-col-4of10{
+        width:40%;
+    }
+
+    .grid-col-4of10-addcart{
+        width:45%;
     }
 
     .grid-col-5of10{
@@ -193,10 +204,6 @@
 
     .grid-col-7of10{
         width:66.66%;
-    }
-
-    .grid-col-3of10-process2{
-        width:33.33%;
     }
 
     .grid-col-7of10-purchase{
@@ -227,12 +234,6 @@
         margin-bottom: 10%;
     }
 
-
-    .grid-col-2of10-gap{
-        width:20%;
-        margin-bottom:0rem;
-   }
-
 }
 
 
@@ -244,7 +245,6 @@
         margin-top: 8%;
    }
 }
-
 
 @media(min-width: 36em){
     .grid-col-2of10{
@@ -395,8 +395,7 @@ ul.cheflist.columns-4 li {
 }
 
 
-/*Responsive Text*/
-
+/*Responsive Text: upcomging events and homepage*/
 
 @media(max-width:28em){
     figcaption.information{
@@ -432,7 +431,6 @@ ul.cheflist.columns-4 li {
 .grid-col-7of10-purchase{
     width:66.66%;
 }
-
 
 /*Breakpoints for Purchase Page*/
 
@@ -511,6 +509,7 @@ ul.cheflist.columns-4 li {
     }
 }
 
+/*repositioning detail contents for purchase page*/
 @media(min-width:17.25em){
      .cancel-buttom3, .submit-buttom{
         width:100%;
@@ -606,7 +605,7 @@ div.grid-col-4of10-addcart.save-chef {
    margin-left:2em;
 
 }
-    }
+}
 
 
 @media(min-width:43em){
@@ -980,41 +979,6 @@ div.grid-col-4of10-addcart.save-chef {
 }
 
 
-@media(min-width:37.56em){
-	figcaption.chef-information-expanded{
-        font-size: 80%;
-        width: 40%;
-        margin-top: -0.8rem;
-        margin-left: -1rem;
-        color:white;
-	}
-
-	h2.chef-name-expanded{
-		border-bottom-color: white;
-	}
-}
-
-@media(min-width:48.7em){
-	figcaption.chef-information-expanded{
-        width: 35%;
-        margin-top: 6rem;
-        margin-left: 1.5rem;
-	}
-}
-
-
-@media(min-width:64em){
-	figcaption.chef-information-expanded{
-        width: 30%;
-        margin-top: 16em;
-        margin-left: 2em;
-	}
-
-	.book-buttom{
-		width:80%;
-	}
-}
-
 @media(max-width:70em){
     figcaption.information{
         font-size:75%;
@@ -1025,6 +989,43 @@ div.grid-col-4of10-addcart.save-chef {
     }
 }
 
+/*expanded pages'grid */
+
+@media(min-width:37.56em){
+    figcaption.chef-information-expanded{
+        font-size: 80%;
+        width: 40%;
+        margin-top: -0.8rem;
+        margin-left: -1rem;
+        color:white;
+    }
+
+    h2.chef-name-expanded{
+        border-bottom-color: white;
+    }
+}
+
+@media(min-width:48.7em){
+    figcaption.chef-information-expanded{
+        width: 35%;
+        margin-top: 6rem;
+        margin-left: 1.5rem;
+    }
+}
+
+
+@media(min-width:64em){
+    figcaption.chef-information-expanded{
+        width: 30%;
+        margin-top: 16em;
+        margin-left: 2em;
+    }
+
+    .book-buttom{
+        width:80%;
+    }
+}
+
 @media(min-width:81em){
 	figcaption.chef-information-expanded{
         width:27%;
@@ -1032,6 +1033,8 @@ div.grid-col-4of10-addcart.save-chef {
         margin-left: 2rem;
 	}
 }
+
+/*media queries for add to order section*/
 
 @media(min-width:38em){
 	div.grid-col-4of10-addcart.save-chef{
