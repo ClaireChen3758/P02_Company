@@ -417,21 +417,7 @@
 
 	}
 
-	@media(max-width:70em){
-		figcaption.information{
-			font-size:75%;
-		}
-
-		figcaption.expanded-info{
-			font-size:75%;
-		}
-
-		 .book-buttom{
-	    	width:55%;
-	    }
-
-	}
-
+	
 
 
 	/*grid for purchase process*/
@@ -981,3 +967,118 @@
 	    }
 	}
 
+
+/*expanded page*/
+
+@media(min-width:17.25em){
+	figcaption.chef-information-expanded{
+   	width: 120%;
+    margin-top: 9.5rem;
+    margin-left: -4rem;
+    font-size: 90%;
+    color: black;
+	}
+
+	h2.chef-name-expanded{
+		border-bottom-color: black;
+	}
+
+	.book-buttom{
+		width:100%;
+	}
+}
+
+@media(min-width:20em){
+	figcaption.chef-information-expanded{
+   	width: 120%;
+    margin-top: 6rem;
+    margin-left: -4rem;
+    font-size: 90%;
+    color: black;
+	}
+
+	h2.chef-name-expanded{
+		border-bottom-color: black;
+	}
+
+	.book-buttom{
+		width:100%;
+	}
+}
+
+
+
+@media(min-width:25.68em){
+	figcaption.chef-information-expanded{
+        width: 120%;
+        margin-top: 8rem;
+    margin-left: -4rem;
+    font-size: 90%;
+    color: black;
+	}
+
+	h2.chef-name-expanded{
+		border-bottom-color: black;
+	}
+}
+
+
+@media(min-width:39em){
+	figcaption.chef-information-expanded{
+    font-size: 80%;
+    width: 40%;
+    margin-top: -0.8rem;
+    margin-left: -1rem;
+    color:white;
+	}
+
+	h2.chef-name-expanded{
+		border-bottom-color: white;
+	}
+}
+
+@media(min-width:48.7em){
+	figcaption.chef-information-expanded{
+    width: 35%;
+    margin-top: 6rem;
+    margin-left: 1.5rem;
+	}
+}
+
+
+@media(min-width:64em){
+	figcaption.chef-information-expanded{
+    width: 30%;
+    margin-top: 8em;
+    margin-left: 2em;
+	}
+
+	.book-buttom{
+		width:80%;
+	}
+}
+
+@media(max-width:70em){
+		figcaption.information{
+			font-size:75%;
+		}
+
+		figcaption.expanded-info{
+			font-size:75%;
+		}
+
+
+	}
+
+
+
+@media(min-width:81em){
+	figcaption.chef-information-expanded{
+        width:27%;
+            margin-top: 10rem;
+    margin-left: 2rem;
+
+	}
+
+
+}
