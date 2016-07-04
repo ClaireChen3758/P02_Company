@@ -665,11 +665,9 @@ div.grid-col-4of10-addcart.save-chef {
         margin-left: 2em;
 }
 
-div.grid-col-4of10-addcart.save-chef {
-   margin-left:2em;
-
-}
-}
+    div.grid-col-4of10-addcart.save-chef {
+       margin-left:2em;
+    }
 
 
 @media(min-width:43em){
@@ -892,7 +890,49 @@ div.grid-col-4of10-addcart.save-chef {
 .textfield-diner-name{
     width:100%;
 }
+    
+.textfield{
+    width:100%;
+    align-content: center;
+}
+    
+.cancel-buttom3 {
+    width: 100%
+}    
+    
+.submit-buttom {
+    width: 100%
+}      
 
+    
+@media(min-width:60em){
+    .chef-information-checkout{
+        margin-left:-4em;	   
+    }
+}
+
+.grid-col-5of10-diner{
+    width:90%;
+    margin-left:1.7em;
+    }
+
+.textfield-diner-name{
+    width:90%;
+}
+    
+.textfield{
+    width:90%;
+    align-content: center;
+}
+    
+.cancel-buttom3 {
+    width: 90%
+}    
+    
+.submit-buttom {
+    width: 90%
+}  
+    
 @media(min-width:23.25em){
    .grid-col-5of10-diner{
         width:100%;
@@ -903,7 +943,7 @@ div.grid-col-4of10-addcart.save-chef {
 
 @media(min-width:25.4em){
    .grid-col-5of10-diner{
-       width:100%;
+       width:90;
        margin-left: 1.7em;
     }
 }
@@ -1042,19 +1082,6 @@ div.grid-col-4of10-addcart.save-chef {
 	}
 }
 
-@media(min-width:37.7em){
-	figcaption.chef-information-expanded{
-        width: 120%;
-        margin-bottom: 30rem;
-        margin-left: -4rem;
-        font-size: 90%;
-        color: black;
-	}
-
-	h2.chef-name-expanded{
-		border-bottom-color: black;
-	}
-}
 
 
 /*@media(max-width:70em){
@@ -1092,7 +1119,7 @@ div.grid-col-4of10-addcart.save-chef {
     figcaption.chef-information-expanded{
         font-size: 80%;
         width: 40%;
-        margin-top: 3rem;
+        
         margin-left: -1rem;
         color:white;
     }
@@ -1102,7 +1129,7 @@ div.grid-col-4of10-addcart.save-chef {
     }
 }
 
-@media(max-width:43em){
+@media(max-width:47em){
     figcaption.chef-information-expanded{
         font-size: 80%;
         width: 99.9%;
@@ -1123,8 +1150,9 @@ div.grid-col-4of10-addcart.save-chef {
 @media(min-width:68em){
     figcaption.chef-information-expanded{
         width: 30%;
-        margin-top: 16em;
-        margin-left: 2em;
+        margin: 16em 0 2rem 2rem;
+
+        color:white;
     }
 
     .book-buttom{

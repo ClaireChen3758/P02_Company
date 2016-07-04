@@ -186,7 +186,7 @@ footer{
 
 /*Styling fill in area: mostly at purchase webpage*/
 
-.textfield, .textfield-diner-name, .textfield-card-details {
+.textfield, .textfield-diner-name, .textfield-card-details, .textfield_summary {
     display:inline-block;
     padding:1rem;
     width:100%;
@@ -195,16 +195,19 @@ footer{
 
 .textfield-diner-name{
     margin-top:0.5em;
+    margin-bottom: 1rem;
 }
 
 /*Purchase Process3: Personal Information*/
-.fillarea{
-    border:0;
-    margin-top: 1em;
-    border-bottom: solid black; 
+
+.cartMenu {
     font-weight:300;
-    opacity:0.6;
-    width:80%;
+    margin: 0.1rem 0rem 0.1rem 8.5rem;
+    text-align: left;
+}
+
+.diner {
+    margin-left: -3rem;
 }
 
 .default-buttom,.book-bottom{
@@ -252,31 +255,25 @@ footer{
     opacity:1;
 }
 
+
+
 /*remove blue border once being clicked*/
 .submit-buttom:hover,.default-buttom:focus, .submit-buttom:focus, .book-buttom:focus,.cancel-buttom3:hover, .cancel-buttom4:hover {
     outline:0 !important;
 }
 
-/*check box*/
-.checkbox input {
-    height:1.5em;
-    position: relative;
-    margin-top:1em;
-    margin-left:-2.3rem;
-    width:100%;
-    z-index: 1;
+/*radio button*/
+.radio {
+    margin: 5em 0 -2rem -3rem;
+    
 }
 
-.checkbox span {
-    background-color: black;
-    width: 20em;
-    height: 20em;
-    display: inline-block;
-    background: url("link_to_resturant");
+.textfield_summary {
+    margin: -3rem 0 0 -8rem;
 }
 
-.checkbox input:checked + span {
-    background: url("link_to_resturant");
+.location {
+    margin: 0rem 0 1rem -4rem;
 }
 
 /*Event page*/
@@ -649,6 +646,10 @@ img.information{
     margin-bottom:-0.5em;
 }
 
+.process2_phone{
+    padding-top: 1rem;
+}
+
 .location-selected{
     margin-top: 0.6rem;
     margin-left: 0.2rem;
@@ -687,6 +688,10 @@ img.information{
 .like-the-chef{
     margin-top: 0.3em;
     margin-left: 0rem;  
+}
+
+.like-the-chef:hover {
+    content: url('../img/heart_fill.png');
 }
 
 .chef-information-expanded{
