@@ -5,7 +5,7 @@ $(document).ready( function() {
 		var width = $(window).width();
 
 
-		if (width < 732) {
+		if (width < 752) {
 			$(".nav-toggle").removeClass("hidden");
 			$(".nav-toggle").addClass("shown"); // Adding a class to show our toggle
 			$(".nav-mobile").removeClass("hidden");

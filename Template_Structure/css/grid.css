@@ -459,7 +459,7 @@ ul.cheflist.columns-4 li {
 }
 
 
-/*Responsive Text: upcomging events and homepage*/
+/*Responsive Text: upcoming events and homepage*/
 
 @media(max-width:28em){
     figcaption.information{
@@ -1031,7 +1031,21 @@ div.grid-col-4of10-addcart.save-chef {
 @media(min-width:25.68em){
 	figcaption.chef-information-expanded{
         width: 120%;
-        margin-top: 8rem;
+        margin-top: 3rem;
+        margin-left: -4rem;
+        font-size: 90%;
+        color: black;
+	}
+
+	h2.chef-name-expanded{
+		border-bottom-color: black;
+	}
+}
+
+@media(min-width:37.7em){
+	figcaption.chef-information-expanded{
+        width: 120%;
+        margin-bottom: 30rem;
         margin-left: -4rem;
         font-size: 90%;
         color: black;
@@ -1043,7 +1057,7 @@ div.grid-col-4of10-addcart.save-chef {
 }
 
 
-@media(max-width:70em){
+/*@media(max-width:70em){
     figcaption.information{
         font-size:75%;
     }
@@ -1051,15 +1065,34 @@ div.grid-col-4of10-addcart.save-chef {
     figcaption.expanded-info{
         font-size:75%;
     }
-}
+    
+    .book-buttom{
+        width: 100% !important;
+    }
+}*/
 
 /*expanded pages'grid */
 
-@media(min-width:37.56em){
+/*@media(min-width:42.81em){
     figcaption.chef-information-expanded{
         font-size: 80%;
         width: 40%;
-        margin-top: -0.8rem;
+        margin-top: 10em;
+        margin-left: -1rem;
+        color:white;
+    }
+
+    h2.chef-name-expanded{
+        border-bottom-color: white;
+    }
+}*/
+
+
+@media(min-width:47em){
+    figcaption.chef-information-expanded{
+        font-size: 80%;
+        width: 40%;
+        margin-top: 3rem;
         margin-left: -1rem;
         color:white;
     }
@@ -1069,16 +1102,25 @@ div.grid-col-4of10-addcart.save-chef {
     }
 }
 
-@media(min-width:48.7em){
+@media(max-width:43em){
+    figcaption.chef-information-expanded{
+        font-size: 80%;
+        width: 99.9%;
+        margin-top: 16em;
+        margin-left: -1rem;
+    }
+}
+
+/*@media(min-width:48.7em){
     figcaption.chef-information-expanded{
         width: 35%;
         margin-top: 6rem;
         margin-left: 1.5rem;
     }
 }
+*/
 
-
-@media(min-width:64em){
+@media(min-width:68em){
     figcaption.chef-information-expanded{
         width: 30%;
         margin-top: 16em;
@@ -1088,15 +1130,19 @@ div.grid-col-4of10-addcart.save-chef {
     .book-buttom{
         width:80%;
     }
+    
+    .like-the-chef {
+        width: 20;
+    }
 }
 
-@media(min-width:81em){
+/**@media(min-width:71.18em){
 	figcaption.chef-information-expanded{
         width:27%;
         margin-top: 16rem;
         margin-left: 2rem;
 	}
-}
+}/*
 
 /*media queries for add to order section*/
 
